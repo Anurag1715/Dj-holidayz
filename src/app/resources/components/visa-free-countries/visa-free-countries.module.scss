@@ -1,0 +1,444 @@
+@use '../../styles/mixin' as *;
+
+.page {
+    background:
+        radial-gradient(circle at top left, rgba(255, 0, 0, 0.08), transparent 28%),
+        linear-gradient(180deg, #f7f3ee 0%, #eef3f6 48%, #ffffff 100%);
+    color: colormap(text_primary_black);
+}
+
+.hero {
+    padding-block: 2.5rem;
+}
+
+.heroInner {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    @include mini {
+        flex-direction: column;
+    }
+}
+
+.heroCopy,
+.heroPanel,
+.countryCard,
+.ctaInner,
+.introInner {
+    backdrop-filter: blur(14px);
+    box-shadow: 0 18px 55px rgba(25, 32, 36, 0.08);
+}
+
+.heroCopy {
+    flex: 1 1 0;
+    padding: 2.5rem;
+    border-radius: 2rem;
+    background: linear-gradient(140deg, #fff7f3 0%, #ffffff 48%, #eef3f6 100%);
+    border: 1px solid rgba(179, 218, 254, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+
+    @include mobile {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: clamp(2.1rem, 4vw, 3.6rem);
+        line-height: 0.98;
+        letter-spacing: -0.04em;
+    }
+
+    p {
+        margin: 0;
+        font-size: 1.08rem;
+        line-height: 1.8;
+        color: rgba(25, 32, 36, 0.78);
+    }
+}
+
+.eyebrow,
+.kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.eyebrow {
+    background: rgba(255, 255, 255, 0.75);
+    color: #8a1516;
+    padding: 0.7rem 1rem;
+    border-radius: 999px;
+    border: 1px solid rgba(201, 30, 32, 0.14);
+}
+
+.heroActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.primaryAction,
+.secondaryAction,
+.ghostAction {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.5rem;
+    border-radius: 999px;
+    padding: 0.95rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+}
+
+.primaryAction,
+.secondaryAction {
+    color: colormap(dj_f_white);
+    background: colormap(dj_red_gradient);
+    box-shadow: 0 14px 30px rgba(201, 30, 32, 0.2);
+}
+
+.ghostAction {
+    color: colormap(text_primary_black);
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(25, 32, 36, 0.12);
+}
+
+.heroMeta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+
+    span {
+        padding: 0.8rem 1rem;
+        border-radius: 999px;
+        background: rgba(25, 32, 36, 0.06);
+        color: rgba(25, 32, 36, 0.72);
+        font-weight: 600;
+    }
+}
+
+.heroPanel {
+    flex: 0 0 26rem;
+    background: linear-gradient(180deg, #192024 0%, #2c0607 100%);
+    border-radius: 2rem;
+    padding: 2rem;
+    color: colormap(dj_f_white);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    @include mini {
+        flex: 1 1 auto;
+    }
+}
+
+.statCard {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 1.5rem;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+
+    strong {
+        display: block;
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+
+    p {
+        margin: 0;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+.statLabel {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.quickList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.quickItem {
+    flex: 0 0 calc(50% - 0.75rem);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    @include sm {
+        flex: 0 0 100%;
+    }
+
+    strong {
+        display: block;
+        font-size: 1rem;
+    }
+
+    p {
+        margin: 0;
+        padding-top: 0.2rem;
+        color: rgba(255, 255, 255, 0.68);
+        font-size: 0.9rem;
+    }
+}
+
+.quickFlag {
+    font-size: 1.8rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.quickText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.intro,
+.countrySection,
+.ctaSection {
+    padding-block: 2.5rem;
+}
+
+.countrySection {
+    background: #f7f4ef;
+}
+
+.introInner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 2.5rem;
+    background: rgba(255, 255, 255, 0.76);
+    border: 1px solid rgba(179, 218, 254, 0.45);
+    border-radius: 2rem;
+
+    @include mobile {
+        padding: 2.5rem;
+    }
+}
+
+.introHeading,
+.countryHeading,
+.ctaCopy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    @include mini {
+        flex: 1 1 auto;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: clamp(1.9rem, 4vw, 3.2rem);
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+    }
+}
+
+.countryHeading {
+    padding-bottom: 1.75rem;
+}
+
+.introBody {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+
+    p {
+        margin: 0;
+        font-size: 1.05rem;
+        line-height: 1.85;
+        color: rgba(25, 32, 36, 0.78);
+    }
+}
+
+.cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    align-items: stretch;
+}
+
+.countryCard {
+    flex: 0 0 calc(33.333% - 0.84rem);
+    min-width: 0;
+    border-radius: 1.7rem;
+    background: #ffffff;
+    border: 1px solid rgba(25, 32, 36, 0.06);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(25, 32, 36, 0.08);
+    padding: 0.75rem;
+
+    @include mini {
+        flex: 0 0 calc(50% - 0.625rem);
+    }
+
+    @include mobile {
+        flex: 0 0 100%;
+    }
+}
+
+.cardImageWrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 1.15rem;
+    background: #eef1f4;
+}
+
+.cardImage {
+    object-fit: cover;
+    object-position: center;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.9rem 0.45rem 0.45rem;
+}
+
+.cardTop {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    align-items: flex-start;
+
+    h3 {
+        margin: 0;
+        font-size: 1.1rem;
+        line-height: 1.25;
+        font-weight: 700;
+    }
+}
+
+.typeBadge {
+    white-space: nowrap;
+    padding: 0.42rem 0.68rem;
+    border-radius: 999px;
+    background: rgba(237, 36, 38, 0.1);
+    color: #8a1516;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+.cardMeta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.7rem 0.75rem;
+    border-radius: 1rem;
+    align-self: flex-start;
+    background: #f6f7f8;
+
+    strong {
+        display: block;
+        padding-top: 0.1rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    p {
+        margin: 0;
+        padding-top: 0.1rem;
+        color: rgba(25, 32, 36, 0.65);
+        font-size: 0.76rem;
+    }
+}
+
+.metaLabel {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: rgba(25, 32, 36, 0.55);
+}
+
+.notes {
+    margin: 0;
+    line-height: 1.45;
+    font-size: 0.76rem;
+    color: rgba(25, 32, 36, 0.78);
+    flex: 1 1 auto;
+}
+
+
+.ctaInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 2.5rem;
+    border-radius: 2rem;
+    background: linear-gradient(135deg, #192024 0%, #3b0f10 100%);
+    color: colormap(dj_f_white);
+
+    @include mini {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    @include mobile {
+        padding: 2.5rem;
+    }
+}
+
+.ctaCopy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.85rem;
+
+    p {
+        margin: 0;
+        line-height: 1.8;
+        color: rgba(255, 255, 255, 0.76);
+    }
+}
+
+.ctaActions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+}

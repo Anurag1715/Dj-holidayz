@@ -1,0 +1,398 @@
+[
+    {
+        "id": "01",
+        "filename": "halong-bay.mp4",
+        "title": "Ha Long Bay",
+        "points": [
+            "Located in northern Vietnam, Ha Long Bay is a UNESCO World Heritage Site famous for its emerald waters and limestone karsts",
+            "The bay consists of nearly 1,600 islands and islets formed over millions of years",
+            "Popular activities include cruises, kayaking, cave exploration, and visiting floating villages",
+            "Top attractions include Sung Sot Cave, Ti Top Island, and Luon Cave",
+            "Best time to visit is from October to April for pleasant weather and scenic views"
+        ]
+    },
+    {
+        "id": "02",
+        "filename": "golden-bridge.mp4",
+        "title": "Golden Bridge (Da Nang)",
+        "points": [
+            "Located in Ba Na Hills near Da Nang, the Golden Bridge is famous for its giant stone hands holding the walkway",
+            "The bridge stretches about 150 meters and sits at an altitude of around 1,400 meters above sea level",
+            "It offers panoramic views of mountains, forests, and clouds, creating a surreal scenic experience",
+            "Part of the Sun World Ba Na Hills resort, accessible via one of the world’s longest cable car rides",
+            "Best time to visit is early morning to avoid crowds and enjoy clear views"
+        ]
+    },
+    {
+        "id": "03",
+        "filename": "05-marina-bay-sands.mp4",
+        "title": "Marina Bay Sands",
+        "points": [
+            "Located in Singapore, Marina Bay Sands is an iconic integrated resort known for its unique ship-like rooftop",
+            "The SkyPark infinity pool is one of the world’s largest rooftop infinity pools with stunning city views",
+            "The complex includes a luxury hotel, casino, shopping mall, museum, and entertainment venues",
+            "Visitors can access the observation deck for panoramic views of the Singapore skyline",
+            "Best time to visit is during sunset or night for breathtaking views and light shows"
+        ]
+    },
+    {
+        "id": "04",
+        "filename": "04-petronas-tower.mp4",
+        "title": "Petronas Twin Towers",
+        "points": [
+            "Located in Kuala Lumpur, Malaysia, the Petronas Twin Towers stand at 452 meters and were once the tallest buildings in the world",
+            "The towers have 88 floors and are connected by a double-decker skybridge on the 41st and 42nd floors",
+            "Visitors can access the skybridge and observation deck for panoramic city views",
+            "The towers are part of the Suria KLCC complex which includes shopping, dining, and entertainment",
+            "Best time to visit is in the evening when the towers are beautifully illuminated"
+        ]
+    },
+    {
+        "id": "05",
+        "filename": "06-dragon-bridge-fire-show.mp4",
+        "title": "Dragon Bridge Fire Show (Da Nang)",
+        "points": [
+            "Located in Da Nang, Vietnam, the Dragon Bridge is a unique bridge designed in the shape of a golden dragon",
+            "The bridge comes alive on weekend nights with a spectacular fire and water show from the dragon’s mouth",
+            "Fire show usually takes place at 9 PM on Saturdays and Sundays, attracting large crowds",
+            "The bridge spans the Han River and is one of the most iconic landmarks in Da Nang",
+            "Best viewing spots include along the riverfront or nearby cafes for a clear view of the show"
+        ]
+    },
+    {
+        "id": "06",
+        "filename": "06-incense-village-vietnam.mp4",
+        "title": "Incense Village (Vietnam)",
+        "points": [
+            "Located near Hanoi, Quang Phu Cau Incense Village is famous for its vibrant bundles of red incense sticks",
+            "The village has been producing traditional incense for over 100 years using natural materials",
+            "Visitors can see the process of dyeing, drying, and arranging incense in beautiful circular patterns",
+            "It is a popular photography spot due to its colorful and visually striking layouts",
+            "Best time to visit is during sunny mornings when incense sticks are laid out to dry"
+        ]
+    },
+    {
+        "id": "07",
+        "filename": "07-hoi-an-lantern-festival.mp4",
+        "title": "Hoi An Lantern Festival",
+        "points": [
+            "Held in Hoi An, Vietnam, this festival transforms the town with thousands of colorful lanterns lighting up the streets and river",
+            "The festival takes place on the 14th day of each lunar month when electric lights are turned off",
+            "Visitors can release paper lanterns on the Thu Bon River for good luck and wishes",
+            "Traditional performances, street food, and cultural activities add to the festive atmosphere",
+            "Best time to visit is during a full moon night for the most magical experience"
+        ]
+    },
+    {
+        "id": "08",
+        "filename": "",
+        "title": "Phu Quoc Island",
+        "points": [
+            "Located in southern Vietnam, Phu Quoc is known for its white-sand beaches and clear turquoise waters",
+            "The island is home to Phu Quoc National Park, covering more than half of the island with rich biodiversity",
+            "Popular activities include snorkeling, island hopping, cable car rides, and exploring night markets",
+            "Famous spots include Sao Beach, Hon Thom Island, and the world’s longest sea cable car",
+            "Best time to visit is from November to April during the dry season for ideal beach weather"
+        ]
+    },
+    {
+        "id": "09",
+        "filename": "09-phu-quoc-water-activities.mp4",
+        "title": "Phu Quoc Water Activities",
+        "points": [
+            "Phu Quoc offers crystal-clear waters ideal for snorkeling and scuba diving around coral reefs",
+            "Popular activities include island hopping tours to places like Hon Thom and the An Thoi Islands",
+            "Jet skiing, parasailing, and kayaking are widely available at major beaches like Long Beach and Sao Beach",
+            "Fishing tours and sunset cruises are common experiences for tourists",
+            "Best time for water activities is from November to April when the sea is calm and visibility is high"
+        ]
+    },
+    {
+        "id": "10",
+        "filename": "10-vietnam-ricefields.mp4",
+        "title": "Vietnam Rice Fields",
+        "points": [
+            "Vietnam is famous for its stunning terraced rice fields, especially in regions like Sapa and Mu Cang Chai",
+            "The fields are carved into mountains, creating breathtaking layered landscapes",
+            "Rice planting and harvesting seasons transform the fields into vibrant green and golden views",
+            "Local ethnic communities cultivate these fields using traditional farming techniques",
+            "Best time to visit is from May to September for lush greenery and September to October for golden harvest views"
+        ]
+    },
+    {
+        "id": "11",
+        "filename": "11-vietnam-beer-street.mp4",
+        "title": "Vietnam Beer Street (Bui Vien Street)",
+        "points": [
+            "Located in Ho Chi Minh City, Bui Vien Street is famous for its vibrant nightlife and street-side beer culture",
+            "The street is packed with bars, clubs, live music, and neon lights attracting tourists and locals",
+            "Visitors can enjoy cheap local beer, street food, and a lively party atmosphere",
+            "It is often called the 'backpacker street' due to its popularity among international travelers",
+            "Best time to visit is after 8 PM when the street becomes fully alive with music and crowds"
+        ]
+    },
+    {
+        "id": "12",
+        "filename": "12-hoi-an-land.mp4",
+        "title": "Hoi An Ancient Town",
+        "points": [
+            "Located in central Vietnam, Hoi An Ancient Town is a UNESCO World Heritage Site known for its well-preserved architecture",
+            "The town features a blend of Vietnamese, Chinese, and Japanese influences reflected in its buildings and temples",
+            "Famous attractions include the Japanese Covered Bridge, lantern-lit streets, and historic merchant houses",
+            "Visitors can explore tailor shops, cafes, and riverside markets offering local crafts and cuisine",
+            "Best time to visit is in the evening when lanterns light up the town creating a magical atmosphere"
+        ]
+    },
+    {
+        "id": "13",
+        "filename": "13-mua-cave-ninh-binh.mp4",
+        "title": "Mua Cave Mountain (Ninh Binh)",
+        "points": [
+            "Located in Ninh Binh, Vietnam, Mua Cave is famous for its panoramic viewpoint overlooking Tam Coc rice fields and rivers",
+            "Visitors can climb around 500 stone steps to reach the top, offering breathtaking views of the landscape",
+            "The mountain features a dragon statue at the summit, making it a popular photo spot",
+            "It is often called the 'Great Wall of Vietnam' due to its scenic staircase and views",
+            "Best time to visit is early morning or late afternoon to avoid heat and crowds"
+        ]
+    },
+    {
+        "id": "14",
+        "filename": "14-vietnam-train-street.mp4",
+        "title": "Hanoi Train Street",
+        "points": [
+            "Located in Hanoi, Vietnam, Train Street is a narrow railway track running through residential houses and cafes",
+            "Trains pass just inches away from homes and visitors, creating a unique and thrilling experience",
+            "Local cafes line the tracks where visitors can sit and watch trains pass by closely",
+            "The street has become a popular tourist attraction known for photography and videos",
+            "Train timings vary, but evenings are the best time to visit for a lively atmosphere"
+        ]
+    },
+    {
+        "id": "15",
+        "filename": "15-alpine-coaster-bana-hills.mp4",
+        "title": "Alpine Coaster",
+        "points": [
+            "Located in Ba Na Hills near Da Nang, Vietnam, the Alpine Coaster is a thrilling mountain ride through lush forests",
+            "It is one of the longest alpine coasters in Southeast Asia with a track stretching through scenic hills",
+            "Riders can control their own speed while descending, making it both exciting and safe",
+            "The ride offers stunning views of mountains, waterfalls, and dense greenery",
+            "Best time to ride is during clear weather for the best visibility and experience"
+        ]
+    },
+    {
+        "id": "16",
+        "filename": "16-sapa-glass-bridge.mp4",
+        "title": "Sapa Glass Bridge",
+        "points": [
+            "Located near Sapa, Vietnam, the Rong May (Dragon in Cloud) Glass Bridge is one of the longest and highest glass bridges in the country",
+            "The bridge extends out from a mountain cliff at an ارتفاع of around 2,200 meters above sea level",
+            "It features a transparent glass walkway offering thrilling views of valleys and mountains below",
+            "Visitors can also experience an outdoor elevator ride up the cliff before reaching the bridge",
+            "Best time to visit is on clear days for unobstructed panoramic views of the surrounding landscape"
+        ]
+    },
+    {
+        "id": "17",
+        "filename": "17-rope-bike-death-swing.mp4",
+        "title": "Rope Bike & Death Swing",
+        "points": [
+            "Rope Bike and Death Swing are extreme adventure activities popular in scenic mountainous areas of Vietnam",
+            "The rope bike involves cycling across a suspended cable at high altitudes, offering thrilling views below",
+            "The death swing lets riders swing over cliffs or valleys, creating an adrenaline-filled experience",
+            "These activities are commonly found in adventure parks near Da Nang and Sapa regions",
+            "Best suited for thrill-seekers, with safety harnesses and guides provided for a secure experience"
+        ]
+    },
+    {
+        "id": "18",
+        "filename": "18-danang-night-cruise.mp4",
+        "title": "Da Nang Night Cruise",
+        "points": [
+            "A night cruise along the Han River in Da Nang offers stunning views of the city’s illuminated skyline",
+            "Famous landmarks like Dragon Bridge and Han River Bridge light up beautifully at night",
+            "Many cruises include live music, dining, and cultural performances onboard",
+            "The Dragon Bridge fire and water show can be viewed from the cruise on weekend nights",
+            "Best time to go is after sunset when the city lights create a vibrant atmosphere"
+        ]
+    },
+    {
+        "id": "19",
+        "filename": "19-invisible-bridge.mp4",
+        "title": "Invisible Bridge (Glass Bridge)",
+        "points": [
+            "Known as the Invisible Bridge, this is a glass-bottom bridge that creates the illusion of walking in the air",
+            "Popular in mountainous tourist destinations like Vietnam, offering breathtaking views below",
+            "The transparent glass panels give a thrilling experience as visitors can see directly beneath their feet",
+            "It is a major attraction for adventure lovers and photography enthusiasts",
+            "Best time to visit is during clear weather for the most stunning and unobstructed views"
+        ]
+    },
+    {
+        "id": "20",
+        "filename": "20-fansipan-cable-car.mp4",
+        "title": "Fansipan Cable Car & Mountain",
+        "points": [
+            "Fansipan Mountain in Sapa is the highest peak in Vietnam, known as the 'Roof of Indochina' at 3,143 meters",
+            "The Fansipan cable car is one of the longest and highest in the world, offering breathtaking aerial views",
+            "The journey takes visitors above clouds, forests, and mountains in just about 15–20 minutes",
+            "At the summit, visitors can explore temples, statues, and panoramic viewpoints",
+            "Best time to visit is from October to April for clear skies and cool weather"
+        ]
+    },
+    {
+        "id": "21",
+        "filename": "21-paragliding-danang.mp4",
+        "title": "Paragliding in Da Nang",
+        "points": [
+            "Paragliding in Da Nang offers breathtaking aerial views of beaches, mountains, and the coastline",
+            "Most flights take place around Son Tra Peninsula, a popular spot for adventure activities",
+            "Tandem flights are available with professional pilots, making it safe for beginners",
+            "The experience provides a unique perspective of My Khe Beach and the surrounding landscape",
+            "Best time to go is from April to September when weather conditions are stable and clear"
+        ]
+    },
+    {
+        "id": "22",
+        "filename": "22-lan-ha-bay-cruise.mp4",
+        "title": "Lan Ha Bay Island Cruises",
+        "points": [
+            "Lan Ha Bay, near Ha Long Bay, is known for its quieter and less crowded island cruise experiences",
+            "The bay features hundreds of limestone islands, hidden lagoons, and pristine beaches",
+            "Cruises offer activities like kayaking, swimming, cave exploration, and visiting floating villages",
+            "It is often considered a hidden gem compared to the more touristy Ha Long Bay",
+            "Best time to visit is from October to April for pleasant weather and calm waters"
+        ]
+    },
+    {
+        "id": "23",
+        "filename": "23-le-jardin-damour.mp4",
+        "title": "Le Jardin D’Amour Gardens (Ba Na Hills)",
+        "points": [
+            "Located in Ba Na Hills near Da Nang, Le Jardin D’Amour is a collection of beautifully themed flower gardens",
+            "The gardens feature multiple sections inspired by French design, each with unique floral arrangements",
+            "Visitors can explore colorful pathways, fountains, sculptures, and romantic landscapes",
+            "It is a popular spot for photography due to its vibrant flowers and scenic mountain backdrop",
+            "Best time to visit is during spring and summer when the flowers are in full bloom"
+        ]
+    },
+    {
+        "id": "24",
+        "filename": "24-ho-chi-minh-city.mp4",
+        "title": "Ho Chi Minh City",
+        "points": [
+            "Ho Chi Minh City, formerly known as Saigon, is Vietnam’s largest city and a major economic hub",
+            "The city is known for its mix of modern skyscrapers and historic French colonial architecture",
+            "Famous attractions include Notre-Dame Cathedral, War Remnants Museum, and Ben Thanh Market",
+            "It is a vibrant city with bustling streets, street food culture, and lively nightlife",
+            "Best time to visit is from December to April during the dry season"
+        ]
+    },
+    {
+        "id": "25",
+        "filename": "25-sun-wheel-danang.mp4",
+        "title": "Sun Wheel (Da Nang)",
+        "points": [
+            "Located in Asia Park, Da Nang, the Sun Wheel is one of the tallest Ferris wheels in Vietnam",
+            "It stands at a height of around 115 meters, offering panoramic views of the city",
+            "The ride provides stunning views of the Han River, bridges, and Da Nang skyline",
+            "It is especially popular at night when the wheel is illuminated with colorful lights",
+            "Best time to visit is in the evening for cooler weather and beautiful night views"
+        ]
+    },
+    {
+        "id": "26",
+        "filename": "26-suoi-tien-theme-park.mp4",
+        "title": "Suoi Tien Theme Park",
+        "points": [
+            "Located in Ho Chi Minh City, Suoi Tien Theme Park is a unique cultural and amusement park based on Vietnamese folklore",
+            "The park features giant statues, temples, and mythological scenes inspired by legends and history",
+            "Popular attractions include the Tien Dong Beach, water rides, roller coasters, and animal exhibits",
+            "It combines entertainment with cultural education, showcasing traditional stories and beliefs",
+            "Best time to visit is during weekdays to avoid crowds and enjoy all attractions comfortably"
+        ]
+    },
+    {
+        "id": "27",
+        "filename": "27-100-egg-park-nha-trang.mp4",
+        "title": "100 Egg Park (Nha Trang)",
+        "points": [
+            "Located in Nha Trang, Vietnam, 100 Egg Park is a unique eco-tourism destination themed around giant egg-shaped structures",
+            "The park features mud baths, hot springs, and relaxing spa experiences set in a natural environment",
+            "Colorful egg sculptures and landscaped gardens make it a popular spot for photography",
+            "Visitors can enjoy wellness activities along with scenic views of surrounding hills",
+            "Best time to visit is during the morning or late afternoon for a comfortable and relaxing experience"
+        ]
+    },
+    {
+        "id": "28",
+        "filename": "28-merryland-quy-nhon-fountain.mp4",
+        "title": "Water Fountain (MerryLand Quy Nhon)",
+        "points": [
+            "Located in Quy Nhon, Vietnam, the MerryLand water fountain show is a spectacular multimedia attraction",
+            "The show combines water jets, lights, music, and laser effects to create a stunning visual experience",
+            "It is one of the largest fountain shows in Vietnam, attracting tourists and locals alike",
+            "The performances are usually held in the evening with synchronized storytelling themes",
+            "Best time to visit is at night when the lights and effects are at their most vibrant"
+        ]
+    },
+    {
+        "id": "29",
+        "filename": "29-coconut-basket-boat.mp4",
+        "title": "Coconut Basket Boat Ride",
+        "points": [
+            "Popular in Hoi An and central Vietnam, the coconut basket boat ride takes place in water coconut palm forests",
+            "Visitors ride in round bamboo boats guided by local rowers through narrow waterways",
+            "Boat operators often perform spinning tricks and traditional songs for entertainment",
+            "It offers a glimpse into local fishing culture and daily life in the region",
+            "Best time to visit is during morning or late afternoon for pleasant weather and fewer crowds"
+        ]
+    },
+    {
+        "id": "30",
+        "filename": "30-phu-quoc-water-activity.mp4",
+        "title": "Water Activities in Phu Quoc",
+        "points": [
+            "Phu Quoc offers a variety of water activities including snorkeling and scuba diving in clear waters",
+            "Island hopping tours to An Thoi Islands are popular for exploring beaches and coral reefs",
+            "Adventure activities like jet skiing, parasailing, and kayaking are available at major beaches",
+            "Fishing trips and sunset cruises provide relaxing experiences on the sea",
+            "Best time for water activities is from November to April when sea conditions are calm and visibility is high"
+        ]
+    },
+    {
+        "id": "31",
+        "filename": "31-surfing-rafting-water-activity.mp4",
+        "title": "Surfing & Rafting Water Activities",
+        "points": [
+            "Surfing is popular in coastal areas of Vietnam, especially during monsoon seasons with stronger waves",
+            "Beginners can take surfing lessons at beaches like Da Nang and Mui Ne",
+            "Rafting activities are available in mountainous regions with rivers offering exciting rapids",
+            "White-water rafting provides an adrenaline-filled experience with guided safety support",
+            "Best time for surfing is September to March, while rafting depends on river flow during rainy seasons"
+        ]
+    },
+    {
+        "id": "32",
+        "filename": "o-quy-ho-pass.mp4",
+        "title": "O Quy Ho Pass",
+        "points": [
+            "O Quy Ho Pass is one of the longest and highest mountain passes in Vietnam, located near Sapa",
+            "It stretches over 50 kilometers, connecting Lao Cai and Lai Chau provinces",
+            "The pass offers breathtaking views of mountains, valleys, and clouds, especially at higher altitudes",
+            "It is part of the famous 'Four Great Passes' of northern Vietnam",
+            "Best time to visit is during clear weather for panoramic views and stunning photography"
+        ]
+    },
+    {
+        "id": "33",
+        "filename": "kl-tower.mp4",
+        "title": "KL Tower (Menara Kuala Lumpur)",
+        "points": [
+            "Located in Kuala Lumpur, Malaysia, KL Tower is one of the tallest telecommunications towers in the world at 421 meters",
+            "The tower features an observation deck and a revolving restaurant offering panoramic city views",
+            "Visitors can experience the Sky Deck and glass Sky Box for a thrilling view from above",
+            "It is a popular tourist attraction situated within the Bukit Nanas Forest Reserve",
+            "Best time to visit is during sunset or night for stunning skyline views"
+        ]
+    }
+]

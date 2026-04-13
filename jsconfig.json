@@ -1,7 +1,26 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@/Icons/*": [
+        "./public/icons/*"
+      ],
+      "@/Components/*": [
+        "./src/app/resources/components/*"
+      ],
+      "@/Datastream/*": [
+        "./src/app/resources/models/*"
+      ],
+      "@/Utils/*": [
+        "./src/app/resources/components/utilis/*"
+      ]
     }
-  }
+  },
+  "include": [
+    "src",
+    "public"
+  ]
 }
