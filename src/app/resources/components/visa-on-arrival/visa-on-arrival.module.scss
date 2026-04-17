@@ -436,10 +436,13 @@
 }
 
 .benefitBullet {
-    font-size: 1.3rem;
-    line-height: 1;
-    color: #c91e20;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: colormap(dj_red_gradient);
     flex-shrink: 0;
+    margin-top: 0.15rem;
+    box-shadow: 0 4px 10px rgba(201, 30, 32, 0.25);
 }
 
 .ctaInner {

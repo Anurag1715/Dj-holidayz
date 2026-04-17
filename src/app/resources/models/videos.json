@@ -1,18 +1,30 @@
 [
     {
         "id": "01",
-        "filename": "halong-bay.mp4",
-        "title": "Ha Long Bay",
+        "filename": "petronas-tower.mp4",
+        "title": "Petronas Twin Towers",
         "points": [
-            "Located in northern Vietnam, Ha Long Bay is a UNESCO World Heritage Site famous for its emerald waters and limestone karsts",
-            "The bay consists of nearly 1,600 islands and islets formed over millions of years",
-            "Popular activities include cruises, kayaking, cave exploration, and visiting floating villages",
-            "Top attractions include Sung Sot Cave, Ti Top Island, and Luon Cave",
-            "Best time to visit is from October to April for pleasant weather and scenic views"
+            "Located in Kuala Lumpur, Malaysia, the Petronas Twin Towers stand at 452 meters and were once the tallest buildings in the world",
+            "The towers have 88 floors and are connected by a double-decker skybridge on the 41st and 42nd floors",
+            "Visitors can access the skybridge and observation deck for panoramic city views",
+            "The towers are part of the Suria KLCC complex which includes shopping, dining, and entertainment",
+            "Best time to visit is in the evening when the towers are beautifully illuminated"
         ]
     },
     {
         "id": "02",
+        "filename": "kl-tower.mp4",
+        "title": "KL Tower (Menara Kuala Lumpur)",
+        "points": [
+            "Located in Kuala Lumpur, Malaysia, KL Tower is one of the tallest telecommunications towers in the world at 421 meters",
+            "The tower features an observation deck and a revolving restaurant offering panoramic city views",
+            "Visitors can experience the Sky Deck and glass Sky Box for a thrilling view from above",
+            "It is a popular tourist attraction situated within the Bukit Nanas Forest Reserve",
+            "Best time to visit is during sunset or night for stunning skyline views"
+        ]
+    },
+    {
+        "id": "03",
         "filename": "golden-bridge.mp4",
         "title": "Golden Bridge (Da Nang)",
         "points": [
@@ -24,8 +36,8 @@
         ]
     },
     {
-        "id": "03",
-        "filename": "05-marina-bay-sands.mp4",
+        "id": "04",
+        "filename": "underwater-restaurant.mp4",
         "title": "Marina Bay Sands",
         "points": [
             "Located in Singapore, Marina Bay Sands is an iconic integrated resort known for its unique ship-like rooftop",
@@ -36,20 +48,8 @@
         ]
     },
     {
-        "id": "04",
-        "filename": "04-petronas-tower.mp4",
-        "title": "Petronas Twin Towers",
-        "points": [
-            "Located in Kuala Lumpur, Malaysia, the Petronas Twin Towers stand at 452 meters and were once the tallest buildings in the world",
-            "The towers have 88 floors and are connected by a double-decker skybridge on the 41st and 42nd floors",
-            "Visitors can access the skybridge and observation deck for panoramic city views",
-            "The towers are part of the Suria KLCC complex which includes shopping, dining, and entertainment",
-            "Best time to visit is in the evening when the towers are beautifully illuminated"
-        ]
-    },
-    {
         "id": "05",
-        "filename": "06-dragon-bridge-fire-show.mp4",
+        "filename": "dragon-bridge-fire-show.mp4",
         "title": "Dragon Bridge Fire Show (Da Nang)",
         "points": [
             "Located in Da Nang, Vietnam, the Dragon Bridge is a unique bridge designed in the shape of a golden dragon",
@@ -61,7 +61,7 @@
     },
     {
         "id": "06",
-        "filename": "06-incense-village-vietnam.mp4",
+        "filename": "incense-village.mp4",
         "title": "Incense Village (Vietnam)",
         "points": [
             "Located near Hanoi, Quang Phu Cau Incense Village is famous for its vibrant bundles of red incense sticks",
@@ -73,7 +73,7 @@
     },
     {
         "id": "07",
-        "filename": "07-hoi-an-lantern-festival.mp4",
+        "filename": "lantern-festival.mp4",
         "title": "Hoi An Lantern Festival",
         "points": [
             "Held in Hoi An, Vietnam, this festival transforms the town with thousands of colorful lanterns lighting up the streets and river",
@@ -85,11 +85,11 @@
     },
     {
         "id": "08",
-        "filename": "",
+        "filename": "flyboard-phuquoc.mp4",
         "title": "Phu Quoc Island",
         "points": [
             "Located in southern Vietnam, Phu Quoc is known for its white-sand beaches and clear turquoise waters",
-            "The island is home to Phu Quoc National Park, covering more than half of the island with rich biodiversity",
+            "The island is home to Phu Quoc Nationxal Park, covering more than half of the island with rich biodiversity",
             "Popular activities include snorkeling, island hopping, cable car rides, and exploring night markets",
             "Famous spots include Sao Beach, Hon Thom Island, and the world’s longest sea cable car",
             "Best time to visit is from November to April during the dry season for ideal beach weather"
@@ -97,7 +97,7 @@
     },
     {
         "id": "09",
-        "filename": "09-phu-quoc-water-activities.mp4",
+        "filename": "water-activity.mp4",
         "title": "Phu Quoc Water Activities",
         "points": [
             "Phu Quoc offers crystal-clear waters ideal for snorkeling and scuba diving around coral reefs",
@@ -109,6 +109,18 @@
     },
     {
         "id": "10",
+        "filename": "beer-street.mp4",
+        "title": "Vietnam Beer Street (Bui Vien Street)",
+        "points": [
+            "Located in Ho Chi Minh City, Bui Vien Street is famous for its vibrant nightlife and street-side beer culture",
+            "The street is packed with bars, clubs, live music, and neon lights attracting tourists and locals",
+            "Visitors can enjoy cheap local beer, street food, and a lively party atmosphere",
+            "It is often called the 'backpacker street' due to its popularity among international travelers",
+            "Best time to visit is after 8 PM when the street becomes fully alive with music and crowds"
+        ]
+    },
+    {
+        "id": "11",
         "filename": "10-vietnam-ricefields.mp4",
         "title": "Vietnam Rice Fields",
         "points": [
@@ -120,20 +132,8 @@
         ]
     },
     {
-        "id": "11",
-        "filename": "11-vietnam-beer-street.mp4",
-        "title": "Vietnam Beer Street (Bui Vien Street)",
-        "points": [
-            "Located in Ho Chi Minh City, Bui Vien Street is famous for its vibrant nightlife and street-side beer culture",
-            "The street is packed with bars, clubs, live music, and neon lights attracting tourists and locals",
-            "Visitors can enjoy cheap local beer, street food, and a lively party atmosphere",
-            "It is often called the 'backpacker street' due to its popularity among international travelers",
-            "Best time to visit is after 8 PM when the street becomes fully alive with music and crowds"
-        ]
-    },
-    {
         "id": "12",
-        "filename": "12-hoi-an-land.mp4",
+        "filename": "hoian-land-show.mp4",
         "title": "Hoi An Ancient Town",
         "points": [
             "Located in central Vietnam, Hoi An Ancient Town is a UNESCO World Heritage Site known for its well-preserved architecture",
@@ -145,7 +145,7 @@
     },
     {
         "id": "13",
-        "filename": "13-mua-cave-ninh-binh.mp4",
+        "filename": "mu-cave-mountain.mp4",
         "title": "Mua Cave Mountain (Ninh Binh)",
         "points": [
             "Located in Ninh Binh, Vietnam, Mua Cave is famous for its panoramic viewpoint overlooking Tam Coc rice fields and rivers",
@@ -157,7 +157,7 @@
     },
     {
         "id": "14",
-        "filename": "14-vietnam-train-street.mp4",
+        "filename": "train-street.mp4",
         "title": "Hanoi Train Street",
         "points": [
             "Located in Hanoi, Vietnam, Train Street is a narrow railway track running through residential houses and cafes",
@@ -169,7 +169,7 @@
     },
     {
         "id": "15",
-        "filename": "15-alpine-coaster-bana-hills.mp4",
+        "filename": "alphine-coaster.mp4",
         "title": "Alpine Coaster",
         "points": [
             "Located in Ba Na Hills near Da Nang, Vietnam, the Alpine Coaster is a thrilling mountain ride through lush forests",
@@ -181,7 +181,7 @@
     },
     {
         "id": "16",
-        "filename": "16-sapa-glass-bridge.mp4",
+        "filename": "glass-bridge.mp4",
         "title": "Sapa Glass Bridge",
         "points": [
             "Located near Sapa, Vietnam, the Rong May (Dragon in Cloud) Glass Bridge is one of the longest and highest glass bridges in the country",
@@ -193,7 +193,7 @@
     },
     {
         "id": "17",
-        "filename": "17-rope-bike-death-swing.mp4",
+        "filename": "rope-bike-death-swing.mp4",
         "title": "Rope Bike & Death Swing",
         "points": [
             "Rope Bike and Death Swing are extreme adventure activities popular in scenic mountainous areas of Vietnam",
@@ -205,7 +205,7 @@
     },
     {
         "id": "18",
-        "filename": "18-danang-night-cruise.mp4",
+        "filename": "cruise.mp4",
         "title": "Da Nang Night Cruise",
         "points": [
             "A night cruise along the Han River in Da Nang offers stunning views of the city’s illuminated skyline",
@@ -217,7 +217,7 @@
     },
     {
         "id": "19",
-        "filename": "19-invisible-bridge.mp4",
+        "filename": "invisible-glass.mp4",
         "title": "Invisible Bridge (Glass Bridge)",
         "points": [
             "Known as the Invisible Bridge, this is a glass-bottom bridge that creates the illusion of walking in the air",
@@ -241,7 +241,7 @@
     },
     {
         "id": "21",
-        "filename": "21-paragliding-danang.mp4",
+        "filename": "para-gliding.mp4",
         "title": "Paragliding in Da Nang",
         "points": [
             "Paragliding in Da Nang offers breathtaking aerial views of beaches, mountains, and the coastline",
@@ -253,7 +253,7 @@
     },
     {
         "id": "22",
-        "filename": "22-lan-ha-bay-cruise.mp4",
+        "filename": "cruise-attractions.mp4",
         "title": "Lan Ha Bay Island Cruises",
         "points": [
             "Lan Ha Bay, near Ha Long Bay, is known for its quieter and less crowded island cruise experiences",
@@ -265,7 +265,7 @@
     },
     {
         "id": "23",
-        "filename": "23-le-jardin-damour.mp4",
+        "filename": "flower-garden.mp4",
         "title": "Le Jardin D’Amour Gardens (Ba Na Hills)",
         "points": [
             "Located in Ba Na Hills near Da Nang, Le Jardin D’Amour is a collection of beautifully themed flower gardens",
@@ -289,7 +289,7 @@
     },
     {
         "id": "25",
-        "filename": "25-sun-wheel-danang.mp4",
+        "filename": "giant-wheel.mp4",
         "title": "Sun Wheel (Da Nang)",
         "points": [
             "Located in Asia Park, Da Nang, the Sun Wheel is one of the tallest Ferris wheels in Vietnam",
@@ -301,7 +301,7 @@
     },
     {
         "id": "26",
-        "filename": "26-suoi-tien-theme-park.mp4",
+        "filename": "suoi-tien-theme-park.mp4",
         "title": "Suoi Tien Theme Park",
         "points": [
             "Located in Ho Chi Minh City, Suoi Tien Theme Park is a unique cultural and amusement park based on Vietnamese folklore",
@@ -313,7 +313,7 @@
     },
     {
         "id": "27",
-        "filename": "27-100-egg-park-nha-trang.mp4",
+        "filename": "100-egg-park.mp4",
         "title": "100 Egg Park (Nha Trang)",
         "points": [
             "Located in Nha Trang, Vietnam, 100 Egg Park is a unique eco-tourism destination themed around giant egg-shaped structures",
@@ -325,7 +325,7 @@
     },
     {
         "id": "28",
-        "filename": "28-merryland-quy-nhon-fountain.mp4",
+        "filename": "fountain-show.mp4",
         "title": "Water Fountain (MerryLand Quy Nhon)",
         "points": [
             "Located in Quy Nhon, Vietnam, the MerryLand water fountain show is a spectacular multimedia attraction",
@@ -337,7 +337,7 @@
     },
     {
         "id": "29",
-        "filename": "29-coconut-basket-boat.mp4",
+        "filename": "coconut-basket-boat.mp4",
         "title": "Coconut Basket Boat Ride",
         "points": [
             "Popular in Hoi An and central Vietnam, the coconut basket boat ride takes place in water coconut palm forests",
@@ -349,7 +349,7 @@
     },
     {
         "id": "30",
-        "filename": "30-phu-quoc-water-activity.mp4",
+        "filename": "snorkeling.mp4",
         "title": "Water Activities in Phu Quoc",
         "points": [
             "Phu Quoc offers a variety of water activities including snorkeling and scuba diving in clear waters",
@@ -361,7 +361,7 @@
     },
     {
         "id": "31",
-        "filename": "31-surfing-rafting-water-activity.mp4",
+        "filename": "white-water.mp4",
         "title": "Surfing & Rafting Water Activities",
         "points": [
             "Surfing is popular in coastal areas of Vietnam, especially during monsoon seasons with stronger waves",
@@ -373,7 +373,7 @@
     },
     {
         "id": "32",
-        "filename": "o-quy-ho-pass.mp4",
+        "filename": "7-day-tour-north-vietnam.mp4",
         "title": "O Quy Ho Pass",
         "points": [
             "O Quy Ho Pass is one of the longest and highest mountain passes in Vietnam, located near Sapa",
@@ -385,14 +385,14 @@
     },
     {
         "id": "33",
-        "filename": "kl-tower.mp4",
-        "title": "KL Tower (Menara Kuala Lumpur)",
+        "filename": "halong-bay.mp4",
+        "title": "Ha Long Bay",
         "points": [
-            "Located in Kuala Lumpur, Malaysia, KL Tower is one of the tallest telecommunications towers in the world at 421 meters",
-            "The tower features an observation deck and a revolving restaurant offering panoramic city views",
-            "Visitors can experience the Sky Deck and glass Sky Box for a thrilling view from above",
-            "It is a popular tourist attraction situated within the Bukit Nanas Forest Reserve",
-            "Best time to visit is during sunset or night for stunning skyline views"
+            "Located in northern Vietnam, Ha Long Bay is a UNESCO World Heritage Site famous for its emerald waters and limestone karsts",
+            "The bay consists of nearly 1,600 islands and islets formed over millions of years",
+            "Popular activities include cruises, kayaking, cave exploration, and visiting floating villages",
+            "Top attractions include Sung Sot Cave, Ti Top Island, and Luon Cave",
+            "Best time to visit is from October to April for pleasant weather and scenic views"
         ]
     }
 ]

@@ -189,7 +189,7 @@ const VisaOnArrival = () => {
                         <div className={styles.benefitsList}>
                             {benefits.map((benefit) => (
                                 <div key={benefit} className={styles.benefitItem}>
-                                    <span className={styles.benefitBullet}>•</span>
+                                    <span className={styles.benefitBullet}></span>
                                     <p>{benefit}</p>
                                 </div>
                             ))}

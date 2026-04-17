@@ -19,10 +19,10 @@ import styles from './header.module.scss';
  * Navigation links for the header.
  */
 const HEADER_LINKS = [
-    { id: 1, title: 'Home', path: '/home' },
+    { id: 1, title: 'Home', path: '/' },
     { id: 2, title: 'VFC', path: '/vfc' },
     { id: 3, title: 'VOA', path: '/visa-on-arrival' },
-    { id: 4, title: 'e-VISA/ETA', path: '/e-VISA/ETA' },
+    { id: 4, title: 'e-VISA/ETA', path: '/e-visa' },
     { id: 5, title: 'Air Activities', path: '/Air Activities' },
     { id: 6, title: 'Water Activities', path: '/Water Activities' },
     { id: 7, title: 'Adventure Activities', path: '/Adventure Activities' },

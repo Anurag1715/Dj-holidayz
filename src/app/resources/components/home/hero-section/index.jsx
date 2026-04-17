@@ -10,7 +10,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import videoData from '@/Datastream/videos.json';
 
 /** Icons */
-import SearchIcon from '@/Icons/search.svg';
 import LeftArrow from '@/Icons/nav_left.svg';
 import RightArrow from '@/Icons/nav_right.svg';
 
@@ -103,27 +102,20 @@ const HeroSection = () => {
                         </div>
 
                         <div className={styles.rightVideoSection}>
-                            <AnimatePresence mode="sync">
-                                {videos.map(
-                                    (video, index) =>
-                                        index === currentIndex && (
-                                            <motion.video
-                                                key={video}
-                                                className={styles.dj_video}
-                                                autoPlay
-                                                muted
-                                                playsInline
-                                                preload="auto"
-                                                onEnded={handleNext}
-                                                initial={{ opacity: 0 }}
-                                                animate={{ opacity: 1 }}
-                                                exit={{ opacity: 0 }}
-                                                transition={{ duration: 1.2, ease: 'easeInOut' }}
-                                            >
-                                                <source src={video} type="video/mp4" />
-                                            </motion.video>
-                                        )
-                                )}
+                            <AnimatePresence mode="wait">
+                                <motion.video
+                                    key={videos[currentIndex]}
+                                    src={videos[currentIndex]}
+                                    className={styles.dj_video}
+                                    autoPlay
+                                    muted
+                                    playsInline
+                                    onEnded={handleNext}
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0 }}
+                                    transition={{ duration: 0.8 }}
+                                />
                             </AnimatePresence>
                             <div className={styles.nav_arrows}>
                                 <div className={styles.left} onClick={handlePrev}>
