@@ -155,7 +155,7 @@ const VisaFreeCountries = () => {
                                 <div className={styles.cardContent}>
                                     <div className={styles.cardTop}>
                                         <div>
-                                        <h3>{country.name}</h3>
+                                            <h3>{country.name}</h3>
                                         </div>
                                         <span className={styles.typeBadge}>{country.type}</span>
                                     </div>
@@ -192,7 +192,7 @@ const VisaFreeCountries = () => {
                             <Link href="/visa-on-arrival" className={styles.secondaryAction}>
                                 Visa on Arrival
                             </Link>
-                            <Link href="/e-VISA/ETA" className={styles.ghostAction}>
+                            <Link href="/e-visa" className={styles.ghostAction}>
                                 E-Visa / ETA
                             </Link>
                         </div>
