@@ -1,0 +1,325 @@
+@use '../../../styles/mixin' as *;
+
+// Common Section Heading Styles
+.dj_top_section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+
+    .dj_tagline {
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        text-align: center;
+        color: colormap(dj_f_white);
+        background: colormap(dj_red_gradient);
+        border-radius: 0.93rem;
+        padding: 0.31rem 1.25rem;
+        width: fit-content;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+
+        @include laptop {
+            font-size: 1.25rem;
+        }
+
+        @include mini {
+            font-size: 1.125rem;
+            padding: 0.3rem 0.9rem;
+        }
+    }
+
+    .dj_subtitle {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        text-align: center;
+        max-width: 577px;
+        margin: auto;
+        color: rgba($color: colormap(text_primary_black), $alpha: 0.8);
+
+        @include sm {
+            font-size: 0.85rem;
+            line-height: 1rem;
+        }
+    }
+}
+
+.delivery_info_section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: colormap(dj_bg_two);
+
+    .simple_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        background-color: colormap(dj_f_white);
+        border-radius: 2rem;
+        padding: 2rem;
+        border: 1px solid colormap(dj_filter_stroke);
+
+        @include mobile {
+            gap: 2rem;
+            padding: 1.5rem;
+        }
+
+        .image_top {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            width: 100%;
+
+            @include mini {
+                flex-direction: column;
+            }
+        }
+
+        .image_side {
+            flex: 1;
+            width: 100%;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            aspect-ratio: 4 / 3;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+
+            .feature_image {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+        .text_side {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .description {
+                font-size: 1.125rem;
+                line-height: 1.8;
+                color: colormap(text_primary_black);
+                margin: 0;
+            }
+        }
+
+        .apps_section_wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            width: 100%;
+
+            @include mini {
+                flex-direction: column;
+            }
+
+            .image_bottom {
+                flex: 1;
+                width: 100%;
+                border-radius: 1.5rem;
+                overflow: hidden;
+                aspect-ratio: 4 / 3;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+
+                .feature_image {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
+            }
+
+            .apps_section {
+                flex: 1;
+                width: 100%;
+
+                .apps_grid {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 1.25rem;
+
+                    @include mobile {
+                        grid-template-columns: 1fr;
+                    }
+
+                    .app_card {
+                        background-color: colormap(dj_bg_two);
+                        border: 1px solid colormap(dj_filter_stroke);
+                        border-radius: 1rem;
+                        padding: 1.25rem;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            transform: translateY(-2px);
+                            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                        }
+
+                        .app_header_row {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            gap: 1rem;
+                            margin-bottom: 1rem;
+
+                            .app_name {
+                                font-size: 1.25rem;
+                                font-weight: 600;
+                                color: colormap(text_primary_black);
+                            }
+
+                            .availability_tag {
+                                font-size: 0.85rem;
+                                font-weight: 600;
+                                color: colormap(primary_red);
+                                background-color: rgba(255, 0, 0, 0.08);
+                                padding: 0.4rem 0.8rem;
+                                border-radius: 0.5rem;
+                                border: 1px solid rgba(255, 0, 0, 0.15);
+                            }
+                        }
+
+                        .app_stats {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0.75rem;
+
+                            .stat_item {
+                                display: flex;
+                                flex-direction: column;
+
+                                .stat_label {
+                                    font-size: 0.875rem;
+                                    color: colormap(text_primary_black);
+                                    opacity: 0.7;
+                                }
+
+                                .stat_value {
+                                    font-size: 1rem;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .food_tour_section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            .bento_grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 1.5rem;
+
+                @include mobile {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .tour_card {
+                    background-color: colormap(dj_f_white);
+                    border: 1px solid colormap(dj_filter_stroke);
+                    border-radius: 1.5rem;
+                    padding: 1.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        transform: translateY(-4px);
+
+                        .map_icon {
+                            transform: scale(1.1);
+                        }
+                    }
+
+                    &.large {
+                        grid-column: span 2;
+                    }
+
+                    .card_header {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+
+                        .map_wrapper {
+                            width: 3.5rem;
+                            height: 3.5rem;
+                            border-radius: 50%;
+                            overflow: hidden;
+
+                            .map_icon {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                transition: transform 0.3s ease;
+                            }
+                        }
+
+                        .region_title {
+                            font-size: 1.25rem;
+                            font-weight: 700;
+                            color: colormap(text_primary_black);
+                        }
+                    }
+
+                    .tags_container {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 0.6rem;
+
+                        .food_tag {
+                            font-size: 0.85rem;
+                            font-weight: 500;
+                            background-color: colormap(dj_bg_two);
+                            padding: 0.5rem 0.9rem;
+                            border-radius: 2rem;
+                            border: 1px solid rgba(0, 0, 0, 0.05);
+                        }
+                    }
+                }
+            }
+        }
+
+        .full_width_text_section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+
+            .animated_gradient_text {
+                font-size: 1.5rem;
+                font-weight: 700;
+                background: linear-gradient(90deg, #ED2426 0%, #ED2426 40%, #000000 50%, #ED2426 60%, #ED2426 100%);
+                background-size: 200% auto;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                animation: gradientMove 3s linear infinite;
+            }
+        }
+    }
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 200% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -53,20 +53,18 @@
     flex-direction: column;
     gap: 1.5rem;
 
-    .logo {
-        width: 10rem;
-        height: auto;
+    .logo_wrapper {
+        position: relative;
+        width: 8rem;
+        height: 3.5rem;
         display: block;
-        overflow: visible;
-        
-        svg {
+        cursor: pointer;
+
+        .logo_img {
             width: 100%;
-            height: auto;
-            overflow: visible;
-            
-            path, circle, rect, polygon {
-                fill: white !important;
-            }
+            height: 100%;
+            display: block;
+            object-fit: contain;
         }
     }
 
@@ -141,7 +139,7 @@
             width: 1.5rem;
             height: 1.5rem;
             color: #8a1516;
-            
+
             svg {
                 fill: currentColor;
             }

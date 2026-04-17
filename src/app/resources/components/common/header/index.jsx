@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 /** Icons */
 import HamburgerMenu from '@/Icons/bars-staggered.svg';
 import CloseIcon from '@/Icons/cross-small.svg';
-import LogoIcon from '../../../../../../public/logo/white-background-logo.svg'
+import LogoIcon from '../../../../../../public/logo/red-split.svg'
 
 /** Styles */
 import styles from './header.module.scss';
@@ -174,7 +174,7 @@ const Header = () => {
                         <div className={styles.logo_wrapper}>
                             <Link className={styles.dj_image_wrapper} href={'/'}>
                                 <div>
-                                    <LogoIcon className={styles.dj_one_logo} />
+                                    <img src="/logo/red-split.svg" alt="DJ Holidays Logo" className={styles.logo_img} />
                                 </div>
                             </Link>
                         </div>

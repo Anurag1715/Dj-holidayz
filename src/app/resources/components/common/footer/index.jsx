@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './footer.module.scss';
-import LogoIcon from '../../../../../../public/logo/white-background-logo.svg';
+import LogoIcon from '../../../../../../public/logo/white-split.svg';
 
 const FOOTER_LINKS = {
     quickLinks: [
@@ -30,8 +30,8 @@ const Footer = () => {
             <div className={styles.container}>
                 <div className={styles.footerGrid}>
                     <div className={styles.footerBrand}>
-                        <Link href="/" className={styles.logo}>
-                            <LogoIcon />
+                        <Link href="/" className={styles.logo_wrapper}>
+                            <img src="/logo/white-split.svg" alt="DJ Holidays Logo" className={styles.logo_img} />
                         </Link>
                         <p>
                             Simplifying international travel for Indian passport holders.

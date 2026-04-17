@@ -12,6 +12,7 @@ import videoData from '@/Datastream/videos.json';
 /** Icons */
 import LeftArrow from '@/Icons/nav_left.svg';
 import RightArrow from '@/Icons/nav_right.svg';
+import SearchIcon from '@/Icons/search.svg';
 
 /** Styles */
 import styles from './hero-section.module.scss';
@@ -33,13 +34,11 @@ const SCROLLING_FACTS = [
     "Phu Quoc - Pearl Island with pristine beaches"
 ];
 
-/**
- * Contact numbers for general inquiries and sales.
- */
-// const CONTACT_NUMBERS = [
-//     { label: "General Inquiries", number: "+84 123 456 789" },
-//     { label: "Sales & Booking", number: "+84 987 654 321" }
-// ];
+
+const CONTACT_NUMBERS = [
+    { label: "Call Us", number: "+971 4 244 4786" },
+    { label: "Call Us", number: "058 13 04 786" }
+];
 
 /**
  * HeroSection component featuring a video slider and search functionality.
@@ -128,7 +127,7 @@ const HeroSection = () => {
                         </div>
                     </div>
 
-                    {/* <div className={styles.dj_contact_wrapper}>
+                    <div className={styles.dj_contact_wrapper}>
                         {CONTACT_NUMBERS.map((contact, index) => (
                             <a
                                 key={index}
@@ -175,11 +174,11 @@ const HeroSection = () => {
                                 </button>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
 
-            {/* <div className={styles.recordsWrapper}>
+            <div className={styles.recordsWrapper}>
                 <span className={styles.label}>DISCOVER THE BEST :</span>
                 <div className={styles.scrollContainer}>
                     <div className={styles.scrollContent}>
@@ -191,7 +190,7 @@ const HeroSection = () => {
                         ))}
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 };
