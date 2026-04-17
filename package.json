@@ -6,7 +6,9 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,scss,json}\"",
+    "prepare": "husky"
   },
   "dependencies": {
     "@svgr/webpack": "^8.1.0",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^9",
-    "eslint-config-next": "16.2.3"
+    "eslint-config-next": "16.2.3",
+    "prettier": "^3.5.3"
   }
 }
