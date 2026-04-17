@@ -421,10 +421,10 @@ const EVisaETA = () => {
                         </div>
 
                         <div className={styles.ctaActions}>
-                            <Link href="/resources/visa-free-countries" className={styles.secondaryAction}>
+                            <Link href="/vfc" className={styles.secondaryAction}>
                                 Visa-Free Countries
                             </Link>
-                            <Link href="/resources/visa-on-arrival" className={styles.ghostAction}>
+                            <Link href="/visa-on-arrival" className={styles.ghostAction}>
                                 Visa on Arrival
                             </Link>
                         </div>

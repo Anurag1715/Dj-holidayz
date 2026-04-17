@@ -10,12 +10,12 @@ const FOOTER_LINKS = {
         { title: 'Visa on Arrival', path: '/visa-on-arrival' },
         { title: 'E-Visa / ETA', path: '/e-visa' },
     ],
-    activities: [
-        { title: 'Air Activities', path: '/' },
-        { title: 'Water Activities', path: '/' },
-        { title: 'Adventure Activities', path: '/' },
-        { title: 'Theme Parks', path: '/' },
-    ],
+    // activities: [
+    //     { title: 'Air Activities', path: '/' },
+    //     { title: 'Water Activities', path: '/' },
+    //     { title: 'Adventure Activities', path: '/' },
+    //     { title: 'Theme Parks', path: '/' },
+    // ],
     support: [
         { title: 'About Us', path: '/' },
         { title: 'Contact Us', path: '/' },
@@ -50,7 +50,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className={styles.footerCol}>
+                    {/* <div className={styles.footerCol}>
                         <h4>Activities</h4>
                         <ul>
                             {FOOTER_LINKS.activities.map((link, i) => (
@@ -59,7 +59,7 @@ const Footer = () => {
                                 </li>
                             ))}
                         </ul>
-                    </div>
+                    </div> */}
 
                     <div className={styles.footerCol}>
                         <h4>Contact Us</h4>

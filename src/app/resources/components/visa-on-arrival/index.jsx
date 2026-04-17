@@ -214,7 +214,7 @@ const VisaOnArrival = () => {
                             <Link href="/vfc" className={styles.secondaryAction}>
                                 Visa-Free Countries
                             </Link>
-                            <Link href="/e-VISA/ETA" className={styles.ghostAction}>
+                            <Link href="/e-visa" className={styles.ghostAction}>
                                 E-Visa / ETA
                             </Link>
                         </div>
