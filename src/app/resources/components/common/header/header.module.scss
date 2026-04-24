@@ -1,232 +1,231 @@
-@use '../../../styles/mixin' as *;
+@use "../../../styles/mixin" as *;
 
 .dj_header {
-    position: fixed; // ALWAYS FIXED
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background-color: colormap(section_bg_one);
+  position: fixed; // ALWAYS FIXED
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: colormap(section_bg_one);
 
+  .top_bar_container {
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &.at_top {
     .top_bar_container {
-        @include mobile {
-            display: none;
-        }
+      @include mobile {
+        display: block;
+      }
+    }
+  }
+
+  .dj_header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 0.9375rem;
+    padding-inline: 2.5rem;
+    // background-color: colormap(primary_red);
+
+    .dj_hamburger_icon {
+      display: none;
+      cursor: pointer;
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: colormap(text_primary_black);
+        // margin-top: .5rem;
+      }
+
+      @include mini {
+        display: block;
+      }
     }
 
-    &.at_top {
-        .top_bar_container {
-            @include mobile {
-                display: block;
-            }
-        }
+    @include laptop {
+      padding-block: 0.93rem;
+      padding-inline: 1rem;
     }
 
-    .dj_header_wrapper {
+    .dj_header_left {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
 
+      @include laptop {
+        gap: 1rem;
+      }
+
+      .logo_wrapper {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-block: .9375rem;
-        padding-inline: 2.5rem;
-        // background-color: colormap(primary_red);
+        gap: 0.5rem;
+      }
 
-        .dj_hamburger_icon {
-            display: none;
-            cursor: pointer;
+      .dj_image_wrapper {
+        position: relative;
+        width: 8rem;
+        height: 3.5rem;
+        display: block;
+        cursor: pointer;
 
-            svg {
-                width: 1.5rem;
-                height: 1.5rem;
-                fill: colormap(text_primary_black);
-                // margin-top: .5rem;
-            }
-
-            @include mini {
-                display: block;
-            }
+        .logo_img {
+          width: 100%;
+          height: 100%;
+          display: block;
+          object-fit: contain;
         }
+      }
 
-        @include laptop {
-            padding-block: .93rem;
-            padding-inline: 1rem;
-        }
-
-        .dj_header_left {
-            display: flex;
-            align-items: center;
-            gap: 2.5rem;
-
-            @include laptop {
-                gap: 1rem;
-            }
-
-            .logo_wrapper {
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-            }
-
-            .dj_image_wrapper {
-                position: relative;
-                width: 8rem;
-                height: 3.5rem;
-                display: block;
-                cursor: pointer;
-
-                .logo_img {
-                    width: 100%;
-                    height: 100%;
-                    display: block;
-                    object-fit: contain;
-                }
-            }
-
-            .dj_two_logo {
-                width: 9.0625rem;
-                // height: 2.6875rem;
-            }
-        }
-
-        .link_wrapper {
-            display: flex;
-            column-gap: 0.3rem; // horizontal spacing
-            row-gap: 1rem;
-            border-radius: 4.4375rem;
-            // padding: .5rem;
-            // white-space: nowrap;
-            flex-wrap: wrap;
-            padding-inline: 0.5rem;
-            align-items: center;
-
-            // .dj_header_linkWrapper {
-            //     // This was missing in original JSX/SCSS – assuming it's for wrapping links
-            // }
-
-            .dj_header_link {
-                padding: 4px .625rem;
-                font-weight: 700;
-                font-size: 1.275rem;
-                color: colormap(dj_f_black);
-                text-decoration: none;
-                // transition: color 0.3s ease;
-                position: relative;
-                // border: 1.75px solid colormap(dj_f_white);
-                border-radius: .5rem;
-                background-color: #d1d2d4;
-                cursor: pointer;
-
-                .first_word {
-                    font-weight: 700;
-                }
-
-                .second_word {
-                    font-weight: 500;
-                }
-            }
-
-            .active {
-                border-radius: 1.12rem;
-                background-color: colormap(primary_red);
-                color: colormap(dj_f_white);
-                border: none;
-                border-radius: .5rem;
-            }
-
-            @include mini {
-                display: none;
-            }
-        }
+      .dj_two_logo {
+        width: 9.0625rem;
+        // height: 2.6875rem;
+      }
     }
 
-    .dj_login_wrapper {
-        display: flex;
-        gap: 0.75rem;
-        align-items: center;
+    .link_wrapper {
+      display: flex;
+      column-gap: 0.3rem; // horizontal spacing
+      row-gap: 1rem;
+      border-radius: 4.4375rem;
+      // padding: .5rem;
+      // white-space: nowrap;
+      flex-wrap: wrap;
+      padding-inline: 0.5rem;
+      align-items: center;
 
-        .dj_login {
-            color: rgba(255, 255, 255, 0.8);
-            padding: 0.5rem 0.875rem;
-            cursor: pointer;
+      // .dj_header_linkWrapper {
+      //     // This was missing in original JSX/SCSS – assuming it's for wrapping links
+      // }
+
+      .dj_header_link {
+        padding: 4px 0.625rem;
+        font-weight: 700;
+        font-size: 1.275rem;
+        color: colormap(dj_f_black);
+        text-decoration: none;
+        // transition: color 0.3s ease;
+        position: relative;
+        // border: 1.75px solid colormap(dj_f_white);
+        border-radius: 0.5rem;
+        background-color: #d1d2d4;
+        cursor: pointer;
+
+        .first_word {
+          font-weight: 700;
         }
 
-        .dj_signup {
-            white-space: nowrap;
-            box-shadow: 4px 4px 14px 0px rgba(25, 25, 25, 0.1);
-            gap: .5rem;
-            opacity: 1;
-            padding: .75rem 18px;
-            border-radius: 1.5rem;
-            border: 1px solid rgba(217, 226, 232, 1);
-            background-color: rgba(255, 255, 255, 0.15);
-            font-weight: 510;
-            font-size: 1rem;
-            line-height: 1.375rem;
-            letter-spacing: 0%;
-            color: rgba(255, 255, 255, 1);
-            cursor: pointer;
-            border: none; // Make it button-like
+        .second_word {
+          font-weight: 500;
         }
+      }
+
+      .active {
+        border-radius: 1.12rem;
+        background-color: colormap(primary_red);
+        color: colormap(dj_f_white);
+        border: none;
+        border-radius: 0.5rem;
+      }
+
+      @include mini {
+        display: none;
+      }
     }
+  }
+
+  .dj_login_wrapper {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+
+    .dj_login {
+      color: rgba(255, 255, 255, 0.8);
+      padding: 0.5rem 0.875rem;
+      cursor: pointer;
+    }
+
+    .dj_signup {
+      white-space: nowrap;
+      box-shadow: 4px 4px 14px 0px rgba(25, 25, 25, 0.1);
+      gap: 0.5rem;
+      opacity: 1;
+      padding: 0.75rem 18px;
+      border-radius: 1.5rem;
+      border: 1px solid rgba(217, 226, 232, 1);
+      background-color: rgba(255, 255, 255, 0.15);
+      font-weight: 510;
+      font-size: 1rem;
+      line-height: 1.375rem;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      cursor: pointer;
+      border: none; // Make it button-like
+    }
+  }
 }
 
 .dj_sidebar_overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(2px);
-    z-index: 9998; // Just below sidebar (9999)
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  z-index: 9998; // Just below sidebar (9999)
 }
 
 .dj_header_spacer {
-    height: var(--header-height, 0);
+  height: var(--header-height, 0);
 }
 
 .dj_sidebar {
-    position: fixed;
-    // Dynamic top based on header height – but since it's JS measured, use CSS var if needed
-    // For now, fallback to approx value; ideally set via inline style in JSX if dynamic
-    top: 6.5rem;
-    left: 0;
-    right: 0;
-    margin-inline: 1rem;
-    max-width: calc(100% - 2rem);
-    background-color: colormap(dj_f_white);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
+  position: fixed;
+  // Dynamic top based on header height – but since it's JS measured, use CSS var if needed
+  // For now, fallback to approx value; ideally set via inline style in JSX if dynamic
+  top: 6.5rem;
+  left: 0;
+  right: 0;
+  margin-inline: 1rem;
+  max-width: calc(100% - 2rem);
+  background-color: colormap(dj_f_white);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
 
-    &.open {
-        opacity: 1;
-        pointer-events: auto;
+  &.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .dj_sidebar_link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: colormap(text_primary_black);
+    padding: 0.75rem 16px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #f1f5f8;
+      border-radius: 0.5rem;
     }
 
-    .dj_sidebar_link {
-        font-size: 1rem;
-        font-weight: 500;
-        color: colormap(text_primary_black);
-        padding: 0.75rem 16px;
-        text-decoration: none;
-
-        &:hover {
-            background-color: #f1f5f8;
-            border-radius: 0.5rem;
-        }
-
-        &.active {
-            border-radius: 0.5rem;
-            background-color: #000;
-            color: #fff;
-        }
+    &.active {
+      border-radius: 0.5rem;
+      background-color: #000;
+      color: #fff;
     }
+  }
 }

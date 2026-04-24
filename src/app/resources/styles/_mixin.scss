@@ -2,20 +2,31 @@
 @use "sass:color";
 
 $colors: (
-    dj_f_white: #FFFFFF,
-    primary_red: #FF0000,
-    dj_bg_two: #F9FAFB,
-    dj_filter_stroke: #D9E2E8,
-    section_bg_one: #F1F5F8,
-    text_primary_black: #192024,
-    card_stroke:#B3DAFE,
-    dj_filter_black:#1A1A1A,
-    discount: #4CAF50,
-    section_bg_two: #F9FAFB,
-    link: #1976D2,
-    dj_primary_light: #FAF2E8,
-    dj_f_black: #000000,
-    dj_red_gradient: linear-gradient(90deg, #000000 0%, #2C0607 10%, #5F0E0F 22%, #8A1516 35%, #AE1A1B 48%, #C91E20 61%, #DD2123 74%, #E92325 87%, #ED2426 100%),
+  dj_f_white: #ffffff,
+  primary_red: #ff0000,
+  dj_bg_two: #f9fafb,
+  dj_filter_stroke: #d9e2e8,
+  section_bg_one: #f1f5f8,
+  text_primary_black: #192024,
+  card_stroke: #b3dafe,
+  dj_filter_black: #1a1a1a,
+  discount: #4caf50,
+  section_bg_two: #f9fafb,
+  link: #1976d2,
+  dj_primary_light: #faf2e8,
+  dj_f_black: #000000,
+  dj_red_gradient: linear-gradient(
+      90deg,
+      #000000 0%,
+      #2c0607 10%,
+      #5f0e0f 22%,
+      #8a1516 35%,
+      #ae1a1b 48%,
+      #c91e20 61%,
+      #dd2123 74%,
+      #e92325 87%,
+      #ed2426 100%
+    ),
 );
 
 $PrimaryFont: var(--font-montserrat);
@@ -24,81 +35,79 @@ $SecondaryFont: var(--font-satisfy);
 $RocaFont: var(--font-roca);
 
 @mixin dj_primary_button {
-    padding: .75rem 1.125rem;
-    // box-shadow: 4px 4px 14px 0px #BA1B0F40, 4px 4px 12px 0px #FFFFFF59 inset;
-    border: 1px solid #D9E2E8;
-    background-color: colormap(primary_red);
-    max-width: fit-content;
-    margin: auto;
-    // border-radius: 1.5rem;
-    font-weight: 510;
-    font-size: 1rem;
-    line-height: 1.376rem;
-    letter-spacing: 0%;
-    color: colormap(dj_f_white);
-    cursor: pointer;
+  padding: 0.75rem 1.125rem;
+  // box-shadow: 4px 4px 14px 0px #BA1B0F40, 4px 4px 12px 0px #FFFFFF59 inset;
+  border: 1px solid #d9e2e8;
+  background-color: colormap(primary_red);
+  max-width: fit-content;
+  margin: auto;
+  // border-radius: 1.5rem;
+  font-weight: 510;
+  font-size: 1rem;
+  line-height: 1.376rem;
+  letter-spacing: 0%;
+  color: colormap(dj_f_white);
+  cursor: pointer;
 }
 
 @mixin fourk {
-    @media (min-width: 1441px) {
-        @content;
-    }
+  @media (min-width: 1441px) {
+    @content;
+  }
 }
 
 @mixin desktop {
-    @media (max-width: 1440px) {
-        @content;
-    }
+  @media (max-width: 1440px) {
+    @content;
+  }
 }
 
 @mixin laptop {
-    @media (max-width: 1300px) {
-        @content;
-    }
+  @media (max-width: 1300px) {
+    @content;
+  }
 }
 
 @mixin from-mini {
-    @media (min-width: 1024px) {
-        @content;
-    }
+  @media (min-width: 1024px) {
+    @content;
+  }
 }
 
 @mixin mini {
-    @media (max-width: 1024px) {
-        @content;
-    }
+  @media (max-width: 1024px) {
+    @content;
+  }
 }
 
 @mixin mobile {
-    @media (max-width: 768px) {
-        @content;
-    }
+  @media (max-width: 768px) {
+    @content;
+  }
 }
 
 @mixin ls {
-    @media (max-width: 624px) {
-        @content;
-    }
+  @media (max-width: 624px) {
+    @content;
+  }
 }
 
 @mixin sm {
-    @media (max-width: 480px) {
-        @content;
-    }
+  @media (max-width: 480px) {
+    @content;
+  }
 }
 
 @mixin xs {
-    @media (max-width: 350px) {
-        @content;
-    }
+  @media (max-width: 350px) {
+    @content;
+  }
 }
 
 @function colormap($color-name) {
-    @if map.has-key($colors, $color-name) {
-        @return map.get($colors, $color-name);
-    }
-
-    @else {
-        @error "Color `#{$color-name}` not found in the colors map.";
-    }
+  @if map.has-key($colors, $color-name) {
+    @return map.get($colors, $color-name);
+  } @else {
+    @error "Color `#{$color-name}` not found in the colors map.";
+  }
 }

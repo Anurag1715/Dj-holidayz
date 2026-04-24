@@ -1,181 +1,181 @@
 @use "./mixin.scss" as *;
 
 :root {
+  font-size: 16px;
+
+  @include desktop {
     font-size: 16px;
+  }
 
-    @include desktop {
-        font-size: 16px;
-    }
+  @include mini {
+    font-size: 15.5px;
+  }
 
-    @include mini {
-        font-size: 15.5px;
-    }
+  @include mobile {
+    font-size: 14px;
+  }
 
-    @include mobile {
-        font-size: 14px;
-    }
+  @include sm {
+    font-size: 13px;
+  }
 
-    @include sm {
-        font-size: 13px;
-    }
-
-    @include xs {
-        font-size: 12px;
-    }
+  @include xs {
+    font-size: 12px;
+  }
 }
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-    // height: 100%;
-    min-height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    background-color: #fff;
-    font-family: $PrimaryFont;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  // height: 100%;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
+  font-family: $PrimaryFont;
 }
 
 html {
-
-    body {
-
-        * {
-            letter-spacing: .15px;
-            font-family: $PrimaryFont;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        a,
-        ul li,
-        label {
-            margin-bottom: 0;
-        }
-
-        button {
-            cursor: pointer;
-        }
-
-        button,
-        button:active,
-        button:focus,
-        input,
-        input:active,
-        input:focus,
-        textarea,
-        textarea:active,
-        textarea:focus,
-        input[type=submit]:active,
-        input[type=submit]:focus {
-            box-shadow: none;
-            border: 0;
-            outline: 0;
-            padding: 0;
-            background-color: transparent;
-            resize: vertical;
-            font-family: $PrimaryFont;
-        }
-
-        input[type="number"]::-webkit-inner-spin-button,
-        input[type="number"]::-webkit-outer-spin-button {
-            appearance: none;
-            margin: 0;
-        }
-
-        input:-webkit-autofill,
-        input:-webkit-autofill:hover,
-        input:-webkit-autofill:focus,
-        input:-webkit-autofill:active {
-            transition: "color 9999s ease-out, background-color 9999s ease-out";
-            transition-delay: 9999s;
-        }
-
-        input[type="password"] {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
-
-            // &::placeholder {
-            //     font-family: $Figtree_Font!important;
-            // }
-        }
-
-        a {
-            text-decoration: none;
-            font-family: $PrimaryFont;
-        }
-
-        ul {
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
-        }
-
-        img {
-            width: 100%;
-            max-width: 100%;
-        }
+  body {
+    * {
+      letter-spacing: 0.15px;
+      font-family: $PrimaryFont;
     }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    ul li,
+    label {
+      margin-bottom: 0;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button,
+    button:active,
+    button:focus,
+    input,
+    input:active,
+    input:focus,
+    textarea,
+    textarea:active,
+    textarea:focus,
+    input[type="submit"]:active,
+    input[type="submit"]:focus {
+      box-shadow: none;
+      border: 0;
+      outline: 0;
+      padding: 0;
+      background-color: transparent;
+      resize: vertical;
+      font-family: $PrimaryFont;
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      appearance: none;
+      margin: 0;
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+      transition: "color 9999s ease-out, background-color 9999s ease-out";
+      transition-delay: 9999s;
+    }
+
+    input[type="password"] {
+      font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+        Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+
+      // &::placeholder {
+      //     font-family: $Figtree_Font!important;
+      // }
+    }
+
+    a {
+      text-decoration: none;
+      font-family: $PrimaryFont;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
 }
 
 .dashboard_contain {
-    margin-left: 14rem;
-    width: calc(100% - 14rem);
-    margin-top: 75px;
+  margin-left: 14rem;
+  width: calc(100% - 14rem);
+  margin-top: 75px;
 
-    @include mobile {
-        margin-left: 0rem;
-        width: 100%;
-    }
+  @include mobile {
+    margin-left: 0rem;
+    width: 100%;
+  }
 }
 
 .contain {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @include mini {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: unset;
+  }
 
-    @include mini {
-        padding-right: 2.5rem;
-        padding-left: 2.5rem;
-        max-width: 1440px;
-        margin: unset;
-    }
-
-    @include mobile {
-        padding-right: 1.25rem;
-        padding-left: 1.25rem;
-    }
+  @include mobile {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
 }
 
 .header_space {
-    margin-top: calc(var(--header-space-height, 9rem) - 2px);
-    transition: margin-top 0.3s ease;
-    overflow: visible;
+  margin-top: calc(var(--header-space-height, 9rem) - 2px);
+  transition: margin-top 0.3s ease;
+  overflow: visible;
 
-    @include mini {
-        // margin-top: calc(6.5rem + 0rem)
-    }
+  @include mini {
+    // margin-top: calc(6.5rem + 0rem)
+  }
 
-    // @include mobile {
-    //     margin-top: calc(5.5rem + 0rem);
-    // }
+  // @include mobile {
+  //     margin-top: calc(5.5rem + 0rem);
+  // }
 }
 
 .contain_fluid {
-    max-width: 1360px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
 
-    @include xs {
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
+  @include xs {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 }

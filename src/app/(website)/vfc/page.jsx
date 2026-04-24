@@ -1,12 +1,12 @@
-import VisaFreeCountries from '@/app/resources/components/visa-free-countries'
-import React from 'react'
+import VisaFreeCountries from "@/app/resources/components/visa-free-countries";
+import React from "react";
 
 const VFC = () => {
-    return (
-        <>
-            <VisaFreeCountries />
-        </>
-    )
-}
+  return (
+    <>
+      <VisaFreeCountries />
+    </>
+  );
+};
 
-export default VFC
+export default VFC;

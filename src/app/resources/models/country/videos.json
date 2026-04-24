@@ -1,0 +1,110 @@
+[
+  {
+    "id": "01",
+    "filename": "malaysia.mp4",
+    "title": "Malaysia",
+    "points": [
+      "Visit Petronas Twin Towers in Kuala Lumpur for skyline views",
+      "Explore Langkawi islands for beaches and cable car rides",
+      "Discover Batu Caves with colorful steps and Hindu temples",
+      "Experience street food and culture in Penang",
+      "Enjoy rainforest adventures in Borneo"
+    ]
+  },
+  {
+    "id": "02",
+    "filename": "vietnam.mp4",
+    "title": "Vietnam",
+    "points": [
+      "Cruise through Ha Long Bay with limestone karsts",
+      "Explore the ancient town of Hoi An with lantern streets",
+      "Visit Cu Chi Tunnels for historical experience",
+      "Enjoy street food tours in Hanoi",
+      "Relax on beaches in Da Nang"
+    ]
+  },
+  {
+    "id": "03",
+    "filename": "georgia.mp4",
+    "title": "Georgia",
+    "points": [
+      "Walk through Tbilisi Old Town with colorful architecture",
+      "Visit Kazbegi and Gergeti Trinity Church for mountain views",
+      "Explore Kakheti wine region for wine tasting",
+      "Relax in sulfur baths in Tbilisi",
+      "Ski or paraglide in Gudauri"
+    ]
+  },
+  {
+    "id": "04",
+    "filename": "hongkong.mp4",
+    "title": "Hong Kong",
+    "points": [
+      "Enjoy skyline views from Victoria Peak",
+      "Ride Ngong Ping 360 cable car to Big Buddha",
+      "Shop and eat at Temple Street Night Market",
+      "Watch Symphony of Lights at Victoria Harbour",
+      "Walk along Tsim Sha Tsui Promenade"
+    ]
+  },
+  {
+    "id": "05",
+    "filename": "japan.mp4",
+    "title": "Japan",
+    "points": [
+      "Visit Mount Fuji and surrounding lakes",
+      "Explore Kyoto temples like Fushimi Inari Shrine",
+      "Experience Tokyo city life and shopping",
+      "Enjoy cherry blossom festivals in spring",
+      "Relax in traditional onsen hot springs"
+    ]
+  },
+  {
+    "id": "06",
+    "filename": "seychells.mp4",
+    "title": "Seychelles",
+    "points": [
+      "Relax at Anse Source d'Argent beach",
+      "Explore Vallée de Mai nature reserve",
+      "Island hop between Mahe, Praslin, and La Digue",
+      "Snorkel in crystal-clear waters",
+      "Enjoy luxury beach resorts and sunsets"
+    ]
+  },
+  {
+    "id": "07",
+    "filename": "srilanka.mp4",
+    "title": "Sri Lanka",
+    "points": [
+      "Climb Sigiriya Rock Fortress for panoramic views",
+      "Visit tea plantations in Nuwara Eliya",
+      "Explore wildlife in Yala National Park",
+      "Relax on beaches in Mirissa and Bentota",
+      "Discover cultural sites in Kandy"
+    ]
+  },
+  {
+    "id": "08",
+    "filename": "thailand.mp4",
+    "title": "Thailand",
+    "points": [
+      "Visit Phi Phi Islands for beaches and boat tours",
+      "Explore Bangkok temples like Wat Arun",
+      "Enjoy nightlife in Phuket",
+      "Shop at floating markets",
+      "Experience Thai street food and culture"
+    ]
+  },
+  {
+    "id": "09",
+    "filename": "mauritius.mp4",
+    "title": "Mauritius",
+    "points": [
+      "Visit Le Morne Brabant and nearby beaches",
+      "Explore Chamarel Seven Colored Earths",
+      "Relax on white sand beaches and lagoons",
+      "Try water sports like snorkeling and diving",
+      "Enjoy luxury resorts and island tours"
+    ]
+  }
+]

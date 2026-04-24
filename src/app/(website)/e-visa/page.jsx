@@ -1,12 +1,12 @@
-import EVisa from '@/app/resources/components/e-visa'
-import React from 'react'
+import EVisa from "@/app/resources/components/e-visa";
+import React from "react";
 
 const EVisaPage = () => {
-    return (
-        <>
-            <EVisa />
-        </>
-    )
-}
+  return (
+    <>
+      <EVisa />
+    </>
+  );
+};
 
-export default EVisaPage
+export default EVisaPage;
