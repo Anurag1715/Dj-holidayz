@@ -293,7 +293,7 @@ const SeasonalPlanner = () => {
   const currentMonthName = months[activeMonthIndex];
   const currentRecommendations = useMemo(
     () => monthRecommendations[currentMonthName] || [],
-    [currentMonthName]
+    [currentMonthName],
   );
   const hasSwiper = currentRecommendations.length > 3;
 

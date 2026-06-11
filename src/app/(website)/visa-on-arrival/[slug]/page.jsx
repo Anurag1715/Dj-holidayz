@@ -19,7 +19,9 @@ const VOADetailsPage = async (props) => {
     return (
       <div className={styles.notFound}>
         <h2>Destination Not Found</h2>
-        <p>We couldn&apos;t find the requested visa on arrival country details.</p>
+        <p>
+          We couldn&apos;t find the requested visa on arrival country details.
+        </p>
       </div>
     );
   }
