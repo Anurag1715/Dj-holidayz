@@ -200,6 +200,14 @@
   border-radius: 1.25rem;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.12);
+  }
 
   @include sm {
     flex: 0 0 100%;
@@ -280,6 +288,24 @@
   padding-bottom: 1.75rem;
 }
 
+.regionHeading {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #8a1516;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgba(138, 21, 22, 0.2);
+  }
+}
+
 .introBody {
   display: flex;
   flex-direction: column;
@@ -312,6 +338,20 @@
   overflow: hidden;
   box-shadow: 0 18px 40px rgba(25, 32, 36, 0.08);
   padding: 0.75rem;
+  color: colormap(text_primary_black);
+  text-decoration: none;
+
+  h3,
+  strong,
+  p,
+  span {
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: colormap(text_primary_black);
+    text-decoration: none;
+  }
 
   @include mini {
     flex: 0 0 calc(50% - 0.625rem);
@@ -443,4 +483,462 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.85rem;
+}
+
+.seasonalSection {
+  padding-block: 4rem;
+  // background: #ffffff;
+}
+
+.dj_top_section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+
+  .dj_tagline {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: colormap(dj_f_white);
+    background: colormap(dj_red_gradient);
+    border-radius: 0.93rem;
+    padding: 0.31rem 1.25rem;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+    @include laptop {
+      font-size: 1.25rem;
+    }
+
+    @include mini {
+      font-size: 1.125rem;
+      padding: 0.3rem 0.9rem;
+    }
+  }
+
+  .dj_subtitle {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    max-width: 577px;
+    margin: auto;
+    color: rgba($color: colormap(text_primary_black), $alpha: 0.8);
+
+    @include sm {
+      font-size: 0.85rem;
+      line-height: 1rem;
+    }
+  }
+}
+
+.dj_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+
+.monthPlanner {
+  background: #ffffff;
+  border-radius: 2rem;
+  border: 1px solid rgba(25, 32, 36, 0.08);
+  padding: 2.5rem;
+  box-shadow: 0 15px 45px rgba(25, 32, 36, 0.04);
+
+  @include mobile {
+    padding: 1.5rem;
+  }
+}
+
+.monthHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(25, 32, 36, 0.1);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2.5rem;
+  gap: 1.5rem;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: stretch;
+    border-bottom: none;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.monthTabsScroll {
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.monthTabs {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+
+  @include mobile {
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(25, 32, 36, 0.1);
+  }
+}
+
+.monthTab {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(25, 32, 36, 0.6);
+  padding-block: 0.75rem;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+
+  &:hover {
+    color: #192024;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+    background: none;
+    box-shadow: none;
+  }
+
+  &.active {
+    color: colormap(primary_red) !important;
+
+    &::after {
+      content: "" !important;
+      position: absolute !important;
+      bottom: -0.65rem !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 3px !important;
+      background: colormap(primary_red) !important;
+      border-radius: 99px !important;
+
+      @include mobile {
+        bottom: -0.6rem !important;
+      }
+    }
+  }
+}
+
+.navControls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  @include mobile {
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+  }
+}
+
+.navBtn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: #eef1f4;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #192024;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+
+  &:hover:not(:disabled) {
+    background: colormap(primary_red) !important;
+    color: white !important;
+    transform: scale(1.05);
+  }
+
+  &:focus,
+  &:active {
+    background: #eef1f4;
+    color: #192024;
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid colormap(primary_red);
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+}
+
+.swiperContainer {
+  position: relative;
+  width: 100%;
+}
+
+.recommendationsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  transition: all 0.3s ease;
+
+  &.hasSwiper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none; // Firefox
+    padding-bottom: 0.5rem;
+    margin-inline: -0.5rem;
+    padding-inline: 0.5rem;
+
+    &::-webkit-scrollbar {
+      display: none; // Chrome/Safari
+    }
+
+    .recommendCard {
+      flex: 0 0 calc(33.333% - 1rem);
+      scroll-snap-align: start;
+      min-width: 280px;
+
+      @include mini {
+        flex: 0 0 calc(50% - 0.75rem);
+      }
+
+      @include mobile {
+        flex: 0 0 100%;
+      }
+    }
+  }
+}
+
+.swiperNavBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(25, 32, 36, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #192024;
+  z-index: 10;
+  transition: all 0.2s ease;
+
+  &:hover:not(:disabled) {
+    background: colormap(primary_red) !important;
+    color: white !important;
+    transform: translateY(-50%) scale(1.05);
+    box-shadow: 0 6px 16px rgba(201, 30, 32, 0.2);
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: #ffffff !important;
+    color: #192024 !important;
+  }
+
+  &:disabled {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &.prevBtn {
+    left: -1.5rem;
+    @include mobile {
+      left: -0.5rem;
+    }
+  }
+
+  &.nextBtn {
+    right: -1.5rem;
+    @include mobile {
+      right: -0.5rem;
+    }
+  }
+}
+
+.recommendCard {
+  background: linear-gradient(135deg, #f7f9fb 0%, #ffffff 100%);
+  border: 1px solid rgba(25, 32, 36, 0.06);
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(25, 32, 36, 0.03);
+  overflow: hidden;
+  color: colormap(text_primary_black);
+  text-decoration: none;
+
+  h4,
+  p,
+  span {
+    text-decoration: none;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(25, 32, 36, 0.08);
+    border-color: rgba(255, 0, 0, 0.25);
+    color: colormap(text_primary_black);
+    text-decoration: none;
+  }
+}
+
+.recommendImageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 1.15rem;
+  background: #eef1f4;
+}
+
+.recommendImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.recommendCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 0.5rem 0.5rem 0.25rem;
+  flex-grow: 1;
+}
+
+.recommendHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.recommendTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+}
+
+.recommendFlag {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.recommendBadge {
+  white-space: nowrap;
+  padding: 0.42rem 0.68rem;
+  border-radius: 999px;
+  background: rgba(237, 36, 38, 0.1);
+  color: #8a1516;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.recommendVisaTag {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  // Default (Visa-Free)
+  background: rgba(76, 175, 80, 0.12);
+  color: #2e7d32;
+
+  &[data-type="VOA"] {
+    background: rgba(33, 150, 243, 0.12);
+    color: #1565c0;
+  }
+
+  &[data-type="E-Visa"] {
+    background: rgba(156, 39, 176, 0.12);
+    color: #7b1fa2;
+  }
+}
+
+.recommendReason {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(25, 32, 36, 0.72);
+}
+
+.recommendAction {
+  margin-top: auto;
+  align-self: flex-start;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: colormap(primary_red);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: gap 0.2s ease;
+
+  &:hover {
+    gap: 0.5rem;
+  }
+}
+
+.detailsPage {
+  background: linear-gradient(180deg, #f7f3ee 0%, #eef3f6 48%, #ffffff 100%);
+  min-height: 100vh;
+}
+
+.notFound {
+  padding: 10rem 2rem;
+  text-align: center;
+  min-height: 60vh;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #666;
+  }
+}
+
+.quickTextLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }

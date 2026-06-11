@@ -1,36 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./visa-on-arrival.module.scss";
+import { countries } from "./voa-data";
 
-const destinations = [
-  {
-    flag: "🇮🇩",
-    name: "Indonesia",
-    image: "/images/indonesia.png",
-    stayDuration: "Up to 30 days",
-    type: "Visa on Arrival",
-    description:
-      "Indonesia offers a simple visa on arrival process at major airports. Ideal for tourism, especially destinations like Bali.",
-  },
-  {
-    flag: "🇱🇦",
-    name: "Laos",
-    image: "/images/laos.png",
-    stayDuration: "Up to 30 days",
-    type: "Visa on Arrival",
-    description:
-      "Travelers can obtain a visa at entry points with minimal documentation. A popular destination for cultural and nature experiences.",
-  },
-  {
-    flag: "🇲🇲",
-    name: "Myanmar",
-    image: "/images/image copy.png",
-    stayDuration: "Up to 28 days",
-    type: "Visa on Arrival",
-    description:
-      "Visa on arrival is available under specific conditions. Travelers should ensure they meet entry requirements before arrival.",
-  },
-];
+const toSlug = (name) => name.toLowerCase().replace(/\s+/g, "-");
 
 const benefits = [
   "No need for advance visa applications",
@@ -41,6 +14,8 @@ const benefits = [
 ];
 
 const VisaOnArrival = () => {
+  const allCountries = countries.flatMap((region) => region.list);
+
   return (
     <main className={styles.page}>
       <section className={styles.hero}>
@@ -60,7 +35,7 @@ const VisaOnArrival = () => {
                   Explore Destinations
                 </a>
                 <div className={styles.heroMeta}>
-                  <span>3 destinations</span>
+                  <span>{allCountries.length} destinations</span>
                   <span>Arrival-based visa access</span>
                 </div>
               </div>
@@ -77,13 +52,16 @@ const VisaOnArrival = () => {
               </div>
 
               <div className={styles.quickList}>
-                {destinations.map((destination) => (
-                  <div key={destination.name} className={styles.quickItem}>
-                    <span className={styles.quickFlag}>{destination.flag}</span>
-                    <div className={styles.quickText}>
+                {allCountries.slice(0, 6).map((destination) => (
+                  <Link
+                    key={destination.name}
+                    href={`/visa-on-arrival/${toSlug(destination.name)}`}
+                    className={styles.quickItem}
+                  >
+                    <div className={styles.quickTextLeft}>
                       <strong>{destination.name}</strong>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -123,39 +101,52 @@ const VisaOnArrival = () => {
             <h2>Visa on arrival destinations to explore next</h2>
           </div>
 
-          <div className={styles.cardGrid}>
-            {destinations.map((destination) => (
-              <article key={destination.name} className={styles.countryCard}>
-                <div className={styles.cardImageWrap}>
-                  <Image
-                    src={destination.image}
-                    alt={destination.name}
-                    fill
-                    className={styles.cardImage}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </div>
-
-                <div className={styles.cardContent}>
-                  <div className={styles.cardTop}>
-                    <div>
-                      <h3>{destination.name}</h3>
+          {countries.map((region) => (
+            <div key={region.region} className={styles.regionGroup}>
+              <h3 className={styles.regionHeading}>{region.region}</h3>
+              <div className={styles.cardGrid}>
+                {region.list.map((destination) => (
+                  <Link
+                    key={destination.name}
+                    href={`/visa-on-arrival/${toSlug(destination.name)}`}
+                    className={styles.countryCard}
+                  >
+                    <div className={styles.cardImageWrap}>
+                      <Image
+                        src={destination.image}
+                        alt={destination.name}
+                        fill
+                        className={styles.cardImage}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
                     </div>
-                    <span className={styles.typeBadge}>{destination.type}</span>
-                  </div>
 
-                  <div className={styles.cardMeta}>
-                    <div>
-                      <span className={styles.metaLabel}>Stay Duration</span>
-                      <strong>{destination.stayDuration}</strong>
+                    <div className={styles.cardContent}>
+                      <div className={styles.cardTop}>
+                        <div>
+                          <h3>{destination.name}</h3>
+                        </div>
+                        <span className={styles.typeBadge}>
+                          {destination.type}
+                        </span>
+                      </div>
+
+                      <div className={styles.cardMeta}>
+                        <div>
+                          <span className={styles.metaLabel}>
+                            Stay Duration
+                          </span>
+                          <strong>{destination.stayDuration}</strong>
+                        </div>
+                      </div>
+
+                      <p className={styles.notes}>{destination.notes}</p>
                     </div>
-                  </div>
-
-                  <p className={styles.notes}>{destination.description}</p>
-                </div>
-              </article>
-            ))}
-          </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

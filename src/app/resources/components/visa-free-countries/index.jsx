@@ -1,71 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./visa-free-countries.module.scss";
-
-const countries = [
-  {
-    flag: "🇧🇹",
-    name: "Bhutan",
-    image: "/images/bhutan.png",
-    stayDuration: "Unlimited",
-    type: "Visa-Free",
-    notes:
-      "Indian citizens can enter Bhutan without a visa. Permit may be issued at entry points.",
-    requirement: "Entry permit at border",
-    supportText: "with valid ID/passport",
-  },
-  {
-    flag: "🇳🇵",
-    name: "Nepal",
-    image: "/images/nepal.png",
-    stayDuration: "Unlimited",
-    type: "Visa-Free",
-    notes:
-      "No visa required. Indian citizens can travel using passport or valid ID.",
-    requirement: "Valid ID or passport",
-  },
-  {
-    flag: "🇲🇾",
-    name: "Malaysia",
-    image: "/images/malaysia.png",
-    stayDuration: "Up to 30 days",
-    type: "Visa-Free",
-    notes:
-      "Short-term tourist visits allowed. Passport must be valid for at least 6 months.",
-    requirement: "Passport (6 months validity)",
-  },
-  {
-    flag: "🇲🇴",
-    name: "Macau",
-    image: "/images/macao.png",
-    stayDuration: "Up to 30 days",
-    type: "Visa-Free",
-    notes:
-      "Entry allowed without visa for tourism. Return ticket may be required.",
-    requirement: "Return ticket required",
-  },
-  {
-    flag: "🇰🇿",
-    name: "Kazakhstan",
-    image: "/images/image.png",
-    stayDuration: "Up to 14 days",
-    type: "Visa-Free",
-    notes:
-      "Short stay permitted. Travel insurance and accommodation details may be required.",
-    requirement: "Travel details required",
-  },
-  {
-    flag: "🇵🇭",
-    name: "Philippines",
-    image: "/images/phillipines.png",
-    stayDuration: "Up to 30 days",
-    type: "Visa-Free",
-    notes: "Must have return/onward ticket and proof of sufficient funds.",
-    requirement: "Return ticket + funds proof",
-  },
-];
+import { countries } from "./vfc-data";
 
 const VisaFreeCountries = () => {
+  const allCountries = countries.flatMap((region) => region.list);
+
   return (
     <main className={styles.page}>
       <section className={styles.hero}>
@@ -85,7 +25,7 @@ const VisaFreeCountries = () => {
                   Explore Countries
                 </a>
                 <div className={styles.heroMeta}>
-                  <span>6 destinations</span>
+                  <span>{allCountries.length} destinations</span>
                   <span>Short-stay travel guidance</span>
                 </div>
               </div>
@@ -102,19 +42,24 @@ const VisaFreeCountries = () => {
               </div>
 
               <div className={styles.quickList}>
-                {countries.map((country) => (
-                  <div key={country.name} className={styles.quickItem}>
-                    <span className={styles.quickFlag}>{country.flag}</span>
-                    <div className={styles.quickText}>
+                {allCountries.slice(0, 6).map((country) => (
+                  <Link
+                    key={country.name}
+                    href={`/vfc/${country.name.toLowerCase()}`}
+                    className={styles.quickItem}
+                  >
+                    <div className={styles.quickTextLeft}>
                       <strong>{country.name}</strong>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* <SeasonalPlanner /> */}
 
       <section className={styles.intro}>
         <div className="contain">
@@ -148,42 +93,53 @@ const VisaFreeCountries = () => {
             <h2>Visa-free countries to shortlist for your next trip</h2>
           </div>
 
-          <div className={styles.cardGrid}>
-            {countries.map((country) => (
-              <article key={country.name} className={styles.countryCard}>
-                <div className={styles.cardImageWrap}>
-                  <Image
-                    src={country.image}
-                    alt={country.name}
-                    fill
-                    className={styles.cardImage}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </div>
-
-                <div className={styles.cardContent}>
-                  <div className={styles.cardTop}>
-                    <div>
-                      <h3>{country.name}</h3>
+          {countries.map((region) => (
+            <div key={region.region} className={styles.regionGroup}>
+              <h3 className={styles.regionHeading}>{region.region}</h3>
+              <div className={styles.cardGrid}>
+                {region.list.map((country) => (
+                  <Link
+                    key={country.name}
+                    href={`/vfc/${country.name.toLowerCase()}`}
+                    className={styles.countryCard}
+                  >
+                    <div className={styles.cardImageWrap}>
+                      <Image
+                        src={country.image}
+                        alt={country.name}
+                        fill
+                        className={styles.cardImage}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
                     </div>
-                    <span className={styles.typeBadge}>{country.type}</span>
-                  </div>
 
-                  <div className={styles.cardMeta}>
-                    <div>
-                      <span className={styles.metaLabel}>Stay Duration</span>
-                      <strong>{country.stayDuration}</strong>
-                      {country.supportText ? (
-                        <p>{country.supportText}</p>
-                      ) : null}
+                    <div className={styles.cardContent}>
+                      <div className={styles.cardTop}>
+                        <div>
+                          <h3>{country.name}</h3>
+                        </div>
+                        <span className={styles.typeBadge}>{country.type}</span>
+                      </div>
+
+                      <div className={styles.cardMeta}>
+                        <div>
+                          <span className={styles.metaLabel}>
+                            Stay Duration
+                          </span>
+                          <strong>{country.stayDuration}</strong>
+                          {country.supportText ? (
+                            <p>{country.supportText}</p>
+                          ) : null}
+                        </div>
+                      </div>
+
+                      <p className={styles.notes}>{country.notes}</p>
                     </div>
-                  </div>
-
-                  <p className={styles.notes}>{country.notes}</p>
-                </div>
-              </article>
-            ))}
-          </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

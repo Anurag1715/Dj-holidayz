@@ -31,6 +31,7 @@ const Footer = () => {
         <div className={styles.footerGrid}>
           <div className={styles.footerBrand}>
             <Link href="/" className={styles.logo_wrapper}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/logo/white-split.svg"
                 alt="DJ Holidays Logo"

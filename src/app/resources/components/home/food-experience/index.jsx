@@ -86,6 +86,7 @@ const FoodExperienceSection = () => {
           {/* ORDER FOOD SECTION */}
           <div className={styles.image_top}>
             <div className={styles.image_side}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/food.png"
                 alt="Dining Experience"
@@ -177,6 +178,7 @@ const FoodExperienceSection = () => {
               </div>
             </div>
             <div className={styles.image_bottom}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/delivery-patner.png"
                 alt="Food Delivery"
@@ -201,6 +203,7 @@ const FoodExperienceSection = () => {
                 >
                   <div className={styles.card_header}>
                     <div className={styles.map_wrapper}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={data.image}
                         alt={data.region}

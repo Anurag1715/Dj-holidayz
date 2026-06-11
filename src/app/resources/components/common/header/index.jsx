@@ -179,6 +179,7 @@ const Header = () => {
             <div className={styles.logo_wrapper}>
               <Link className={styles.dj_image_wrapper} href={"/"}>
                 <div>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/logo/red-split.svg"
                     alt="DJ Holidays Logo"

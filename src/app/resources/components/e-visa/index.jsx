@@ -6,184 +6,13 @@ import ForwardIcon from "@/Icons/forward.svg";
 import MouseIcon from "@/Icons/mouse-pointer-click.svg";
 import PlaneIcon from "@/Icons/plane-departure.svg";
 import RocketIcon from "@/Icons/rocket-lunch.svg";
+import { countries } from "./evisa-data";
 
-const countries = [
-  {
-    region: "Asia",
-    list: [
-      {
-        flag: "🇱🇰",
-        name: "Sri Lanka",
-        image: "/images/evisa/sri-lanka.png",
-        stayDuration: "Up to 30 days",
-        type: "ETA",
-        description:
-          "Sri Lanka offers a quick ETA process that can be completed online within minutes. Ideal for short leisure trips.",
-      },
-      {
-        flag: "🇲🇾",
-        name: "Malaysia",
-        image: "/images/evisa/malaysia.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        description:
-          "Malaysia provides a simple online visa process for tourism and short visits. Approval is usually quick and hassle-free.",
-      },
-      {
-        flag: "🇹🇭",
-        name: "Thailand",
-        image: "/images/evisa/thailand.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        description:
-          "Travelers can apply online before arrival, avoiding long queues and ensuring a smoother entry experience.",
-      },
-      {
-        flag: "🇻🇳",
-        name: "Vietnam",
-        image: "/images/evisa/vietnam.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        description:
-          "Vietnam offers a fully digital visa application system with quick processing for tourists.",
-      },
-      {
-        flag: "🇸🇬",
-        name: "Singapore",
-        image: "/images/evisa/singapore.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        description:
-          "A streamlined e-visa process allows travelers to enter Singapore for tourism or business purposes.",
-      },
-      {
-        flag: "🇰🇭",
-        name: "Cambodia",
-        image: "/images/evisa/cambodia.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        description:
-          "Cambodia’s e-visa system is simple and widely used for tourism, with quick approvals.",
-      },
-      {
-        flag: "🇵🇭",
-        name: "Philippines",
-        image: "/images/evisa/philippines.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        description:
-          "Offers an easy online visa process for Indian travelers planning short visits.",
-      },
-    ],
-  },
-  {
-    region: "Middle East",
-    list: [
-      {
-        flag: "🇦🇪",
-        name: "UAE",
-        image: "/images/evisa/uae.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        description:
-          "UAE provides a fast and efficient online visa system, commonly used for tourism and business trips.",
-      },
-      {
-        flag: "🇴🇲",
-        name: "Oman",
-        image: "/images/evisa/oman.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        description:
-          "Oman offers a straightforward online visa process for short-term visits.",
-      },
-      {
-        flag: "🇸🇦",
-        name: "Saudi Arabia",
-        image: "/images/evisa/saudi-arabia.png",
-        stayDuration: "Up to 90 days",
-        type: "E-Visa",
-        description:
-          "Saudi Arabia’s e-visa allows travelers to explore the country for tourism with a simple online application.",
-      },
-    ],
-  },
-  {
-    region: "Europe",
-    list: [
-      {
-        flag: "🇦🇲",
-        name: "Armenia",
-        image: "/images/evisa/armenia.png",
-        stayDuration: "21–30 days",
-        type: "E-Visa / VoA",
-        description:
-          "Armenia offers flexible entry options with both e-visa and visa on arrival, making it a convenient European destination.",
-      },
-      {
-        flag: "🇬🇪",
-        name: "Georgia",
-        image: "/images/evisa/georgia.png",
-        stayDuration: "Up to 90 days",
-        type: "E-Visa",
-        description:
-          "Georgia provides a simple e-visa process and allows extended stays, making it popular among travelers.",
-      },
-      {
-        flag: "🇦🇱",
-        name: "Albania",
-        image: "/images/evisa/albania.png",
-        stayDuration: "Up to 90 days",
-        type: "E-Visa",
-        description:
-          "Albania offers an easy online visa process and is known for its scenic landscapes and Mediterranean coastline.",
-      },
-    ],
-  },
-  {
-    region: "Global Access",
-    list: [
-      {
-        flag: "🇦🇺",
-        name: "Australia",
-        image: "/images/evisa/australia.png",
-        stayDuration: "Varies",
-        type: "E-Visa",
-        description:
-          "Australia offers an online visa application process for tourism and short visits with quick processing timelines.",
-      },
-      {
-        flag: "🇳🇿",
-        name: "New Zealand",
-        image: "/images/evisa/new-zealand.png",
-        stayDuration: "Short-term",
-        type: "E-Visa",
-        description:
-          "Travelers can apply online for a visa to explore New Zealand’s natural beauty and landscapes.",
-      },
-      {
-        flag: "🇬🇧",
-        name: "United Kingdom",
-        image: "/images/evisa/uk.png",
-        stayDuration: "Up to 6 months",
-        type: "E-Visa",
-        description:
-          "The UK provides an online visa application system for tourism, business, and short stays.",
-      },
-      {
-        flag: "🇺🇸",
-        name: "United States",
-        image: "/images/evisa/us.png",
-        stayDuration: "Varies",
-        type: "E-Visa",
-        description:
-          "The U.S. visa process includes an online application followed by additional steps for approval.",
-      },
-    ],
-  },
-];
+const toSlug = (name) => name.toLowerCase().replace(/\s+/g, "-");
 
 const EVisaETA = () => {
+  const allCountries = countries.flatMap((region) => region.list);
+
   return (
     <main className={styles.page}>
       <section className={styles.hero}>
@@ -204,7 +33,7 @@ const EVisaETA = () => {
                   Explore Destinations
                 </a>
                 <div className={styles.heroMeta}>
-                  <span>20+ countries</span>
+                  <span>{allCountries.length}+ countries</span>
                   <span>Fast-track processing</span>
                 </div>
               </div>
@@ -221,20 +50,17 @@ const EVisaETA = () => {
               </div>
 
               <div className={styles.quickList}>
-                {[
-                  { flag: "🇱🇰", name: "Sri Lanka" },
-                  { flag: "🇲🇾", name: "Malaysia" },
-                  { flag: "🇹🇭", name: "Thailand" },
-                  { flag: "🇦🇪", name: "UAE" },
-                  { flag: "🇻🇳", name: "Vietnam" },
-                  { flag: "🇹🇷", name: "Turkey" },
-                ].map((country, i) => (
-                  <div key={i} className={styles.quickItem}>
-                    <span className={styles.quickFlag}>{country.flag}</span>
+                {allCountries.slice(0, 6).map((country) => (
+                  <Link
+                    key={country.name}
+                    href={`/e-visa/${toSlug(country.name)}`}
+                    className={styles.quickItem}
+                  >
+                    {/* <span className={styles.quickFlag}>{country.flag}</span> */}
                     <div className={styles.quickText}>
                       <strong>{country.name}</strong>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -278,7 +104,11 @@ const EVisaETA = () => {
               <h3 className={styles.regionHeading}>{region.region}</h3>
               <div className={styles.cardGrid}>
                 {region.list.map((country) => (
-                  <article key={country.name} className={styles.countryCard}>
+                  <Link
+                    key={country.name}
+                    href={`/e-visa/${toSlug(country.name)}`}
+                    className={styles.countryCard}
+                  >
                     <div className={styles.cardImageWrap}>
                       <Image
                         src={country.image}
@@ -300,9 +130,9 @@ const EVisaETA = () => {
                         <strong>{country.stayDuration}</strong>
                       </div>
 
-                      <p className={styles.notes}>{country.description}</p>
+                      <p className={styles.notes}>{country.notes}</p>
                     </div>
-                  </article>
+                  </Link>
                 ))}
               </div>
             </div>
