@@ -32,7 +32,10 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Tiger's Nest Monastery", image: "/images/vfc/ta-bhutan-1.jpeg" },
+          {
+            title: "Tiger's Nest Monastery",
+            image: "/images/vfc/ta-bhutan-1.jpeg",
+          },
           { title: "Trongsa Dzong", image: "/images/vfc/ta-bhutan-2-v2.jpg" },
           { title: "Dochula Pass", image: "/images/vfc/ta-bhutan-3.jpg" },
         ],
@@ -67,7 +70,10 @@ export const countries = [
         },
         attractions: [
           { title: "Everest Base Camp", image: "/images/vfc/nepal-ta-1.jpg" },
-          { title: "Pashupatinath Temple", image: "/images/vfc/nepal-ta-2.png" },
+          {
+            title: "Pashupatinath Temple",
+            image: "/images/vfc/nepal-ta-2.png",
+          },
           { title: "Phewa Lake, Pokhara", image: "/images/vfc/nepal-ta-3.jpg" },
         ],
       },
@@ -100,7 +106,10 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Petronas Twin Towers", image: "/images/vfc/malaysia-ta-1.jpg" },
+          {
+            title: "Petronas Twin Towers",
+            image: "/images/vfc/malaysia-ta-1.jpg",
+          },
           { title: "Batu Caves", image: "/images/vfc/malaysia-ta-2.jpg" },
           { title: "Mount Kinabalu", image: "/images/vfc/malaysia-ta-3.jpg" },
         ],
@@ -134,7 +143,10 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Ruins of St. Paul's", image: "/images/vfc/discover-1-macau.jpg" },
+          {
+            title: "Ruins of St. Paul's",
+            image: "/images/vfc/discover-1-macau.jpg",
+          },
           { title: "Senado Square", image: "/images/vfc/ta-macau-2.jpg" },
           { title: "Macau Tower", image: "/images/vfc/ta-macau-3.jpg" },
         ],
@@ -169,8 +181,14 @@ export const countries = [
         },
         attractions: [
           { title: "Kaindy Lake", image: "/images/vfc/ta-kazakhstan-1.jpg" },
-          { title: "Medeu Skating Rink", image: "/images/vfc/ta-kazakhstan-2.jpg" },
-          { title: "Hazret Sultan Mosque", image: "/images/vfc/ta-kazakhstan-3.jpg" },
+          {
+            title: "Medeu Skating Rink",
+            image: "/images/vfc/ta-kazakhstan-2.jpg",
+          },
+          {
+            title: "Hazret Sultan Mosque",
+            image: "/images/vfc/ta-kazakhstan-3.jpg",
+          },
         ],
       },
       {
@@ -203,8 +221,14 @@ export const countries = [
         },
         attractions: [
           { title: "Kawasan Falls", image: "/images/vfc/ta-philippines-1.jpg" },
-          { title: "Banaue Rice Terraces", image: "/images/vfc/ta-philippines-2.jpg" },
-          { title: "Mayon Volcano", image: "/images/vfc/ta-philippines-3.webp" },
+          {
+            title: "Banaue Rice Terraces",
+            image: "/images/vfc/ta-philippines-2.jpg",
+          },
+          {
+            title: "Mayon Volcano",
+            image: "/images/vfc/ta-philippines-3.webp",
+          },
         ],
       },
     ],
@@ -241,8 +265,14 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Black River Gorges", image: "/images/vfc/ta-mauritius-1.jpg" },
-          { title: "Pamplemousses Garden", image: "/images/vfc/ta-mauritius-2.jpg" },
+          {
+            title: "Black River Gorges",
+            image: "/images/vfc/ta-mauritius-1.jpg",
+          },
+          {
+            title: "Pamplemousses Garden",
+            image: "/images/vfc/ta-mauritius-2.jpg",
+          },
           { title: "Trou aux Cerfs", image: "/images/vfc/ta-mauritius-3.jpg" },
         ],
       },
@@ -275,9 +305,18 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Beau Vallon Beach", image: "/images/vfc/ta-seychelles-1.jpg" },
-          { title: "Morne Seychellois Park", image: "/images/vfc/ta-seychelles-2.jpg" },
-          { title: "Curieuse Island", image: "/images/vfc/ta-seychelles-3.jpg" },
+          {
+            title: "Beau Vallon Beach",
+            image: "/images/vfc/ta-seychelles-1.jpg",
+          },
+          {
+            title: "Morne Seychellois Park",
+            image: "/images/vfc/ta-seychelles-2.jpg",
+          },
+          {
+            title: "Curieuse Island",
+            image: "/images/vfc/ta-seychelles-3.jpg",
+          },
         ],
       },
     ],
@@ -346,9 +385,15 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Chief Roi Mata's Domain", image: "/images/vfc/ta-vanuatu-1.jpg" },
+          {
+            title: "Chief Roi Mata's Domain",
+            image: "/images/vfc/ta-vanuatu-1.jpg",
+          },
           { title: "Champagne Beach", image: "/images/vfc/ta-vanuatu-2.jpg" },
-          { title: "Hideaway Island Reserve", image: "/images/vfc/ta-vanuatu-3.avif" },
+          {
+            title: "Hideaway Island Reserve",
+            image: "/images/vfc/ta-vanuatu-3.avif",
+          },
         ],
       },
     ],
@@ -384,8 +429,14 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Animal Flower Cave", image: "/images/vfc/ta-barbados-1.jpg" },
-          { title: "St. Nicholas Abbey", image: "/images/vfc/ta-barbados-2.jpg" },
+          {
+            title: "Animal Flower Cave",
+            image: "/images/vfc/ta-barbados-1.jpg",
+          },
+          {
+            title: "St. Nicholas Abbey",
+            image: "/images/vfc/ta-barbados-2.jpg",
+          },
           { title: "Oistins Fish Fry", image: "/images/vfc/ta-barbados-3.jpg" },
         ],
       },
@@ -417,9 +468,15 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Morne Trois Pitons", image: "/images/vfc/ta-dominica-1.jpg" },
+          {
+            title: "Morne Trois Pitons",
+            image: "/images/vfc/ta-dominica-1.jpg",
+          },
           { title: "Champagne Reef", image: "/images/vfc/ta-dominica-2.jpg" },
-          { title: "Cabrits National Park", image: "/images/vfc/ta-dominica-3.webp" },
+          {
+            title: "Cabrits National Park",
+            image: "/images/vfc/ta-dominica-3.webp",
+          },
         ],
       },
     ],

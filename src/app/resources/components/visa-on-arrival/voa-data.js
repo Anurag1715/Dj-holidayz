@@ -35,8 +35,14 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Uluwatu Temple", image: "/images/voa/ta-attraction-1.avif" },
-          { title: "Ubud Rice Terraces", image: "/images/voa/ta-indonesia-2.jpg" },
+          {
+            title: "Uluwatu Temple",
+            image: "/images/voa/ta-attraction-1.avif",
+          },
+          {
+            title: "Ubud Rice Terraces",
+            image: "/images/voa/ta-indonesia-2.jpg",
+          },
           { title: "Mount Batur", image: "/images/voa/ta-indonesia-3.jpg" },
         ],
       },
@@ -308,8 +314,14 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Serengeti National Park", image: "/images/voa/ta-tanzania-1.jpg" },
-          { title: "Mount Kilimanjaro", image: "/images/voa/ta-tanzania-2.avif" },
+          {
+            title: "Serengeti National Park",
+            image: "/images/voa/ta-tanzania-1.jpg",
+          },
+          {
+            title: "Mount Kilimanjaro",
+            image: "/images/voa/ta-tanzania-2.avif",
+          },
           { title: "Lake Manyara", image: "/images/voa/ta-tanzania-3.jpg" },
         ],
       },
@@ -345,7 +357,10 @@ export const countries = [
         },
         attractions: [
           { title: "Victoria Falls", image: "/images/voa/ta-zimbabwe-1.jpg" },
-          { title: "Hwange National Park", image: "/images/voa/ta-zimbabwe-3.jpg" },
+          {
+            title: "Hwange National Park",
+            image: "/images/voa/ta-zimbabwe-3.jpg",
+          },
           { title: "Chinhoyi Caves", image: "/images/voa/ta-zimbabwe-2.jpg" },
         ],
       },

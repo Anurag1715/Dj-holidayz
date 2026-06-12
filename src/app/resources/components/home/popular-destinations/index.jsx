@@ -90,9 +90,7 @@ const PopularDestinationsSection = () => {
                 </div>
 
                 <div className={styles.dj_footer}>
-                  <span className={styles.dj_btn}>
-                    Explore More
-                  </span>
+                  <span className={styles.dj_btn}>Explore More</span>
                 </div>
               </div>
             </Link>

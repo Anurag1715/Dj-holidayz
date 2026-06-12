@@ -33,9 +33,18 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Sigiriya Rock", image: "/images/evisa/ta-attraction-1.jpg" },
-          { title: "Temple of the Tooth", image: "/images/evisa/ta-srilanka-2.webp" },
-          { title: "Yala National Park", image: "/images/evisa/ta-srilanka-3.jpg" },
+          {
+            title: "Sigiriya Rock",
+            image: "/images/evisa/ta-attraction-1.jpg",
+          },
+          {
+            title: "Temple of the Tooth",
+            image: "/images/evisa/ta-srilanka-2.webp",
+          },
+          {
+            title: "Yala National Park",
+            image: "/images/evisa/ta-srilanka-3.jpg",
+          },
         ],
       },
       {
@@ -70,7 +79,10 @@ export const countries = [
         },
         attractions: [
           { title: "Ha Long Bay", image: "/images/evisa/ta-vietnam-1.jpg" },
-          { title: "Hoi An Ancient Town", image: "/images/evisa/ta-vietnam-2.jpg" },
+          {
+            title: "Hoi An Ancient Town",
+            image: "/images/evisa/ta-vietnam-2.jpg",
+          },
           { title: "Phong Nha Caves", image: "/images/evisa/ta-vietnam-3.jpg" },
         ],
       },
@@ -105,9 +117,18 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Marina Bay Sands", image: "/images/evisa/ta-singapore-1.jpg" },
-          { title: "Gardens by the Bay", image: "/images/evisa/ta-attraction-2.jpg" },
-          { title: "Sentosa Island", image: "/images/evisa/ta-singapore-3.jpg" },
+          {
+            title: "Marina Bay Sands",
+            image: "/images/evisa/ta-singapore-1.jpg",
+          },
+          {
+            title: "Gardens by the Bay",
+            image: "/images/evisa/ta-attraction-2.jpg",
+          },
+          {
+            title: "Sentosa Island",
+            image: "/images/evisa/ta-singapore-3.jpg",
+          },
         ],
       },
     ],
@@ -183,7 +204,10 @@ export const countries = [
         },
         attractions: [
           { title: "AlUla", image: "/images/evisa/ta-saudi-1.jpg" },
-          { title: "Edge of the World", image: "/images/evisa/ta-saudi-2.webp" },
+          {
+            title: "Edge of the World",
+            image: "/images/evisa/ta-saudi-2.webp",
+          },
           { title: "Diriyah", image: "/images/evisa/ta-saudi-3.jpeg" },
         ],
       },
@@ -223,8 +247,14 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Gergeti Trinity Church", image: "/images/evisa/ta-georgia-1.jpg" },
-          { title: "Tbilisi Old Town", image: "/images/evisa/ta-georgia-2.webp" },
+          {
+            title: "Gergeti Trinity Church",
+            image: "/images/evisa/ta-georgia-1.jpg",
+          },
+          {
+            title: "Tbilisi Old Town",
+            image: "/images/evisa/ta-georgia-2.webp",
+          },
           { title: "Uplistsikhe", image: "/images/evisa/ta-georgia-3.jpg" },
         ],
       },
@@ -265,9 +295,15 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Sydney Opera House", image: "/images/evisa/ta-australia-1.jpg" },
+          {
+            title: "Sydney Opera House",
+            image: "/images/evisa/ta-australia-1.jpg",
+          },
           { title: "Bondi Beach", image: "/images/evisa/ta-australia-2.jpg" },
-          { title: "Blue Mountains", image: "/images/evisa/ta-australia-3.jpg" },
+          {
+            title: "Blue Mountains",
+            image: "/images/evisa/ta-australia-3.jpg",
+          },
         ],
       },
       {

@@ -25,7 +25,9 @@ const TopAttractions = ({ country }) => {
       <div className={styles.dj_content_wrapper}>
         <div className={styles.dj_top_section}>
           <p className={styles.dj_tagline}>Top Attractions</p>
-          <p className={styles.dj_subtitle}>Must-visit places in {country.name}</p>
+          <p className={styles.dj_subtitle}>
+            Must-visit places in {country.name}
+          </p>
         </div>
       </div>
       <div className={styles.grid}>
