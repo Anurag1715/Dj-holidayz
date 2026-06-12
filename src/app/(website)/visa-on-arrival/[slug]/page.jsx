@@ -2,6 +2,7 @@ import React from "react";
 import DetailsHero from "@/app/resources/components/visa-free-countries/details-hero";
 import Guidelines from "@/app/resources/components/visa-free-countries/guidelines";
 import Discover from "@/app/resources/components/visa-free-countries/discover";
+import TopAttractions from "@/app/resources/components/visa-free-countries/top-attractions";
 import styles from "@/app/resources/components/visa-free-countries/visa-free-countries.module.scss";
 import { countries } from "@/app/resources/components/visa-on-arrival/voa-data";
 
@@ -39,6 +40,7 @@ const VOADetailsPage = async (props) => {
         />
         <Guidelines country={countryData} />
         <Discover country={countryData} />
+        <TopAttractions country={countryData} />
       </div>
     </main>
   );

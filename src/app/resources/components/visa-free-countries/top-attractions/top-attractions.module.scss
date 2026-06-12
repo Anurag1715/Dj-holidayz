@@ -1,0 +1,114 @@
+@use "../../../styles/mixin" as *;
+
+.section {
+  padding-block: 2.5rem;
+}
+
+.dj_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+
+.dj_top_section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  .dj_tagline {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(90deg, #c91e20 0%, #8a1516 100%);
+    border-radius: 0.93rem;
+    padding: 0.31rem 1.25rem;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+    @include laptop {
+      font-size: 1.25rem;
+    }
+
+    @include mini {
+      font-size: 1.125rem;
+      padding: 0.3rem 0.9rem;
+    }
+  }
+
+  .dj_subtitle {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    max-width: 577px;
+    margin: auto;
+    color: rgba(25, 32, 36, 0.8);
+
+    @include sm {
+      font-size: 0.85rem;
+      line-height: 1rem;
+    }
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+
+  @include mini {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  // box-shadow: 0 10px 30px rgba(25, 32, 36, 0.06);
+  aspect-ratio: 4 / 3;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  // &:hover {
+  //   transform: translateY(-5px);
+  //   // box-shadow: 0 15px 40px rgba(25, 32, 36, 0.12);
+  // }
+
+  .image {
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  &:hover .image {
+    transform: scale(1.05);
+  }
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 50%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  color: white;
+
+  h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.25rem;
+  }
+}

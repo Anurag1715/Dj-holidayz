@@ -6,8 +6,8 @@ export const countries = [
         flag: "🇮🇩",
         name: "Indonesia",
         image: "/images/indonesia.png",
-        discoverImage1: "/images/indonesia.png",
-        discoverImage2: "/images/indonesia.png",
+        discoverImage1: "/images/voa/discover-indonesia-1.avif",
+        discoverImage2: "/images/voa/discover-indonesia-2.avif",
         stayDuration: "Up to 30 days",
         type: "Visa on Arrival",
         notes:
@@ -34,13 +34,18 @@ export const countries = [
             text: "Discover the ancient Borobudur temple, the largest Buddhist monument in the world, and savor rich flavors of Nasi Goreng, Rendang, and freshly grilled Satay from bustling street-side warungs.",
           },
         },
+        attractions: [
+          { title: "Uluwatu Temple", image: "/images/voa/ta-attraction-1.avif" },
+          { title: "Ubud Rice Terraces", image: "/images/voa/ta-indonesia-2.jpg" },
+          { title: "Mount Batur", image: "/images/voa/ta-indonesia-3.jpg" },
+        ],
       },
       {
         flag: "🇱🇦",
         name: "Laos",
-        image: "/images/laos.png",
-        discoverImage1: "/images/laos.png",
-        discoverImage2: "/images/laos.png",
+        image: "/images/voa/laos-hero.webp",
+        discoverImage1: "/images/voa/discover-1-laos.jpg",
+        discoverImage2: "/images/voa/discover-laos-2.jpg",
         stayDuration: "Up to 30 days",
         type: "Visa on Arrival",
         notes:
@@ -57,22 +62,27 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Luang Prabang & Kuang Si Waterfalls",
-            text: "Wander through the UNESCO-listed streets of Luang Prabang at dawn to witness monks collecting alms, then cool off in the turquoise cascading pools of Kuang Si Falls surrounded by jungle.",
+            title: "Mekong River Cruises & Ancient Ruins",
+            text: "Sail down the serene Mekong River taking in lush jungle landscapes, and explore the mysterious ancient sites of the Plain of Jars across the misty Xieng Khouang Plateau.",
           },
           culture: {
-            title: "Buddhist Monasteries & Lao River Cuisine",
-            text: "Experience the deeply spiritual Buddhist traditions at Wat Xieng Thong, cruise the mighty Mekong River, and enjoy authentic Laap (minced meat salad) and sticky rice prepared the traditional way.",
+            title: "Buddhist Monasteries & Lao Cuisine",
+            text: "Experience deeply spiritual traditions at the historic Wat Xieng Thong, explore the sacred Pak Ou Caves, and enjoy authentic Laap and sticky rice prepared the traditional way.",
           },
         },
+        attractions: [
+          { title: "Kuang Si Falls", image: "/images/voa/ta-laos-1.webp" },
+          { title: "Pha That Luang", image: "/images/voa/ta-laos-3.jpg" },
+          { title: "Vang Vieng", image: "/images/voa/ta-attraction-3.jpg" },
+        ],
       },
       {
         flag: "🇲🇲",
         name: "Myanmar",
         image: "/images/image copy.png",
-        discoverImage1: "/images/image copy.png",
-        discoverImage2: "/images/image copy.png",
-        stayDuration: "Up to 28 days",
+        discoverImage1: "/images/voa/discover-myanmar-1.jpg",
+        discoverImage2: "/images/voa/discover-myanmar-2.webp",
+        stayDuration: "Up to 30 days",
         type: "Visa on Arrival",
         notes:
           "Visa on arrival is available under specific conditions. Travelers should ensure they meet entry requirements before arrival.",
@@ -88,21 +98,26 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Bagan Temples & Inle Lake",
-            text: "Watch the sunrise over 2,000 ancient pagodas scattered across the plains of Bagan, and glide through the serene floating gardens and stilt villages of Inle Lake by traditional longboat.",
+            title: "Irrawaddy Cruises & Pristine Beaches",
+            text: "Glide along the historic Irrawaddy River on a traditional riverboat, trek through misty mountain villages in Shan State, and relax on the untouched white sands of Ngapali Beach.",
           },
           culture: {
-            title: "Golden Pagodas & Burmese Tea Culture",
-            text: "Visit the awe-inspiring Shwedagon Pagoda covered in real gold leaf, explore vibrant local markets, and enjoy traditional Mohinga (fish noodle soup), the beloved national breakfast dish.",
+            title: "Monastic Life & Burmese Tea Culture",
+            text: "Immerse yourself in deeply spiritual traditions at the Mahamuni Buddha Temple, walk across the iconic U Bein Bridge at sunset, and enjoy traditional Mohinga, the beloved national breakfast dish.",
           },
         },
+        attractions: [
+          { title: "Bagan Temples", image: "/images/voa/ta-myanmar-1.avif" },
+          { title: "Inle Lake", image: "/images/voa/ta-myanmar-2.jpg" },
+          { title: "Shwedagon Pagoda", image: "/images/voa/ta-myanmar-3.jpg" },
+        ],
       },
       {
         flag: "🇰🇭",
         name: "Cambodia",
-        image: "/images/evisa/cambodia.png",
-        discoverImage1: "/images/evisa/cambodia.png",
-        discoverImage2: "/images/evisa/cambodia.png",
+        image: "/images/voa/cambodia-hero.avif",
+        discoverImage1: "/images/voa/discover-1-cambodia.jpg",
+        discoverImage2: "/images/voa/discover-cambodia-2.jpg",
         stayDuration: "Up to 30 days",
         type: "Visa on Arrival",
         notes:
@@ -119,21 +134,26 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Angkor Wat & Tonlé Sap Lake",
-            text: "Witness the magnificent sunrise over Angkor Wat, the largest religious monument in the world, explore the labyrinth of Ta Prohm temple engulfed by giant tree roots, and visit the floating villages of Tonlé Sap.",
+            title: "Jungle Trails & Tropical Islands",
+            text: "Cycle through dense rainforest paths to uncover forgotten, moss-covered ruins like Beng Mealea, explore the Cardamom Mountains, and relax on the pristine white-sand beaches of Koh Rong.",
           },
           culture: {
             title: "Khmer Heritage & Amok Fish Curry",
-            text: "Discover ancient Khmer civilization through intricate stone carvings, enjoy traditional Apsara dance performances, and taste the iconic Fish Amok steamed in banana leaves with aromatic kroeung paste.",
+            text: "Discover majestic royal architecture at the Phnom Penh Royal Palace, marvel at the gleaming Silver Pagoda, and taste the iconic Fish Amok steamed in banana leaves with aromatic spices.",
           },
         },
+        attractions: [
+          { title: "Angkor Wat", image: "/images/voa/ta-cambodia-1.webp" },
+          { title: "Bayon Temple", image: "/images/voa/ta-attraction-2.jpg" },
+          { title: "Tonlé Sap", image: "/images/voa/ta-cambodia-3.jpg" },
+        ],
       },
       {
         flag: "🇹🇭",
         name: "Thailand",
-        image: "/images/evisa/thailand.png",
-        discoverImage1: "/images/evisa/thailand.png",
-        discoverImage2: "/images/evisa/thailand.png",
+        image: "/images/voa/thailand-home.webp",
+        discoverImage1: "/images/voa/discover-thailand-1.jpg",
+        discoverImage2: "/images/voa/discover-thailand-2.avif",
         stayDuration: "Up to 15 days",
         type: "Visa on Arrival",
         notes:
@@ -153,14 +173,19 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Bangkok Temples & Phi Phi Islands",
-            text: "Explore the ornate Grand Palace and Wat Pho's reclining Buddha in Bangkok, then escape to the crystal-clear waters of Phi Phi Islands for world-class snorkeling and diving adventures.",
+            title: "Lush Jungles & Andaman Coastlines",
+            text: "Trek through the ancient rainforests of Khao Sok National Park, visit ethical elephant sanctuaries in Chiang Dao, and relax on the stunning limestone-framed shores of Railay Beach.",
           },
           culture: {
             title: "Night Markets & Tom Yum Traditions",
-            text: "Navigate the buzzing night markets of Chiang Mai, participate in a traditional Thai cooking class, and savor authentic Tom Yum Goong, Pad Thai, and sweet Mango Sticky Rice from street vendors.",
+            text: "Marvel at the massive Reclining Buddha at Wat Pho, navigate the vibrant stalls of Damnoen Saduak Floating Market, and savor authentic Tom Yum Goong and sweet Mango Sticky Rice.",
           },
         },
+        attractions: [
+          { title: "Grand Palace", image: "/images/voa/ta-thailand-1.jpg" },
+          { title: "Phi Phi Islands", image: "/images/voa/ta-thailand-2.jpg" },
+          { title: "Ayutthaya", image: "/images/voa/ta-thailand-3.jpg" },
+        ],
       },
     ],
   },
@@ -170,9 +195,9 @@ export const countries = [
       {
         flag: "🇲🇻",
         name: "Maldives",
-        image: "/images/indonesia.png",
-        discoverImage1: "/images/indonesia.png",
-        discoverImage2: "/images/food.png",
+        image: "/images/voa/maldiver-hero.jpg",
+        discoverImage1: "/images/voa/discover-maldives-1.jpg",
+        discoverImage2: "/images/voa/discover-maldives-2.jpg",
         stayDuration: "Up to 30 days",
         type: "Visa on Arrival",
         notes:
@@ -191,13 +216,18 @@ export const countries = [
         discover: {
           tourism: {
             title: "Overwater Villas & Turquoise Lagoons",
-            text: "Relax on pristine white-sand beaches, stay in world-famous overwater private villas, and snorkel among vibrant coral reefs teeming with sea turtles and reef sharks.",
+            text: "Swim alongside majestic whale sharks in the South Ari Atoll, experience the glowing bioluminescent 'Sea of Stars' on Vaadhoo Island, and stay in world-famous overwater private villas.",
           },
           culture: {
             title: "Dhivehi Hospitality & Fresh Seafood",
-            text: "Experience warm Maldivian culture, enjoy traditional Boduberu drumming performances, and savor fresh grilled reef fish and coconut-infused Garudhiya fish broth.",
+            text: "Explore the historic coral-stone architecture of the Male Friday Mosque (Hukuru Miskiy), enjoy traditional Boduberu drumming, and savor coconut-infused Garudhiya fish broth.",
           },
         },
+        attractions: [
+          { title: "Maafushi", image: "/images/voa/ta-maldives-1.avif" },
+          { title: "Male Atoll", image: "/images/voa/ta-maldives-2.jpg" },
+          { title: "Baa Atoll", image: "/images/voa/ta-maldives-3.jpg" },
+        ],
       },
     ],
   },
@@ -207,9 +237,9 @@ export const countries = [
       {
         flag: "🇯🇴",
         name: "Jordan",
-        image: "/images/nepal.png",
-        discoverImage1: "/images/nepal.png",
-        discoverImage2: "/images/nepal.png",
+        image: "/images/voa/jordan-hero.jpg",
+        discoverImage1: "/images/voa/discover-jordan-1.jpg",
+        discoverImage2: "/images/voa/discover-jordan-2.webp",
         stayDuration: "Up to 30 days",
         type: "Visa on Arrival",
         notes:
@@ -227,14 +257,19 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Ancient Petra & Floating in the Dead Sea",
-            text: "Walk through the narrow Siq canyon to witness the rose-red Treasury of ancient Petra, then head to the lowest point on earth to effortlessly float in the salt-rich waters of the Dead Sea.",
+            title: "Roman Ruins & Red Sea Reefs",
+            text: "Hike the scenic trails of the Dana Biosphere Reserve, discover incredibly preserved Roman architecture at Jerash, and marvel at colorful coral reefs while snorkeling in the warm waters of Aqaba.",
           },
           culture: {
             title: "Bedouin Hospitality & Mansaf Traditions",
-            text: "Sleep beneath a canopy of stars in a Martian-like desert camp at Wadi Rum, share hot sweet mint tea with local Bedouins, and dine on traditional Mansaf (tender lamb cooked in fermented yogurt sauce over rice).",
+            text: "Explore the ancient ruins at the Amman Citadel, admire the famous Byzantine mosaic map in Madaba, and dine on traditional Mansaf cooked in fermented yogurt sauce over rice.",
           },
         },
+        attractions: [
+          { title: "Petra", image: "/images/voa/ta-jordan-1.jpg" },
+          { title: "Dead Sea", image: "/images/voa/ta-attraction-3.webp" },
+          { title: "Wadi Rum", image: "/images/voa/ta-jordan-3.webp" },
+        ],
       },
     ],
   },
@@ -244,9 +279,9 @@ export const countries = [
       {
         flag: "🇹🇿",
         name: "Tanzania",
-        image: "/images/nepal.png",
-        discoverImage1: "/images/nepal.png",
-        discoverImage2: "/images/food.png",
+        image: "/images/voa/tanzania-hero.jpg",
+        discoverImage1: "/images/voa/discover-tanzania-1.webp",
+        discoverImage2: "/images/voa/discover-tanzania-2.png",
         stayDuration: "Up to 90 days",
         type: "Visa on Arrival",
         notes:
@@ -264,21 +299,26 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Serengeti Safaris & Mount Kilimanjaro",
-            text: "Witness the spectacular Great Wildebeest Migration in the Serengeti National Park, explore the ancient Ngorongoro Crater, and gaze up at the snow-capped peak of Mount Kilimanjaro.",
+            title: "Vast Savannas & Sunrise Safaris",
+            text: "Spot the Big Five descending into the incredible Ngorongoro Crater, marvel at the massive elephant herds in Tarangire National Park, and drift over the landscape in a breathtaking hot air balloon.",
           },
           culture: {
-            title: "Zanzibar Stone Town & Swahili Spices",
-            text: "Wander through the historic labyrinth of Stone Town in Zanzibar, visit fragrant spice plantations, and taste traditional Swahili biryani and coconut fish curries along the coast.",
+            title: "Coastal Labyrinths & Swahili Spices",
+            text: "Wander through the historic, winding alleyways of Stone Town in Zanzibar, experience traditional Maasai boma village life, and taste authentic Swahili biryani and coconut fish curries.",
           },
         },
+        attractions: [
+          { title: "Serengeti National Park", image: "/images/voa/ta-tanzania-1.jpg" },
+          { title: "Mount Kilimanjaro", image: "/images/voa/ta-tanzania-2.avif" },
+          { title: "Lake Manyara", image: "/images/voa/ta-tanzania-3.jpg" },
+        ],
       },
       {
         flag: "🇿🇼",
         name: "Zimbabwe",
-        image: "/images/nepal.png",
-        discoverImage1: "/images/nepal.png",
-        discoverImage2: "/images/nepal.png",
+        image: "/images/voa/zimbabwe-hero.jpg",
+        discoverImage1: "/images/voa/discover-zimbabwe-1.jpg",
+        discoverImage2: "/images/voa/discover-zimbabwe-2.jpg",
         stayDuration: "Up to 30 days",
         type: "Visa on Arrival",
         notes:
@@ -295,14 +335,19 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "The Thunder of Victoria Falls",
-            text: "Stand directly at the edge of Victoria Falls, the largest curtain of falling water in the world, and track massive elephant herds through the pristine wilderness of Hwange National Park.",
+            title: "River Cruises & Walking Safaris",
+            text: "Take a tranquil sunset cruise on the massive Lake Kariba, embark on thrilling walking safaris in Mana Pools National Park, and spot roaming rhinos in the spectacular granite hills of Matobo.",
           },
           culture: {
-            title: "Great Zimbabwe Ruins & Shona Stone Sculptures",
-            text: "Explore the towering medieval dry-stone structures of the Great Zimbabwe monument, and admire complex Shona stone sculptures hand-carved by local artisans in Harare's cultural markets.",
+            title: "Tribal Heritage & Stone Sculptures",
+            text: "Explore the fascinating ancient Khami Ruins near Bulawayo, admire complex Shona stone sculptures at the National Gallery in Harare, and experience vibrant traditional music and dance performances.",
           },
         },
+        attractions: [
+          { title: "Victoria Falls", image: "/images/voa/ta-zimbabwe-1.jpg" },
+          { title: "Hwange National Park", image: "/images/voa/ta-zimbabwe-3.jpg" },
+          { title: "Chinhoyi Caves", image: "/images/voa/ta-zimbabwe-2.jpg" },
+        ],
       },
     ],
   },

@@ -10,36 +10,42 @@ const destinations = [
     tag: "Visa Free",
     image: "/images/malaysia.png",
     desc: "Modern skylines and heritage charm.",
+    link: "/vfc/malaysia",
   },
   {
     name: "Thailand",
     tag: "Visa Free",
     image: "/images/evisa/thailand.png",
     desc: "Bustling markets and serene beaches.",
+    link: "/visa-on-arrival/thailand",
   },
   {
     name: "Mauritius",
     tag: "Visa Free",
     image: "/images/evisa/sri-lanka.png",
     desc: "A tropical paradise in the Indian Ocean.",
+    link: "/vfc/mauritius",
   },
   {
     name: "Seychelles",
     tag: "Visa Free",
     image: "/images/evisa/vietnam.png",
     desc: "Untouched nature and crystal clear waters.",
+    link: "/vfc/seychelles",
   },
   {
     name: "Nepal",
     tag: "Visa Free",
     image: "/images/nepal.png",
     desc: "The roof of the world and cultural richness.",
+    link: "/vfc/nepal",
   },
   {
     name: "Bhutan",
     tag: "Visa Free",
     image: "/images/bhutan.png",
     desc: "The land of happiness and peace.",
+    link: "/vfc/bhutan",
   },
 ];
 
@@ -59,7 +65,7 @@ const PopularDestinationsSection = () => {
 
         <div className={styles.dj_cardContainer}>
           {destinations.map((dest, i) => (
-            <div key={i} className={styles.dj_card}>
+            <Link key={i} href={dest.link} className={styles.dj_card}>
               <div className={styles.dj_imageWrapper}>
                 <Image
                   src={dest.image}
@@ -84,12 +90,12 @@ const PopularDestinationsSection = () => {
                 </div>
 
                 <div className={styles.dj_footer}>
-                  <Link href={`/`} className={styles.dj_btn}>
+                  <span className={styles.dj_btn}>
                     Explore More
-                  </Link>
+                  </span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

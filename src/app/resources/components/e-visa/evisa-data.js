@@ -6,8 +6,8 @@ export const countries = [
         flag: "🇱🇰",
         name: "Sri Lanka",
         image: "/images/evisa/sri-lanka.png",
-        discoverImage1: "/images/evisa/sri-lanka.png",
-        discoverImage2: "/images/evisa/sri-lanka.png",
+        discoverImage1: "/images/voa/discover-srilanka-1.webp",
+        discoverImage2: "/images/vfc/discover-srilanka-2.jpg",
         stayDuration: "Up to 30 days",
         type: "ETA",
         notes:
@@ -24,53 +24,26 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Sigiriya Rock Fortress & Tea Plantations",
-            text: "Climb the ancient Sigiriya Lion Rock rising 200 meters above the jungle, ride scenic trains through misty emerald tea estates of Ella, and relax on the golden beaches of Mirissa.",
+            title: "Dambulla Caves & Hill Country Trains",
+            text: "Explore the ancient Dambulla Cave Temple, ride scenic trains through the misty emerald tea estates of Nuwara Eliya, and hike the dramatic trails of Horton Plains.",
           },
           culture: {
-            title: "Temple of the Tooth & Ceylon Spice Cuisine",
-            text: "Visit the sacred Temple of the Tooth in Kandy, explore the vibrant colonial heritage of Galle Fort, and savor authentic Sri Lankan rice and curry with fiery pol sambol and fresh hoppers.",
+            title: "Ancient Ruins & Ceylon Spice Cuisine",
+            text: "Wander through the majestic ancient ruins of Anuradhapura and Polonnaruwa, and savor authentic Sri Lankan rice and curry with fiery pol sambol and fresh hoppers.",
           },
         },
-      },
-
-      {
-        flag: "🇹🇭",
-        name: "Thailand",
-        image: "/images/evisa/thailand.png",
-        discoverImage1: "/images/evisa/thailand.png",
-        discoverImage2: "/images/evisa/thailand.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        notes:
-          "Travelers can apply online before arrival, avoiding long queues and ensuring a smoother entry experience.",
-        requirement: "Online e-visa approval + passport + photo",
-        supportText: "apply at least 15 days before travel",
-        code: "TH",
-        checklist: [
-          "Valid Passport (at least 6 months validity)",
-          "Approved e-visa confirmation letter",
-          "Confirmed return or onward flight ticket",
-          "Proof of accommodation for the stay",
-          "Proof of sufficient funds (20,000 THB or equivalent)",
+        attractions: [
+          { title: "Sigiriya Rock", image: "/images/evisa/ta-attraction-1.jpg" },
+          { title: "Temple of the Tooth", image: "/images/evisa/ta-srilanka-2.webp" },
+          { title: "Yala National Park", image: "/images/evisa/ta-srilanka-3.jpg" },
         ],
-        discover: {
-          tourism: {
-            title: "Bangkok Temples & Phi Phi Islands",
-            text: "Explore the ornate Grand Palace and Wat Pho's reclining Buddha in Bangkok, then escape to the crystal-clear waters of Phi Phi Islands for world-class snorkeling and diving adventures.",
-          },
-          culture: {
-            title: "Night Markets & Tom Yum Traditions",
-            text: "Navigate the buzzing night markets of Chiang Mai, participate in a traditional Thai cooking class, and savor authentic Tom Yum Goong, Pad Thai, and sweet Mango Sticky Rice from street vendors.",
-          },
-        },
       },
       {
         flag: "🇻🇳",
         name: "Vietnam",
         image: "/images/evisa/vietnam.png",
-        discoverImage1: "/images/evisa/vietnam.png",
-        discoverImage2: "/images/evisa/vietnam.png",
+        discoverImage1: "/images/evisa/discover-vietnam-1.jpg",
+        discoverImage2: "/images/evisa/discover-vietnam-2.jpg",
         stayDuration: "Up to 30 days",
         type: "E-Visa",
         notes:
@@ -87,21 +60,26 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Ha Long Bay & Sapa Rice Terraces",
-            text: "Cruise through thousands of limestone karsts in the emerald waters of Ha Long Bay, trek among the cascading rice terraces of Sapa, and explore the ancient lantern-lit streets of Hoi An.",
+            title: "Mekong Delta & Island Escapes",
+            text: "Float through the lush waterways of the Mekong Delta, cycle past the striking limestone mountains of Ninh Binh, and relax on the pristine white beaches of Phu Quoc island.",
           },
           culture: {
-            title: "Hanoi Old Quarter & Pho Culture",
-            text: "Immerse yourself in the chaotic charm of Hanoi's Old Quarter, sip egg coffee in hidden rooftop cafés, and enjoy steaming bowls of Pho and crispy Banh Mi from generations-old family stalls.",
+            title: "Imperial History & Pho Culture",
+            text: "Explore the ancient Hue Imperial City, crawl through the historic Cu Chi Tunnels near Ho Chi Minh City, and enjoy steaming bowls of Pho and crispy Banh Mi from family-run stalls.",
           },
         },
+        attractions: [
+          { title: "Ha Long Bay", image: "/images/evisa/ta-vietnam-1.jpg" },
+          { title: "Hoi An Ancient Town", image: "/images/evisa/ta-vietnam-2.jpg" },
+          { title: "Phong Nha Caves", image: "/images/evisa/ta-vietnam-3.jpg" },
+        ],
       },
       {
         flag: "🇸🇬",
         name: "Singapore",
         image: "/images/evisa/singapore.png",
-        discoverImage1: "/images/evisa/singapore.png",
-        discoverImage2: "/images/evisa/singapore.png",
+        discoverImage1: "/images/evisa/discover-singapore-1.jpg",
+        discoverImage2: "/images/evisa/discover-singapore-2.jpg",
         stayDuration: "Up to 30 days",
         type: "E-Visa",
         notes:
@@ -118,76 +96,19 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Marina Bay Sands & Gardens by the Bay",
-            text: "Gaze at the stunning city skyline from the Marina Bay Sands infinity pool, stroll through the futuristic Supertree Grove at Gardens by the Bay, and explore Sentosa Island's beaches and attractions.",
+            title: "Night Safaris & Urban Waterfalls",
+            text: "Embark on the world's first nocturnal wildlife park at the Night Safari, marvel at the breathtaking indoor waterfall at Jewel Changi Airport, and meet orangutans at the Singapore Zoo.",
           },
           culture: {
-            title: "Hawker Centres & Multicultural Heritage",
-            text: "Feast at UNESCO-recognized hawker centres on Hainanese Chicken Rice and Laksa, explore the colourful shophouses of Chinatown and Little India, and experience harmonious multicultural traditions.",
+            title: "Peranakan Heritage & Hawker Feasts",
+            text: "Admire the colorful Peranakan shophouses in Katong, explore the vibrant streets of Kampong Glam, and feast at UNESCO-recognized hawker centres on Hainanese Chicken Rice.",
           },
         },
-      },
-      {
-        flag: "🇰🇭",
-        name: "Cambodia",
-        image: "/images/evisa/cambodia.png",
-        discoverImage1: "/images/evisa/cambodia.png",
-        discoverImage2: "/images/evisa/cambodia.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        notes:
-          "Cambodia's e-visa system is simple and widely used for tourism, with quick approvals.",
-        requirement: "Online e-visa ($36 USD) + valid passport",
-        supportText: "approved within 3 business days",
-        code: "KH",
-        checklist: [
-          "Valid Passport (at least 6 months validity)",
-          "Approved e-visa printout (e-visa fee $36 USD)",
-          "Confirmed return or onward flight ticket",
-          "Proof of accommodation / Hotel booking",
-          "Recent digital passport-sized photograph",
+        attractions: [
+          { title: "Marina Bay Sands", image: "/images/evisa/ta-singapore-1.jpg" },
+          { title: "Gardens by the Bay", image: "/images/evisa/ta-attraction-2.jpg" },
+          { title: "Sentosa Island", image: "/images/evisa/ta-singapore-3.jpg" },
         ],
-        discover: {
-          tourism: {
-            title: "Angkor Wat & Tonlé Sap Lake",
-            text: "Witness the magnificent sunrise over Angkor Wat, the largest religious monument in the world, explore the labyrinth of Ta Prohm temple engulfed by giant tree roots, and visit the floating villages of Tonlé Sap.",
-          },
-          culture: {
-            title: "Khmer Heritage & Amok Fish Curry",
-            text: "Discover ancient Khmer civilization through intricate stone carvings, enjoy traditional Apsara dance performances, and taste the iconic Fish Amok steamed in banana leaves with aromatic kroeung paste.",
-          },
-        },
-      },
-      {
-        flag: "🇵🇭",
-        name: "Philippines",
-        image: "/images/evisa/philippines.png",
-        discoverImage1: "/images/evisa/singapore.png",
-        discoverImage2: "/images/evisa/singapore.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        notes:
-          "Offers an easy online visa process for Indian travelers planning short visits.",
-        requirement: "Online e-visa + valid passport + return ticket",
-        supportText: "processed within 3-5 business days",
-        code: "PH",
-        checklist: [
-          "Valid Passport (at least 6 months validity)",
-          "Approved e-visa printout",
-          "eTravel registration QR Code (72 hours before arrival)",
-          "Confirmed return or onward flight ticket",
-          "Hotel booking confirmation / Stay proof",
-        ],
-        discover: {
-          tourism: {
-            title: "El Nido Lagoons & Chocolate Hills",
-            text: "Island-hop through the stunning turquoise lagoons of El Nido in Palawan, swim with whale sharks in Oslob, and marvel at the uniquely rounded Chocolate Hills of Bohol.",
-          },
-          culture: {
-            title: "Spanish Colonial Forts & Lechon Feasts",
-            text: "Explore the historic walled city of Intramuros in Manila, participate in vibrant Sinulog and Ati-Atihan festivals, and enjoy whole roasted Lechon alongside fresh Kinilaw ceviche.",
-          },
-        },
       },
     ],
   },
@@ -198,8 +119,8 @@ export const countries = [
         flag: "🇦🇪",
         name: "UAE",
         image: "/images/evisa/uae.png",
-        discoverImage1: "/images/evisa/uae.png",
-        discoverImage2: "/images/evisa/uae.png",
+        discoverImage1: "/images/evisa/discover-uae-1.webp",
+        discoverImage2: "/images/evisa/discover-uae-2.jpg",
         stayDuration: "Up to 30 days",
         type: "E-Visa",
         notes:
@@ -216,52 +137,26 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Burj Khalifa & Desert Safari Adventures",
-            text: "Ascend the world's tallest building for breathtaking views of Dubai, experience thrilling desert dune bashing at sunset, and explore the futuristic marvels of Abu Dhabi's Yas Island.",
+            title: "Futuristic Museums & Mountain Ziplines",
+            text: "Step into tomorrow at the breathtaking Museum of the Future, capture panoramic city views from the Dubai Frame, and soar down the world's longest zipline at Jebel Jais.",
           },
           culture: {
-            title: "Gold Souks & Arabian Culinary Traditions",
-            text: "Wander through glittering Gold and Spice Souks in old Dubai, visit the magnificent Sheikh Zayed Grand Mosque, and feast on traditional Machboos, Shawarma, and sweet Luqaimat dumplings.",
+            title: "Historic Quarters & Louvre Art",
+            text: "Wander the wind-tower architecture of Al Fahidi Historical Neighbourhood, admire global masterpieces at the Louvre Abu Dhabi, and feast on traditional Machboos and sweet Luqaimat.",
           },
         },
-      },
-      {
-        flag: "🇴🇲",
-        name: "Oman",
-        image: "/images/evisa/oman.png",
-        discoverImage1: "/images/evisa/oman.png",
-        discoverImage2: "/images/evisa/oman.png",
-        stayDuration: "Up to 30 days",
-        type: "E-Visa",
-        notes:
-          "Oman offers a straightforward online visa process for short-term visits.",
-        requirement: "Online e-visa (10 OMR) + valid passport",
-        supportText: "usually approved within 1-3 days",
-        code: "OM",
-        checklist: [
-          "Valid Passport (at least 6 months validity)",
-          "Approved Oman e-visa printout (fee 10 OMR)",
-          "Confirmed return flight ticket",
-          "Proof of accommodation / Hotel booking",
-          "Travel medical insurance policy",
+        attractions: [
+          { title: "Burj Khalifa", image: "/images/evisa/ta-uae-1.avif" },
+          { title: "Sheikh Zayed Mosque", image: "/images/evisa/ta-uae-2.jpg" },
+          { title: "Palm Jumeirah", image: "/images/evisa/ta-uae-3.jpg" },
         ],
-        discover: {
-          tourism: {
-            title: "Wadi Shab & Musandam Fjords",
-            text: "Hike through the stunning emerald pools of Wadi Shab, dhow cruise along the dramatic Musandam fjords (the 'Norway of Arabia'), and camp under starlit skies in the vast Wahiba Sands desert.",
-          },
-          culture: {
-            title: "Sultan Qaboos Mosque & Omani Shuwa",
-            text: "Visit the magnificent Sultan Qaboos Grand Mosque in Muscat, explore ancient Nizwa Fort and its bustling souks, and taste traditional Shuwa (slow-roasted lamb) prepared underground for 24 hours.",
-          },
-        },
       },
       {
         flag: "🇸🇦",
         name: "Saudi Arabia",
         image: "/images/evisa/saudi-arabia.png",
-        discoverImage1: "/images/evisa/saudi-arabia.png",
-        discoverImage2: "/images/evisa/saudi-arabia.png",
+        discoverImage1: "/images/evisa/discover-saudi-2.jpg",
+        discoverImage2: "/images/evisa/discover-saudi-1.jpg",
         stayDuration: "Up to 90 days",
         type: "E-Visa",
         notes:
@@ -278,14 +173,19 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "AlUla Heritage & Red Sea Coastline",
-            text: "Explore the ancient Nabataean tombs of Hegra in AlUla (Saudi Arabia's first UNESCO site), dive into pristine Red Sea coral reefs, and witness the futuristic NEOM mega-city taking shape.",
+            title: "Mountain Peaks & Island Reserves",
+            text: "Trek the lush, terraced landscapes of the cool Asir Mountains, marvel at the massive Al Wahbah volcanic crater, and spot gazelles in the pristine Farasan Islands marine sanctuary.",
           },
           culture: {
-            title: "Diriyah History & Arabian Kabsa",
-            text: "Walk through the historic mud-brick quarters of Diriyah near Riyadh, attend the spectacular Janadriyah cultural festival, and savor authentic Kabsa (spiced rice with meat) and sweet Arabic coffee.",
+            title: "Historic Jeddah & Arabian Kabsa",
+            text: "Explore the intricate coral-stone houses of Al Balad in Jeddah, visit the striking King Abdulaziz Center for World Culture (Ithra), and savor authentic Kabsa with sweet Arabic coffee.",
           },
         },
+        attractions: [
+          { title: "AlUla", image: "/images/evisa/ta-saudi-1.jpg" },
+          { title: "Edge of the World", image: "/images/evisa/ta-saudi-2.webp" },
+          { title: "Diriyah", image: "/images/evisa/ta-saudi-3.jpeg" },
+        ],
       },
     ],
   },
@@ -293,42 +193,11 @@ export const countries = [
     region: "Europe",
     list: [
       {
-        flag: "🇦🇲",
-        name: "Armenia",
-        image: "/images/evisa/armenia.png",
-        discoverImage1: "/images/evisa/armenia.png",
-        discoverImage2: "/images/evisa/armenia.png",
-        stayDuration: "21–30 days",
-        type: "E-Visa / VoA",
-        notes:
-          "Armenia offers flexible entry options with both e-visa and visa on arrival, making it a convenient European destination.",
-        requirement: "Online e-visa ($7 USD) or VOA at airport",
-        supportText: "e-visa processed within 2 business days",
-        code: "AM",
-        checklist: [
-          "Valid Passport (at least 6 months validity)",
-          "Approved e-visa or VOA fee ($7 USD)",
-          "Confirmed return or onward flight ticket",
-          "Proof of accommodation / Hotel booking",
-          "Travel medical insurance (recommended)",
-        ],
-        discover: {
-          tourism: {
-            title: "Lake Sevan & Garni Temple",
-            text: "Visit the stunning 'Blue Pearl' of Armenia — Lake Sevan set high in the mountains, explore the Hellenistic Garni Temple, and hike through the dramatic Tatev Monastery reached by the world's longest cable car.",
-          },
-          culture: {
-            title: "Ancient Monasteries & Lavash Traditions",
-            text: "Discover 1,700-year-old Christian monasteries carved into cliffs, witness traditional Lavash bread-making (a UNESCO intangible heritage), and sip on smooth Armenian brandy in centuries-old cellars.",
-          },
-        },
-      },
-      {
         flag: "🇬🇪",
         name: "Georgia",
         image: "/images/evisa/georgia.png",
-        discoverImage1: "/images/evisa/georgia.png",
-        discoverImage2: "/images/evisa/georgia.png",
+        discoverImage1: "/images/evisa/discover-georgia-1.jpg",
+        discoverImage2: "/images/evisa/discover-georgia-2.jpg",
         stayDuration: "Up to 90 days",
         type: "E-Visa",
         notes:
@@ -345,45 +214,19 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Caucasus Mountains & Tbilisi Old Town",
-            text: "Trek through the spectacular Caucasus Mountains to Gergeti Trinity Church, wander the cobblestone streets of Tbilisi's charming old town, and bathe in the famous sulphur baths of Abanotubani.",
+            title: "Cave Cities & Black Sea Coastlines",
+            text: "Wander through the sprawling ancient cave city of Vardzia carved into a mountain, hike among the defensive stone towers of Svaneti, and relax on the vibrant pebble beaches of Batumi.",
           },
           culture: {
             title: "Wine Cradle & Khinkali Dumplings",
-            text: "Explore the 8,000-year-old winemaking tradition in Kakheti using ancient clay Qvevri vessels, feast on juicy Khinkali dumplings and cheese-filled Khachapuri, the soul food of Georgia.",
+            text: "Visit the stunning Svetitskhoveli Cathedral, stroll the romantic walls of Sighnaghi overlooking the Alazani Valley, and feast on juicy Khinkali dumplings and cheese-filled Khachapuri.",
           },
         },
-      },
-      {
-        flag: "🇦🇱",
-        name: "Albania",
-        image: "/images/evisa/albania.png",
-        discoverImage1: "/images/evisa/albania.png",
-        discoverImage2: "/images/evisa/albania.png",
-        stayDuration: "Up to 90 days",
-        type: "E-Visa",
-        notes:
-          "Albania offers an easy online visa process and is known for its scenic landscapes and Mediterranean coastline.",
-        requirement: "Online e-visa + valid passport",
-        supportText: "processed within 5-10 business days",
-        code: "AL",
-        checklist: [
-          "Valid Passport (at least 6 months validity)",
-          "Approved Albania e-visa printout",
-          "Confirmed return or onward flight ticket",
-          "Proof of accommodation / Hotel booking",
-          "Travel medical insurance (mandatory)",
+        attractions: [
+          { title: "Gergeti Trinity Church", image: "/images/evisa/ta-georgia-1.jpg" },
+          { title: "Tbilisi Old Town", image: "/images/evisa/ta-georgia-2.webp" },
+          { title: "Uplistsikhe", image: "/images/evisa/ta-georgia-3.jpg" },
         ],
-        discover: {
-          tourism: {
-            title: "Albanian Riviera & Berat Castle",
-            text: "Relax on the pristine beaches of Ksamil along the stunning Albanian Riviera, explore the UNESCO 'City of a Thousand Windows' Berat, and dive into the mesmerizing Blue Eye natural spring.",
-          },
-          culture: {
-            title: "Ottoman Heritage & Tavë Kosi Traditions",
-            text: "Wander through the Ottoman-era stone streets of Gjirokastër, discover ancient Illyrian ruins at Butrint, and enjoy traditional Tavë Kosi (baked lamb and yogurt casserole) in family-run restaurants.",
-          },
-        },
       },
     ],
   },
@@ -394,8 +237,8 @@ export const countries = [
         flag: "🇦🇺",
         name: "Australia",
         image: "/images/evisa/australia.png",
-        discoverImage1: "/images/evisa/australia.png",
-        discoverImage2: "/images/evisa/australia.png",
+        discoverImage1: "/images/evisa/discover-australia-1.webp",
+        discoverImage2: "/images/evisa/discover-australia-2.webp",
         stayDuration: "Varies",
         type: "E-Visa",
         notes:
@@ -413,21 +256,26 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Great Barrier Reef & Sydney Opera House",
-            text: "Snorkel the world's largest coral reef system, watch the sunrise over the iconic Sydney Opera House and Harbour Bridge, and drive along the spectacular Great Ocean Road past towering limestone stacks.",
+            title: "Coastal Drives & Ancient Rainforests",
+            text: "Drive along the spectacular Great Ocean Road past the Twelve Apostles, sail the pristine white sands of the Whitsunday Islands, and explore the ancient, incredibly diverse Daintree Rainforest.",
           },
           culture: {
-            title: "Indigenous Heritage & Barbie Culture",
-            text: "Learn about 65,000 years of Aboriginal Dreamtime traditions at Uluru, explore Melbourne's vibrant street art laneways and café culture, and enjoy a classic Aussie barbecue with fresh local produce.",
+            title: "Laneway Cafés & Wine Regions",
+            text: "Discover Melbourne's vibrant street art laneways and world-class café culture, taste premium vintages in the Barossa Valley, and enjoy a classic Aussie barbecue with fresh local produce.",
           },
         },
+        attractions: [
+          { title: "Sydney Opera House", image: "/images/evisa/ta-australia-1.jpg" },
+          { title: "Bondi Beach", image: "/images/evisa/ta-australia-2.jpg" },
+          { title: "Blue Mountains", image: "/images/evisa/ta-australia-3.jpg" },
+        ],
       },
       {
         flag: "🇳🇿",
         name: "New Zealand",
         image: "/images/evisa/new-zealand.png",
-        discoverImage1: "/images/evisa/new-zealand.png",
-        discoverImage2: "/images/evisa/new-zealand.png",
+        discoverImage1: "/images/evisa/discover-nz-1.jpg",
+        discoverImage2: "/images/evisa/discover-nz-2.jpg",
         stayDuration: "Short-term",
         type: "E-Visa",
         notes:
@@ -445,14 +293,19 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Milford Sound & Hobbiton",
-            text: "Cruise through the majestic fjords of Milford Sound, visit the Hobbiton Movie Set in Matamata, bungee jump in Queenstown (the adventure capital), and hike the famous Tongariro Alpine Crossing.",
+            title: "Glowworm Caves & Glacial Valleys",
+            text: "Drift silently under a galaxy of blue lights in the Waitomo Glowworm Caves, sail through the beautiful Bay of Islands, and hike up to the dramatic ice formations of Franz Josef Glacier.",
           },
           culture: {
-            title: "Māori Culture & Hangi Earth Ovens",
-            text: "Experience a powerful Māori haka welcome ceremony in Rotorua, soak in natural geothermal hot springs, and taste traditional Hangi feast slow-cooked in underground earth ovens.",
+            title: "Māori Heritage & National Museums",
+            text: "Explore New Zealand's rich history at the incredible Te Papa Museum in Wellington, experience a powerful Māori haka welcome ceremony, and taste a traditional Hangi feast.",
           },
         },
+        attractions: [
+          { title: "Milford Sound", image: "/images/evisa/ta-nz-1.jpg" },
+          { title: "Hobbiton Movie Set", image: "/images/evisa/ta-nz-2.jpg" },
+          { title: "Aoraki / Mount Cook", image: "/images/evisa/ta-nz-3.jpg" },
+        ],
       },
     ],
   },
@@ -462,9 +315,9 @@ export const countries = [
       {
         flag: "🇰🇪",
         name: "Kenya",
-        image: "/images/nepal.png",
-        discoverImage1: "/images/nepal.png",
-        discoverImage2: "/images/food.png",
+        image: "/images/evisa/discover-kenya-1.jpg",
+        discoverImage1: "/images/evisa/discover-kenya-2.jpg",
+        discoverImage2: "/images/evisa/discover-kenya-3.jpg",
         stayDuration: "Up to 90 days",
         type: "ETA",
         notes:
@@ -481,14 +334,19 @@ export const countries = [
         ],
         discover: {
           tourism: {
-            title: "Masai Mara Safaris & Rift Valley",
-            text: "Witness the spectacular Great Wildebeest Migration in the Masai Mara, spot the Big Five, and explore the stunning landscapes of the Great Rift Valley.",
+            title: "Kilimanjaro Views & Coastal Sands",
+            text: "Marvel at massive elephant herds beneath the shadow of Mount Kilimanjaro in Amboseli National Park, spot red elephants in Tsavo East, and relax on the stunning white sands of Diani Beach.",
           },
           culture: {
-            title: "Maasai Tribes & Nyama Choma",
-            text: "Experience the vibrant traditions and jumping dances of the Maasai warriors, and feast on traditional Nyama Choma (roasted meat) paired with Ugali.",
+            title: "Swahili Coast & Nyama Choma",
+            text: "Wander the narrow, donkey-lined streets of the historic Swahili settlement of Lamu Old Town, experience diverse tribal cultures at Bomas of Kenya, and feast on traditional Nyama Choma.",
           },
         },
+        attractions: [
+          { title: "Masai Mara", image: "/images/evisa/ta-kenya-1.jpg" },
+          { title: "Mount Kenya", image: "/images/evisa/ta-kenya-2.jpg" },
+          { title: "Lake Nakuru", image: "/images/evisa/ta-kenya-3.jpg" },
+        ],
       },
     ],
   },
