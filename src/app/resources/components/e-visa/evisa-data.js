@@ -395,7 +395,10 @@ export const countries = [
         },
         attractions: [
           { title: "Hagia Sophia", image: "/images/evisa/ta-turkey-1.webp" },
-          { title: "Ephesus Ancient City", image: "/images/evisa/ta-turkey-2.webp" },
+          {
+            title: "Ephesus Ancient City",
+            image: "/images/evisa/ta-turkey-2.webp",
+          },
           { title: "Topkapi Palace", image: "/images/evisa/ta-turkey-3.jpg" },
         ],
       },
@@ -431,8 +434,14 @@ export const countries = [
         },
         attractions: [
           { title: "Amwaj Islands", image: "/images/evisa/ta-bahrain-3.jpg" },
-          { title: "Bahrain National Museum", image: "/images/evisa/ta-bahrain-2.webp" },
-          { title: "Lost Paradise of Dilmun Waterpark", image: "/images/evisa/ta-bahrain-3.webp" },
+          {
+            title: "Bahrain National Museum",
+            image: "/images/evisa/ta-bahrain-2.webp",
+          },
+          {
+            title: "Lost Paradise of Dilmun Waterpark",
+            image: "/images/evisa/ta-bahrain-3.webp",
+          },
         ],
       },
       {
@@ -467,7 +476,10 @@ export const countries = [
         },
         attractions: [
           { title: "Bimmah Sinkhole", image: "/images/evisa/ta-oman-1.jpg" },
-          { title: "Daymaniyat Islands", image: "/images/evisa/ta-oman-2.webp" },
+          {
+            title: "Daymaniyat Islands",
+            image: "/images/evisa/ta-oman-2.webp",
+          },
           { title: "Musandam Fjords", image: "/images/evisa/ta-oman-3.jpg" },
         ],
       },
@@ -718,7 +730,10 @@ export const countries = [
           },
         },
         attractions: [
-          { title: "Yellowstone National Park", image: "/images/evisa/ta-usa-1.webp" },
+          {
+            title: "Yellowstone National Park",
+            image: "/images/evisa/ta-usa-1.webp",
+          },
           { title: "Golden Gate Bridge", image: "/images/evisa/ta-usa-2.avif" },
           { title: "Walt Disney World", image: "/images/evisa/ta-usa-3.jpg" },
         ],
