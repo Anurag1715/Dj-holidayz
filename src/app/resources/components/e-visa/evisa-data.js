@@ -131,6 +131,158 @@ export const countries = [
           },
         ],
       },
+      {
+        flag: "🇲🇾",
+        name: "Malaysia",
+        image: "/images/malaysia.png",
+        discoverImage1: "/images/vfc/discover-malaysia-1.jpg",
+        discoverImage2: "/images/vfc/discover-malaysia-2.jpg",
+        stayDuration: "Up to 30 days",
+        type: "E-Visa",
+        notes:
+          "Malaysia requires all travelers to submit the Malaysia Digital Arrival Card (MDAC) online before arrival.",
+        requirement: "Passport (6 months validity) + MDAC arrival card",
+        supportText: "MDAC registered within 3 days prior",
+        code: "MY",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Malaysia Digital Arrival Card (MDAC) registered within 3 days prior",
+          "Confirmed return flight ticket to India",
+          "Hotel booking confirmation / Proof of accommodation",
+        ],
+        discover: {
+          tourism: {
+            title: "Petronas Towers & Rainforest Islands",
+            text: "Marvel at the soaring skyscrapers of Kuala Lumpur, explore the rich colonial heritage of Penang, or relax on the pristine beaches of Langkawi.",
+          },
+          culture: {
+            title: "Nyonya Flavors & Diverse Heritage",
+            text: "Taste world-renowned Street Food including Nasi Lemak, Char Kway Teow, and explore colorful Chinese temples and Malay mosques side by side.",
+          },
+        },
+        attractions: [
+          {
+            title: "Petronas Twin Towers",
+            image: "/images/vfc/malaysia-ta-1.jpg",
+          },
+          { title: "Batu Caves", image: "/images/vfc/malaysia-ta-2.jpg" },
+          { title: "Mount Kinabalu", image: "/images/vfc/malaysia-ta-3.jpg" },
+        ],
+      },
+      {
+        flag: "🇵🇭",
+        name: "Philippines",
+        image: "/images/phillipines.png",
+        discoverImage1: "/images/vfc/discover-philipines-1.jpg",
+        discoverImage2: "/images/vfc/discover-philipines-2.jpg",
+        stayDuration: "Up to 14 days",
+        type: "E-Visa",
+        notes:
+          "Strict 14-day stay for tourism. Online registration is required via the eTravel portal.",
+        requirement: "eTravel registration + return ticket + valid passport",
+        supportText: "eTravel registered within 72 hours prior",
+        code: "PH",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "eTravel registration QR Code (register 72 hours before arrival)",
+          "Confirmed return or onward ticket to next destination",
+          "Hotel booking confirmation / stay proof",
+        ],
+        discover: {
+          tourism: {
+            title: "Boracay Beaches & Chocolate Hills",
+            text: "Sunbathe on the famous white sands of Boracay, go island hopping in El Nido, or look at the uniquely rounded geological hills in Bohol.",
+          },
+          culture: {
+            title: "Spanish Fortresses & Savory Adobo",
+            text: "Explore Spanish colonial history in the walled city of Intramuros and enjoy traditional dishes like Chicken Adobo, Lechon, and sweet Halo-Halo.",
+          },
+        },
+        attractions: [
+          { title: "Kawasan Falls", image: "/images/vfc/ta-philippines-1.jpg" },
+          {
+            title: "Banaue Rice Terraces",
+            image: "/images/vfc/ta-philippines-2.jpg",
+          },
+          {
+            title: "Mayon Volcano",
+            image: "/images/vfc/ta-philippines-3.webp",
+          },
+        ],
+      },
+      {
+        flag: "🇰🇭",
+        name: "Cambodia",
+        image: "/images/voa/cambodia-hero.avif",
+        discoverImage1: "/images/voa/discover-1-cambodia.jpg",
+        discoverImage2: "/images/voa/discover-cambodia-2.jpg",
+        stayDuration: "Up to 30 days",
+        type: "E-Visa",
+        notes:
+          "Cambodia offers both a simple online e-visa and a traditional Visa on Arrival at international airports.",
+        requirement: "Online e-visa approval + valid passport",
+        supportText: "processed within 3 business days",
+        code: "KH",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Approved Cambodia e-visa printout",
+          "Confirmed return or onward flight ticket",
+          "Proof of accommodation / Hotel booking",
+        ],
+        discover: {
+          tourism: {
+            title: "Jungle Trails & Tropical Islands",
+            text: "Cycle through dense rainforest paths to uncover forgotten, moss-covered ruins like Beng Mealea, explore the Cardamom Mountains, and relax on the pristine white-sand beaches of Koh Rong.",
+          },
+          culture: {
+            title: "Khmer Heritage & Amok Fish Curry",
+            text: "Discover majestic royal architecture at the Phnom Penh Royal Palace, marvel at the gleaming Silver Pagoda, and taste the iconic Fish Amok steamed in banana leaves with aromatic spices.",
+          },
+        },
+        attractions: [
+          { title: "Angkor Wat", image: "/images/voa/ta-cambodia-1.webp" },
+          { title: "Bayon Temple", image: "/images/voa/ta-attraction-2.jpg" },
+          { title: "Tonlé Sap", image: "/images/voa/ta-cambodia-3.jpg" },
+        ],
+      },
+      {
+        flag: "🇹🇭",
+        name: "Thailand",
+        image: "/images/voa/thailand-home.webp",
+        discoverImage1: "/images/voa/discover-thailand-1.jpg",
+        discoverImage2: "/images/voa/discover-thailand-2.avif",
+        stayDuration: "Up to 15 days",
+        type: "E-Visa",
+        notes:
+          "Thailand offers a convenient e-Visa on Arrival (e-VOA) online application to speed up entry at major airports.",
+        requirement:
+          "Online e-visa approval + valid passport + return flight ticket",
+        supportText: "processed within 24-72 hours",
+        code: "TH",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Approved Thailand e-VOA approval printout",
+          "Confirmed return flight ticket within 15 days",
+          "Proof of accommodation / Hotel booking confirmation",
+          "One passport-sized photograph (4x6 cm, white background)",
+          "Proof of sufficient funds (10,000 THB per person in cash)",
+        ],
+        discover: {
+          tourism: {
+            title: "Lush Jungles & Andaman Coastlines",
+            text: "Trek through the ancient rainforests of Khao Sok National Park, visit ethical elephant sanctuaries in Chiang Dao, and relax on the stunning limestone-framed shores of Railay Beach.",
+          },
+          culture: {
+            title: "Night Markets & Tom Yum Traditions",
+            text: "Marvel at the massive Reclining Buddha at Wat Pho, navigate the vibrant stalls of Damnoen Saduak Floating Market, and savor authentic Tom Yum Goong and sweet Mango Sticky Rice.",
+          },
+        },
+        attractions: [
+          { title: "Grand Palace", image: "/images/voa/ta-thailand-1.jpg" },
+          { title: "Phi Phi Islands", image: "/images/voa/ta-thailand-2.jpg" },
+          { title: "Ayutthaya", image: "/images/voa/ta-thailand-3.jpg" },
+        ],
+      },
     ],
   },
   {
@@ -211,11 +363,203 @@ export const countries = [
           { title: "Diriyah", image: "/images/evisa/ta-saudi-3.jpeg" },
         ],
       },
+      {
+        flag: "🇹🇷",
+        name: "Turkey",
+        image: "/images/evisa/turkey-hero.jpg",
+        discoverImage1: "/images/evisa/discover-turkey-1.avif",
+        discoverImage2: "/images/evisa/discover-turkey-2.jpg",
+        stayDuration: "Up to 30 days",
+        type: "E-Visa",
+        notes:
+          "Turkey provides a quick and hassle-free e-Visa service for eligible nationalities traveling for tourism or commerce.",
+        requirement: "Online e-visa + valid passport + supporting document",
+        supportText: "processed within 24 hours",
+        code: "TR",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Approved Turkey e-Visa printout",
+          "Confirmed return flight ticket",
+          "Proof of accommodation / Hotel booking",
+          "Supporting document (Valid US, UK, Ireland, or Schengen visa/residence permit)",
+        ],
+        discover: {
+          tourism: {
+            title: "Fairy Chimneys & Pamukkale Terraces",
+            text: "Soar in a hot air balloon over the surreal fairy chimneys of Cappadocia, walk along the gleaming white thermal terraces of Pamukkale, and cruise the turquoise waters of the Aegean Coast.",
+          },
+          culture: {
+            title: "Grand Bazaar & Whirling Dervishes",
+            text: "Wander the labyrinthine corridors of the historic Grand Bazaar in Istanbul, witness the spiritual Whirling Dervish ceremony, and savor traditional Turkish delight and Turkish tea.",
+          },
+        },
+        attractions: [
+          { title: "Hagia Sophia", image: "/images/evisa/ta-turkey-1.webp" },
+          { title: "Ephesus Ancient City", image: "/images/evisa/ta-turkey-2.webp" },
+          { title: "Topkapi Palace", image: "/images/evisa/ta-turkey-3.jpg" },
+        ],
+      },
+      {
+        flag: "🇧🇭",
+        name: "Bahrain",
+        image: "/images/evisa/bahrain-hero.jpg",
+        discoverImage1: "/images/evisa/discover-bahrain-2.jpg",
+        discoverImage2: "/images/evisa/discover-bahrain-1.webp",
+        stayDuration: "Up to 14 days",
+        type: "E-Visa",
+        notes:
+          "Bahrain offers a simple e-Visa application for tourists, allowing short stays to explore the country's modern skyline and rich history.",
+        requirement: "Online e-visa + valid passport",
+        supportText: "processed within 3-5 business days",
+        code: "BH",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Approved Bahrain e-Visa printout",
+          "Confirmed return or onward flight ticket",
+          "Proof of accommodation / Hotel booking",
+          "Proof of sufficient funds for the stay",
+        ],
+        discover: {
+          tourism: {
+            title: "Formula 1 Track & Hawar Islands",
+            text: "Feel the speed at the Bahrain International Circuit, take a boat to the scenic Hawar Islands for bird watching, and relax along the tranquil beaches of Al Dar Islands.",
+          },
+          culture: {
+            title: "Qal'at al-Bahrain & Bab Al Bahrain",
+            text: "Wander through the UNESCO-listed Qal'at al-Bahrain (Bahrain Fort), shop for traditional pearls and spices at the Bab Al Bahrain souq, and visit the Al Fateh Grand Mosque.",
+          },
+        },
+        attractions: [
+          { title: "Amwaj Islands", image: "/images/evisa/ta-bahrain-3.jpg" },
+          { title: "Bahrain National Museum", image: "/images/evisa/ta-bahrain-2.webp" },
+          { title: "Lost Paradise of Dilmun Waterpark", image: "/images/evisa/ta-bahrain-3.webp" },
+        ],
+      },
+      {
+        flag: "🇴🇲",
+        name: "Oman",
+        image: "/images/evisa/oman-hero.jpg",
+        discoverImage1: "/images/evisa/discover-oman-1.jpg",
+        discoverImage2: "/images/evisa/discover-oman-2.jpg",
+        stayDuration: "Up to 30 days",
+        type: "E-Visa",
+        notes:
+          "Oman provides a user-friendly e-Visa system for tourists, ideal for exploring its ancient forts, deserts, and coastline.",
+        requirement: "Online e-visa + valid passport",
+        supportText: "processed within 24-48 hours",
+        code: "OM",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Approved Oman e-Visa printout",
+          "Confirmed return or onward flight ticket",
+          "Proof of accommodation / Hotel booking",
+          "Proof of sufficient funds / Travel insurance",
+        ],
+        discover: {
+          tourism: {
+            title: "Wahiba Sands & Green Mountains",
+            text: "Drive over the gold dunes of Wahiba Sands, hike the scenic trails of Jebel Akhdar, and swim in the emerald pools of Wadi Shab.",
+          },
+          culture: {
+            title: "Nizwa Fort & Mutrah Souq",
+            text: "Explore the ancient round tower of Nizwa Fort, stroll through the vibrant Mutrah Souq in Muscat, and admire the majestic Sultan Qaboos Grand Mosque.",
+          },
+        },
+        attractions: [
+          { title: "Bimmah Sinkhole", image: "/images/evisa/ta-oman-1.jpg" },
+          { title: "Daymaniyat Islands", image: "/images/evisa/ta-oman-2.webp" },
+          { title: "Musandam Fjords", image: "/images/evisa/ta-oman-3.jpg" },
+        ],
+      },
     ],
   },
   {
     region: "Europe",
     list: [
+      {
+        flag: "🇦🇲",
+        name: "Armenia",
+        image: "/images/evisa/armenia-hero.webp",
+        discoverImage1: "/images/evisa/discover-armenia-1.jpg",
+        discoverImage2: "/images/evisa/discover-armenia-2.jpg",
+        stayDuration: "Up to 21 or 120 days",
+        type: "E-Visa",
+        notes:
+          "Armenia offers an easy online e-visa application for tourists, allowing travelers to explore its rich history and beautiful landscapes.",
+        requirement: "Online e-visa + valid passport",
+        supportText: "processed within 3 business days",
+        code: "AM",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Approved Armenia e-visa printout",
+          "Confirmed return or onward flight ticket",
+          "Proof of accommodation / Hotel booking",
+          "Proof of sufficient funds for the stay",
+        ],
+        discover: {
+          tourism: {
+            title: "Ancient Monasteries & Lake Sevan",
+            text: "Explore the ancient Geghard Monastery carved out of rock, marvel at the breathtaking views of Mount Ararat from Khor Virap, and relax by the stunning blue waters of Lake Sevan.",
+          },
+          culture: {
+            title: "Oldest Wineries & Khorovats",
+            text: "Visit the world's oldest known winery in the Areni cave, stroll through the vibrant streets of Yerevan, and savor traditional Armenian barbecue known as Khorovats.",
+          },
+        },
+        attractions: [
+          {
+            title: "Garni Temple",
+            image: "/images/evisa/ta-armenia-1.jpg",
+          },
+          {
+            title: "Tatev Monastery",
+            image: "/images/evisa/ta-armenia-2.jpg",
+          },
+          { title: "Cascade Complex", image: "/images/evisa/ta-armenia-3.jpg" },
+        ],
+      },
+      {
+        flag: "🇦🇱",
+        name: "Albania",
+        image: "/images/evisa/albania-hero.webp",
+        discoverImage1: "/images/evisa/discover-albania-1.jpg",
+        discoverImage2: "/images/evisa/discover-albania-2.webp",
+        stayDuration: "Up to 90 days",
+        type: "E-Visa",
+        notes:
+          "Albania's e-Visa system allows easy access to its stunning Riviera, ancient ruins, and vibrant cities.",
+        requirement: "Online e-visa + valid passport",
+        supportText: "processed within 15 business days",
+        code: "AL",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Approved Albania e-visa printout",
+          "Confirmed return or onward flight ticket",
+          "Proof of accommodation / Hotel booking",
+          "Proof of sufficient financial means",
+        ],
+        discover: {
+          tourism: {
+            title: "Albanian Riviera & Accursed Mountains",
+            text: "Relax on the pristine white beaches of Ksamil, hike through the dramatic peaks of the Accursed Mountains in Theth, and explore the ancient Roman ruins of Butrint.",
+          },
+          culture: {
+            title: "Ottoman Architecture & Burek",
+            text: "Wander the cobbled streets of the 'City of a Thousand Windows' in Berat, explore the lively capital Tirana with its vibrant cafe culture, and taste traditional flaky Burek.",
+          },
+        },
+        attractions: [
+          {
+            title: "Gjirokaster",
+            image: "/images/evisa/ta-albania-1.jpg",
+          },
+          {
+            title: "Blue Eye Spring",
+            image: "/images/evisa/ta-discover-1.webp",
+          },
+          { title: "Kruja Castle", image: "/images/evisa/ta-albania-3.jpg" },
+        ],
+      },
       {
         flag: "🇬🇪",
         name: "Georgia",
@@ -341,6 +685,78 @@ export const countries = [
           { title: "Milford Sound", image: "/images/evisa/ta-nz-1.jpg" },
           { title: "Hobbiton Movie Set", image: "/images/evisa/ta-nz-2.jpg" },
           { title: "Aoraki / Mount Cook", image: "/images/evisa/ta-nz-3.jpg" },
+        ],
+      },
+      {
+        flag: "🇺🇸",
+        name: "USA",
+        image: "/images/evisa/usa-hero.jpg",
+        discoverImage1: "/images/evisa/discover-usa-1.jpg",
+        discoverImage2: "/images/evisa/discover-2.jpg",
+        stayDuration: "Up to 180 days",
+        type: "B1/B2 Visa",
+        notes:
+          "The USA B1/B2 visa is a non-immigrant visa for individuals wishing to enter the United States temporarily for business or tourism.",
+        requirement: "Online DS-160 + Visa Interview + valid passport",
+        supportText: "10-year multiple-entry visa available",
+        code: "US",
+        checklist: [
+          "Valid Passport (at least 6 months validity)",
+          "Form DS-160 confirmation page",
+          "Visa fee payment receipt",
+          "Appointment confirmation letter",
+          "Proof of sufficient funds and ties to home country",
+        ],
+        discover: {
+          tourism: {
+            title: "Grand Canyon & Pacific Coast Highway",
+            text: "Marvel at the vast, colorful layers of the Grand Canyon, drive along the stunning cliffs of the Pacific Coast Highway in California, and explore Yosemite National Park's giant sequoias.",
+          },
+          culture: {
+            title: "Pacific Northwest Wilderness & Coffee Culture",
+            text: "Wander through the misty, moss-draped Hoh Rain Forest, marvel at the towering peak of Mount Rainier, and experience the famous coffee culture and indie music legacy of Seattle.",
+          },
+        },
+        attractions: [
+          { title: "Yellowstone National Park", image: "/images/evisa/ta-usa-1.webp" },
+          { title: "Golden Gate Bridge", image: "/images/evisa/ta-usa-2.avif" },
+          { title: "Walt Disney World", image: "/images/evisa/ta-usa-3.jpg" },
+        ],
+      },
+      {
+        flag: "🇬🇧",
+        name: "United Kingdom",
+        image: "/images/evisa/uk-hero.avif",
+        discoverImage1: "/images/evisa/discover-uk-1.jpg",
+        discoverImage2: "/images/evisa/discover-uk-2.jpg",
+        stayDuration: "Up to 6 months",
+        type: "Standard Visitor Visa",
+        notes:
+          "The UK Standard Visitor Visa allows travel for tourism, business, study (up to 6 months) and other permitted activities.",
+        requirement: "Online application + Biometrics + valid passport",
+        supportText: "processed within 3 weeks",
+        code: "GB",
+        checklist: [
+          "Valid Passport (with blank pages)",
+          "Online visa application printout",
+          "Proof of accommodation / Hotel bookings",
+          "Financial documents (bank statements)",
+          "Detailed travel itinerary",
+        ],
+        discover: {
+          tourism: {
+            title: "Scottish Highlands & Roman Baths",
+            text: "Hike through the majestic mountains and lochs of the Scottish Highlands, visit the ancient Roman Baths in Bath, and explore the rugged coastlines of Cornwall.",
+          },
+          culture: {
+            title: "Cotswolds Villages & Countryside Charm",
+            text: "Stroll through the picture-perfect, honey-colored stone cottages of Castle Combe, visit historic English gardens, and experience the quintessential scenic beauty of the rolling hills.",
+          },
+        },
+        attractions: [
+          { title: "London Eye", image: "/images/evisa/ta-uk-1.jpg" },
+          { title: "Stonehenge", image: "/images/evisa/ta-uk-2.jpg" },
+          { title: "Giant's Causeway", image: "/images/evisa/ta-uk-3-v2.jpg" },
         ],
       },
     ],
