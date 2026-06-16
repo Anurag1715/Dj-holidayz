@@ -305,7 +305,13 @@ const SeasonalPlanner = () => {
     }
   };
 
+  const isMounted = useRef(false);
+
   useEffect(() => {
+    if (!isMounted.current) {
+      isMounted.current = true;
+      return;
+    }
     if (tabsRef.current[activeMonthIndex]) {
       tabsRef.current[activeMonthIndex].scrollIntoView({
         behavior: "smooth",

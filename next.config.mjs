@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    qualities: [100, 75],
+  },
   turbopack: {},
   webpack(config) {
     // Grab the existing rule that handles SVG imports
