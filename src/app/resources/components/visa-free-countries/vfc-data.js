@@ -14,6 +14,8 @@ export const countries = [
           "Indian citizens can enter Bhutan without a visa. Permit may be issued at entry points.",
         requirement: "Entry permit at border",
         supportText: "with valid ID/passport",
+        capital: "Thimphu",
+        population: "787,000",
         code: "BT",
         checklist: [
           "Valid Passport or Voter Identity Card",
@@ -31,6 +33,26 @@ export const countries = [
             text: "Experience the unique cultural heritage of Thimphu and Paro, and taste delicious local dishes like Ema Datshi made with organic mountain chilis.",
           },
         },
+        thingsToDo: [
+          {
+            title: "Trek to Tiger's Nest Monastery (Paro Taktsang)",
+            category: "Adventure & Pilgrimage",
+            description: "Hike up the cliffside trail to the sacred 17th-century monastery overlooking the Paro valley.",
+            image: "/images/vfc/ta-bhutan-1.jpeg",
+          },
+          {
+            title: "Explore Trongsa & Punakha Dzongs",
+            category: "Heritage Architecture",
+            description: "Discover majestic riverfront fortresses built with traditional mortarless Himalayan architecture.",
+            image: "/images/vfc/ta-bhutan-2-v2.jpg",
+          },
+          {
+            title: "Drive Across the Misty Dochula Pass",
+            category: "Scenic Landscapes",
+            description: "Witness panoramic snow-capped Himalayan peaks and 108 memorial chortens wrapped in mountain fog.",
+            image: "/images/vfc/ta-bhutan-3.jpg",
+          },
+        ],
         attractions: [
           {
             title: "Tiger's Nest Monastery",
@@ -51,6 +73,8 @@ export const countries = [
         notes:
           "No visa required. Indian citizens can travel using passport or valid ID.",
         requirement: "Valid ID or passport",
+        capital: "Kathmandu",
+        population: "30.5 Million",
         code: "NP",
         checklist: [
           "Valid Indian Passport or Voter Identity Card",
@@ -68,6 +92,26 @@ export const countries = [
             text: "Immerse yourself in Newari woodcarving heritage in Kathmandu Durbar Square and enjoy authentic Momos and Dal Bhat in local organic mountain eateries.",
           },
         },
+        thingsToDo: [
+          {
+            title: "Himalayan Trekking & Everest Viewpoints",
+            category: "Trekking & Nature",
+            description: "Embark on iconic mountain treks through Namche Bazaar or take scenic mountain flights over Mount Everest.",
+            image: "/images/vfc/nepal-ta-1.jpg",
+          },
+          {
+            title: "Visit Pashupatinath & Boudhanath Stupa",
+            category: "Sacred Heritage",
+            description: "Immerse yourself in ancient Hindu rituals along the Bagmati river and circle the world's largest stupa in Kathmandu.",
+            image: "/images/vfc/nepal-ta-2.png",
+          },
+          {
+            title: "Boating & Sunset Watching on Phewa Lake",
+            category: "Leisure & Lakes",
+            description: "Relax in Pokhara with boat rides across serene Phewa Lake reflecting the Annapurna mountain range.",
+            image: "/images/vfc/nepal-ta-3.jpg",
+          },
+        ],
         attractions: [
           { title: "Everest Base Camp", image: "/images/vfc/nepal-ta-1.jpg" },
           {
@@ -76,7 +120,7 @@ export const countries = [
           },
           { title: "Phewa Lake, Pokhara", image: "/images/vfc/nepal-ta-3.jpg" },
         ],
-      },
+        },
       {
         flag: "🇲🇾",
         name: "Malaysia",
@@ -88,6 +132,8 @@ export const countries = [
         notes:
           "Visa-free entry extended through 2026 for tourism. Passport must be valid for 6 months.",
         requirement: "Passport (6 months validity) + MDAC arrival card",
+        capital: "Kuala Lumpur",
+        population: "34.3 Million",
         code: "MY",
         checklist: [
           "Valid Passport (at least 6 months validity)",
@@ -105,6 +151,26 @@ export const countries = [
             text: "Taste world-renowned Street Food including Nasi Lemak, Char Kway Teow, and explore colorful Chinese temples and Malay mosques side by side.",
           },
         },
+        thingsToDo: [
+          {
+            title: "Ascend Petronas Twin Towers Skybridge",
+            category: "Modern Architecture",
+            description: "Walk the double-decker skybridge connecting the 452m twin towers for sweeping views of the Kuala Lumpur skyline.",
+            image: "/images/vfc/malaysia-ta-1.jpg",
+          },
+          {
+            title: "Climb the Rainbow Stairs to Batu Caves",
+            category: "Culture & Temples",
+            description: "Climb 272 vibrant colorful steps guarded by the giant golden Lord Murugan statue into limestone cave shrines.",
+            image: "/images/vfc/malaysia-ta-2.jpg",
+          },
+          {
+            title: "Explore Island Beaches & Mount Kinabalu",
+            category: "Islands & Eco Tourism",
+            description: "Ride the Langkawi SkyCab cable car, scuba dive in Sipadan, or climb Sabah's highest peak.",
+            image: "/images/vfc/malaysia-ta-3.jpg",
+          },
+        ],
         attractions: [
           {
             title: "Petronas Twin Towers",

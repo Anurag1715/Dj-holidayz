@@ -15,6 +15,8 @@ export const countries = [
         requirement:
           "Passport (6 months validity) + VOA fee ($35 USD / IDR 500,000) + Bali Tourist Levy",
         supportText: "extendable by 30 days at local immigration",
+        capital: "Jakarta / Nusantara",
+        population: "277.5 Million",
         code: "ID",
         checklist: [
           "Valid Passport (at least 6 months validity)",
@@ -34,6 +36,26 @@ export const countries = [
             text: "Discover the ancient Borobudur temple, the largest Buddhist monument in the world, and savor rich flavors of Nasi Goreng, Rendang, and freshly grilled Satay from bustling street-side warungs.",
           },
         },
+        thingsToDo: [
+          {
+            title: "Sunset & Kecak Fire Dance at Uluwatu Temple",
+            category: "Culture & Cliff Views",
+            description: "Watch dramatic cliffside sunsets while experiencing traditional Kecak dance performances above crashing Indian Ocean waves.",
+            image: "/images/voa/ta-attraction-1.avif",
+          },
+          {
+            title: "Explore Tegallalang Rice Terraces in Ubud",
+            category: "Nature & Landscape",
+            description: "Wander emerald green stepped rice paddies, giant jungle swings, and traditional Balinese irrigation systems.",
+            image: "/images/voa/ta-indonesia-2.jpg",
+          },
+          {
+            title: "Sunrise Trek up Active Volcano Mount Batur",
+            category: "Adventure & Trekking",
+            description: "Hike under starry skies to the summit of Mount Batur for breakfast above a sea of clouds.",
+            image: "/images/voa/ta-indonesia-3.jpg",
+          },
+        ],
         attractions: [
           {
             title: "Uluwatu Temple",
@@ -58,6 +80,8 @@ export const countries = [
           "Travelers can obtain a visa at entry points with minimal documentation. A popular destination for cultural and nature experiences.",
         requirement: "Passport + 2 photos + VOA fee ($40 USD)",
         supportText: "available at international airports and border crossings",
+        capital: "Vientiane",
+        population: "7.5 Million",
         code: "LA",
         checklist: [
           "Valid Passport (at least 6 months validity)",
