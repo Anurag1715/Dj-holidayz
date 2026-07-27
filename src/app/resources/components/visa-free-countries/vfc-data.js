@@ -37,19 +37,22 @@ export const countries = [
           {
             title: "Trek to Tiger's Nest Monastery (Paro Taktsang)",
             category: "Adventure & Pilgrimage",
-            description: "Hike up the cliffside trail to the sacred 17th-century monastery overlooking the Paro valley.",
+            description:
+              "Hike up the cliffside trail to the sacred 17th-century monastery overlooking the Paro valley.",
             image: "/images/vfc/ta-bhutan-1.jpeg",
           },
           {
             title: "Explore Trongsa & Punakha Dzongs",
             category: "Heritage Architecture",
-            description: "Discover majestic riverfront fortresses built with traditional mortarless Himalayan architecture.",
+            description:
+              "Discover majestic riverfront fortresses built with traditional mortarless Himalayan architecture.",
             image: "/images/vfc/ta-bhutan-2-v2.jpg",
           },
           {
             title: "Drive Across the Misty Dochula Pass",
             category: "Scenic Landscapes",
-            description: "Witness panoramic snow-capped Himalayan peaks and 108 memorial chortens wrapped in mountain fog.",
+            description:
+              "Witness panoramic snow-capped Himalayan peaks and 108 memorial chortens wrapped in mountain fog.",
             image: "/images/vfc/ta-bhutan-3.jpg",
           },
         ],
@@ -96,19 +99,22 @@ export const countries = [
           {
             title: "Himalayan Trekking & Everest Viewpoints",
             category: "Trekking & Nature",
-            description: "Embark on iconic mountain treks through Namche Bazaar or take scenic mountain flights over Mount Everest.",
+            description:
+              "Embark on iconic mountain treks through Namche Bazaar or take scenic mountain flights over Mount Everest.",
             image: "/images/vfc/nepal-ta-1.jpg",
           },
           {
             title: "Visit Pashupatinath & Boudhanath Stupa",
             category: "Sacred Heritage",
-            description: "Immerse yourself in ancient Hindu rituals along the Bagmati river and circle the world's largest stupa in Kathmandu.",
+            description:
+              "Immerse yourself in ancient Hindu rituals along the Bagmati river and circle the world's largest stupa in Kathmandu.",
             image: "/images/vfc/nepal-ta-2.png",
           },
           {
             title: "Boating & Sunset Watching on Phewa Lake",
             category: "Leisure & Lakes",
-            description: "Relax in Pokhara with boat rides across serene Phewa Lake reflecting the Annapurna mountain range.",
+            description:
+              "Relax in Pokhara with boat rides across serene Phewa Lake reflecting the Annapurna mountain range.",
             image: "/images/vfc/nepal-ta-3.jpg",
           },
         ],
@@ -120,7 +126,7 @@ export const countries = [
           },
           { title: "Phewa Lake, Pokhara", image: "/images/vfc/nepal-ta-3.jpg" },
         ],
-        },
+      },
       {
         flag: "🇲🇾",
         name: "Malaysia",
@@ -155,19 +161,22 @@ export const countries = [
           {
             title: "Ascend Petronas Twin Towers Skybridge",
             category: "Modern Architecture",
-            description: "Walk the double-decker skybridge connecting the 452m twin towers for sweeping views of the Kuala Lumpur skyline.",
+            description:
+              "Walk the double-decker skybridge connecting the 452m twin towers for sweeping views of the Kuala Lumpur skyline.",
             image: "/images/vfc/malaysia-ta-1.jpg",
           },
           {
             title: "Climb the Rainbow Stairs to Batu Caves",
             category: "Culture & Temples",
-            description: "Climb 272 vibrant colorful steps guarded by the giant golden Lord Murugan statue into limestone cave shrines.",
+            description:
+              "Climb 272 vibrant colorful steps guarded by the giant golden Lord Murugan statue into limestone cave shrines.",
             image: "/images/vfc/malaysia-ta-2.jpg",
           },
           {
             title: "Explore Island Beaches & Mount Kinabalu",
             category: "Islands & Eco Tourism",
-            description: "Ride the Langkawi SkyCab cable car, scuba dive in Sipadan, or climb Sabah's highest peak.",
+            description:
+              "Ride the Langkawi SkyCab cable car, scuba dive in Sipadan, or climb Sabah's highest peak.",
             image: "/images/vfc/malaysia-ta-3.jpg",
           },
         ],

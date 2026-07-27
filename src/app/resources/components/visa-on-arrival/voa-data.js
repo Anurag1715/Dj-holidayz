@@ -40,19 +40,22 @@ export const countries = [
           {
             title: "Sunset & Kecak Fire Dance at Uluwatu Temple",
             category: "Culture & Cliff Views",
-            description: "Watch dramatic cliffside sunsets while experiencing traditional Kecak dance performances above crashing Indian Ocean waves.",
+            description:
+              "Watch dramatic cliffside sunsets while experiencing traditional Kecak dance performances above crashing Indian Ocean waves.",
             image: "/images/voa/ta-attraction-1.avif",
           },
           {
             title: "Explore Tegallalang Rice Terraces in Ubud",
             category: "Nature & Landscape",
-            description: "Wander emerald green stepped rice paddies, giant jungle swings, and traditional Balinese irrigation systems.",
+            description:
+              "Wander emerald green stepped rice paddies, giant jungle swings, and traditional Balinese irrigation systems.",
             image: "/images/voa/ta-indonesia-2.jpg",
           },
           {
             title: "Sunrise Trek up Active Volcano Mount Batur",
             category: "Adventure & Trekking",
-            description: "Hike under starry skies to the summit of Mount Batur for breakfast above a sea of clouds.",
+            description:
+              "Hike under starry skies to the summit of Mount Batur for breakfast above a sea of clouds.",
             image: "/images/voa/ta-indonesia-3.jpg",
           },
         ],

@@ -38,19 +38,22 @@ export const countries = [
           {
             title: "Climb Sigiriya Fortress Rock",
             category: "UNESCO Heritage",
-            description: "Ascend the legendary 200m ancient palace fortress rock featuring ancient frescoes and mirror wall.",
+            description:
+              "Ascend the legendary 200m ancient palace fortress rock featuring ancient frescoes and mirror wall.",
             image: "/images/evisa/ta-attraction-1.jpg",
           },
           {
             title: "Visit Temple of the Sacred Tooth Relic",
             category: "Culture & Pilgrimage",
-            description: "Explore the royal temple complex in Kandy housing the sacred tooth relic of the Buddha.",
+            description:
+              "Explore the royal temple complex in Kandy housing the sacred tooth relic of the Buddha.",
             image: "/images/evisa/ta-srilanka-2.webp",
           },
           {
             title: "Wildlife Safari in Yala National Park",
             category: "Wildlife & Safari",
-            description: "Embark on an open-top jeep safari to spot wild leopards, elephants, and sloth bears.",
+            description:
+              "Embark on an open-top jeep safari to spot wild leopards, elephants, and sloth bears.",
             image: "/images/evisa/ta-srilanka-3.jpg",
           },
         ],
@@ -105,19 +108,22 @@ export const countries = [
           {
             title: "Cruise Through Emerald Waters of Ha Long Bay",
             category: "Nature & Cruises",
-            description: "Sail past thousands of towering limestone karsts, sea caves, and floating fishing villages.",
+            description:
+              "Sail past thousands of towering limestone karsts, sea caves, and floating fishing villages.",
             image: "/images/evisa/ta-vietnam-1.jpg",
           },
           {
             title: "Wander Lantern-Lit Streets of Hoi An",
             category: "Culture & Heritage",
-            description: "Stroll through preserved yellow UNESCO shophouses, Japanese covered bridges, and vibrant night markets.",
+            description:
+              "Stroll through preserved yellow UNESCO shophouses, Japanese covered bridges, and vibrant night markets.",
             image: "/images/evisa/ta-vietnam-2.jpg",
           },
           {
             title: "Explore Colossal Phong Nha & Son Doong Caves",
             category: "Adventure & Caving",
-            description: "Discover subterranean rivers, massive stalagmites, and jungle-draped karst chambers.",
+            description:
+              "Discover subterranean rivers, massive stalagmites, and jungle-draped karst chambers.",
             image: "/images/evisa/ta-vietnam-3.jpg",
           },
         ],
