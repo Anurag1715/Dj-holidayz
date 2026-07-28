@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./details-hero.module.scss";
 
+import ArrowLeftIcon from "@/Icons/arrow-left.svg";
+import LandmarkIcon from "@/Icons/landmark.svg";
+import UsersIcon from "@/Icons/users.svg";
+import ClockIcon from "@/Icons/clock.svg";
+
 const DetailsHero = ({
   country,
   code,
@@ -13,19 +18,7 @@ const DetailsHero = ({
   return (
     <section className={styles.heroSection}>
       <Link href={backHref} className={styles.backBtn}>
-        <svg
-          width="14"
-          height="14"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="3"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M19 12H5M12 19l-7-7 7-7" />
-        </svg>
+        <ArrowLeftIcon />
         {backLabel}
       </Link>
 
@@ -53,23 +46,7 @@ const DetailsHero = ({
           <div className={styles.statsGrid}>
             <div className={styles.statItem}>
               <div className={styles.statIconWrap}>
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <line x1="3" y1="22" x2="21" y2="22"></line>
-                  <line x1="6" y1="18" x2="6" y2="11"></line>
-                  <line x1="10" y1="18" x2="10" y2="11"></line>
-                  <line x1="14" y1="18" x2="14" y2="11"></line>
-                  <line x1="18" y1="18" x2="18" y2="11"></line>
-                  <polygon points="12 2 20 7 4 7 12 2"></polygon>
-                </svg>
+                <LandmarkIcon />
               </div>
               <div className={styles.statMeta}>
                 <span className={styles.statLabel}>Capital City</span>
@@ -81,21 +58,7 @@ const DetailsHero = ({
 
             <div className={styles.statItem}>
               <div className={styles.statIconWrap}>
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
+                <UsersIcon />
               </div>
               <div className={styles.statMeta}>
                 <span className={styles.statLabel}>Population</span>
@@ -107,19 +70,7 @@ const DetailsHero = ({
 
             <div className={styles.statItem}>
               <div className={styles.statIconWrap}>
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <polyline points="12 6 12 12 16 14"></polyline>
-                </svg>
+                <ClockIcon />
               </div>
               <div className={styles.statMeta}>
                 <span className={styles.statLabel}>Max Stay</span>

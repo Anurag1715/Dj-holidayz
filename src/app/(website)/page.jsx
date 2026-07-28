@@ -7,16 +7,15 @@ import FoodExperienceSection from "../resources/components/home/food-experience"
 import SeasonalPlanner from "../resources/components/visa-free-countries/seasonal-planner";
 
 const HomePage = () => {
-  return (
-    <>
-      <HeroSection />
-      <VisaTypesSection />
-      <PopularDestinationsSection />
-      <SeasonalPlanner />
-      <WhyChooseUsSection />
-      {/* <FoodExperienceSection /> */}
-    </>
-  );
+    return (
+        <>
+            <HeroSection />
+            <VisaTypesSection />
+            <PopularDestinationsSection />
+            <SeasonalPlanner />
+            <WhyChooseUsSection />
+        </>
+    );
 };
 
 export default HomePage;
