@@ -9,6 +9,7 @@ const FOOTER_LINKS = {
     { title: "Visa Free Countries", path: "/vfc" },
     { title: "Visa on Arrival", path: "/visa-on-arrival" },
     { title: "E-Visa / ETA", path: "/e-visa" },
+    { title: "Cruise Packages", path: "/cruises" },
   ],
   // activities: [
   //     { title: 'Air Activities', path: '/' },

@@ -601,7 +601,7 @@
   font-size: 1rem;
   font-weight: 700;
   color: rgba(25, 32, 36, 0.6);
-  padding-block: 0.75rem;
+  padding-block: 0.75rem !important;
   cursor: pointer;
   position: relative;
   transition: color 0.3s ease;
@@ -612,10 +612,12 @@
   }
 
   &:focus,
-  &:active {
-    outline: none;
-    background: none;
-    box-shadow: none;
+  &:active,
+  &:focus-visible {
+    outline: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    padding-block: 0.75rem !important;
   }
 
   &.active {

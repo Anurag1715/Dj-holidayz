@@ -1,7 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    qualities: [100, 75],
+    qualities: [100, 95, 90, 75],
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/sw.js',
+        destination: '/favicon.ico',
+      },
+    ];
   },
   turbopack: {},
   webpack(config) {

@@ -1,0 +1,116 @@
+@use "../../../../styles/mixin" as *;
+
+.sectionCard {
+  background: #ffffff;
+  border-radius: 2rem;
+  border: 1px solid rgba(25, 32, 36, 0.06);
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(25, 32, 36, 0.03);
+
+  @include mobile {
+    padding: 1.5rem;
+  }
+}
+
+.sectionHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+
+  .kicker {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--primary, #ff0000);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.02em;
+  }
+}
+
+.includeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.includeCard,
+.excludeCard {
+  padding: 1.75rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.includeCard {
+  background: rgba(76, 175, 80, 0.05);
+  border: 1px solid rgba(76, 175, 80, 0.2);
+
+  h3 {
+    color: #2e7d32;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+.excludeCard {
+  background: rgba(201, 30, 32, 0.04);
+  border: 1px solid rgba(201, 30, 32, 0.15);
+
+  h3 {
+    color: var(--primary, #ff0000);
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+.checkList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checkItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: rgba(25, 32, 36, 0.8);
+
+  span.icon {
+    flex-shrink: 0;
+    font-weight: 900;
+  }
+
+  &.green span.icon {
+    color: #2e7d32;
+  }
+
+  &.red span.icon {
+    color: #c91e20;
+  }
+}
