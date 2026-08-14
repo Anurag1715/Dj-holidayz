@@ -1,0 +1,204 @@
+@use "../../../styles/mixin.scss" as *;
+
+.section {
+  padding-block: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dj_top_section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+
+  .dj_tagline {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: colormap(dj_f_white);
+    background: colormap(dj_red_gradient);
+    border-radius: 0.93rem;
+    padding: 0.31rem 1.25rem;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+    @include laptop {
+      font-size: 1.25rem;
+    }
+
+    @include mini {
+      font-size: 1.125rem;
+      padding: 0.3rem 0.9rem;
+    }
+  }
+
+  .dj_subtitle {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    max-width: 577px;
+    margin: auto;
+    color: rgba($color: colormap(text_primary_black), $alpha: 0.8);
+
+    @include sm {
+      font-size: 0.85rem;
+      line-height: 1rem;
+    }
+  }
+}
+
+.dj_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: calc(3rem + 40px); /* 3rem padding-top + 40px (half of 80px icon height) */
+    transform: translateY(-50%);
+    left: 2%;
+    right: 2%;
+    height: 3px;
+    background: #E5E7EB;
+    z-index: 1;
+    border-radius: 4px;
+  }
+}
+
+.stepItem {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+
+  .iconWrap {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: colormap(dj_f_white);
+    border: 6px solid colormap(dj_f_white);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  &.start .iconWrap {
+    background: colormap(primary_red);
+    svg { fill: colormap(dj_f_white); }
+  }
+
+  &.process .iconWrap {
+    background: colormap(text_primary_black);
+    svg { fill: colormap(dj_f_white); }
+  }
+
+  &.finish .iconWrap {
+    background: colormap(discount);
+    svg { fill: colormap(dj_f_white); }
+  }
+
+  .stepContent {
+    h4 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: colormap(text_primary_black);
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #666;
+      line-height: 1.5;
+    }
+  }
+}
+
+@include mobile {
+  .timeline {
+    flex-direction: column;
+    padding-left: 0;
+    align-items: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &::before {
+      top: 0;
+      bottom: 0;
+      left: 23px; /* 50px icon / 2 = 25px - 2px half-width = 23px */
+      width: 4px;
+      height: auto;
+      right: auto;
+      transform: none;
+    }
+  }
+
+  .stepItem {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+    text-align: left;
+    padding: 0;
+
+    .iconWrap {
+      margin-bottom: 0;
+      margin-right: 1.5rem;
+      width: 50px;
+      height: 50px;
+      flex-shrink: 0;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .stepContent {
+      padding-top: 0.25rem;
+      
+      h4 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1548,6 +1548,60 @@ export const countries = [
             image: "/images/evisa/ta-australia-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "Australia Visitor Visa",
+            category: "E VISA",
+            processingTime: "1 Month",
+            visaValidity: "3 Months",
+            visaFormFee: "AED 950",
+            embassyFee: "AED 510",
+          },
+          {
+            title: "Australia Visitor Visa",
+            category: "E VISA",
+            processingTime: "1 Month",
+            visaValidity: "3 Months",
+            visaFormFee: "AED 950",
+            embassyFee: "AED 510",
+          }
+        ],
+        visaSteps: [
+          {
+            title: "Apply Online",
+            description: "Fill out a simple online application form",
+            iconType: "start"
+          },
+          {
+            title: "Submit Documents",
+            description: "Upload the required documents securely",
+            iconType: "process"
+          },
+          {
+            title: "Processing",
+            description: "Our experts review and submit your application",
+            iconType: "process"
+          },
+          {
+            title: "Get Your Visa",
+            description: "Receive your approved visa via email",
+            iconType: "finish"
+          }
+        ],
+        faqs: [
+          {
+            question: "What is the processing time for an Australia visa?",
+            answer: "The processing time varies depending on the type of visa. An E-Visa usually takes about 5 working days, whereas a sticker visa might take up to 15 working days."
+          },
+          {
+            question: "Do I need to submit my original passport?",
+            answer: "For a sticker visa, you will need to submit your original passport. For an E-Visa, a clear scanned copy of your passport is usually sufficient."
+          },
+          {
+            question: "Is the visa fee refundable?",
+            answer: "No, the visa processing fee and embassy fee are strictly non-refundable regardless of the application outcome."
+          }
+        ]
       },
       {
         flag: "🇳🇿",

@@ -102,9 +102,7 @@ const CruiseDetailsHero = ({ cruise }) => {
           </div>
 
           <a
-            href={`https://wa.me/?text=${whatsappMessage}`}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className={styles.enquireBtn}
           >
             Enquire Now

@@ -3,6 +3,9 @@ import DetailsHero from "@/app/resources/components/visa-free-countries/details-
 import Guidelines from "@/app/resources/components/visa-free-countries/guidelines";
 import Discover from "@/app/resources/components/visa-free-countries/discover";
 import TopAttractions from "@/app/resources/components/visa-free-countries/top-attractions";
+import VisaOptions from "@/app/resources/components/common/visa-options";
+import VisaSteps from "@/app/resources/components/common/visa-steps";
+import VisaFaq from "@/app/resources/components/common/visa-faq";
 import styles from "@/app/resources/components/visa-free-countries/visa-free-countries.module.scss";
 import { countries } from "@/app/resources/components/e-visa/evisa-data";
 
@@ -36,7 +39,16 @@ const EVisaDetailsPage = async (props) => {
           backHref="/e-visa"
           backLabel="Back to E-Visa / ETA"
         />
+        {countryData.visaOptions && (
+          <VisaOptions options={countryData.visaOptions} />
+        )}
+        {countryData.visaSteps && (
+          <VisaSteps steps={countryData.visaSteps} title={`Get your ${countryData.name} Visa in ${countryData.visaSteps.length} Easy Steps`} />
+        )}
         <Guidelines country={countryData} />
+        {countryData.faqs && (
+          <VisaFaq faqs={countryData.faqs} />
+        )}
         <Discover country={countryData} />
         <TopAttractions country={countryData} />
       </div>
@@ -45,3 +57,4 @@ const EVisaDetailsPage = async (props) => {
 };
 
 export default EVisaDetailsPage;
+
