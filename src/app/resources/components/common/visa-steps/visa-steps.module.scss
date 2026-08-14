@@ -72,14 +72,16 @@
   padding: 3rem 0;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
-    top: calc(3rem + 40px); /* 3rem padding-top + 40px (half of 80px icon height) */
+    top: calc(
+      3rem + 40px
+    ); /* 3rem padding-top + 40px (half of 80px icon height) */
     transform: translateY(-50%);
     left: 2%;
     right: 2%;
     height: 3px;
-    background: #E5E7EB;
+    background: #e5e7eb;
     z-index: 1;
     border-radius: 4px;
   }
@@ -120,17 +122,23 @@
 
   &.start .iconWrap {
     background: colormap(primary_red);
-    svg { fill: colormap(dj_f_white); }
+    svg {
+      fill: colormap(dj_f_white);
+    }
   }
 
   &.process .iconWrap {
     background: colormap(text_primary_black);
-    svg { fill: colormap(dj_f_white); }
+    svg {
+      fill: colormap(dj_f_white);
+    }
   }
 
   &.finish .iconWrap {
     background: colormap(discount);
-    svg { fill: colormap(dj_f_white); }
+    svg {
+      fill: colormap(dj_f_white);
+    }
   }
 
   .stepContent {
@@ -190,7 +198,7 @@
 
     .stepContent {
       padding-top: 0.25rem;
-      
+
       h4 {
         font-size: 1.1rem;
         margin-bottom: 0.5rem;

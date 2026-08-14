@@ -13,7 +13,10 @@ const VisaSteps = ({ steps, title }) => {
         <div className={styles.dj_content_wrapper}>
           <div className={styles.dj_top_section}>
             <p className={styles.dj_tagline}>{title || "Steps"}</p>
-            <p className={styles.dj_subtitle}>Our Visa Expert review and process the Visa to the embassy on your behalf</p>
+            <p className={styles.dj_subtitle}>
+              Our Visa Expert review and process the Visa to the embassy on your
+              behalf
+            </p>
           </div>
         </div>
 
@@ -24,7 +27,10 @@ const VisaSteps = ({ steps, title }) => {
             if (step.iconType === "finish") Icon = IconCheck;
 
             return (
-              <div key={idx} className={`${styles.stepItem} ${styles[step.iconType] || styles.process}`}>
+              <div
+                key={idx}
+                className={`${styles.stepItem} ${styles[step.iconType] || styles.process}`}
+              >
                 <div className={styles.iconWrap}>
                   <Icon />
                 </div>

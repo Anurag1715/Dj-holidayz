@@ -43,12 +43,13 @@ const EVisaDetailsPage = async (props) => {
           <VisaOptions options={countryData.visaOptions} />
         )}
         {countryData.visaSteps && (
-          <VisaSteps steps={countryData.visaSteps} title={`Get your ${countryData.name} Visa in ${countryData.visaSteps.length} Easy Steps`} />
+          <VisaSteps
+            steps={countryData.visaSteps}
+            title={`Get your ${countryData.name} Visa in ${countryData.visaSteps.length} Easy Steps`}
+          />
         )}
         <Guidelines country={countryData} />
-        {countryData.faqs && (
-          <VisaFaq faqs={countryData.faqs} />
-        )}
+        {countryData.faqs && <VisaFaq faqs={countryData.faqs} />}
         <Discover country={countryData} />
         <TopAttractions country={countryData} />
       </div>
@@ -57,4 +58,3 @@ const EVisaDetailsPage = async (props) => {
 };
 
 export default EVisaDetailsPage;
-

@@ -101,10 +101,7 @@ const CruiseDetailsHero = ({ cruise }) => {
             </div>
           </div>
 
-          <a
-            href="#"
-            className={styles.enquireBtn}
-          >
+          <a href="#" className={styles.enquireBtn}>
             Enquire Now
           </a>
         </div>

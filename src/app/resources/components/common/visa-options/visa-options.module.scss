@@ -98,7 +98,7 @@
   color: colormap(text_primary_black);
   padding: 1.75rem 1.75rem 1rem 1.75rem;
   border-bottom: 1px solid colormap(dj_filter_stroke);
-  
+
   h3 {
     font-size: 1.4rem;
     font-weight: 700;
@@ -158,7 +158,7 @@
       color: #666;
       margin-bottom: 0.25rem;
     }
-    
+
     .priceValue {
       display: block;
       font-size: 1.25rem;
@@ -186,7 +186,8 @@
   cursor: pointer;
   transition: all 0.3s ease;
 
-  &:focus, &:active {
+  &:focus,
+  &:active {
     padding: 1rem 1.5rem;
   }
 

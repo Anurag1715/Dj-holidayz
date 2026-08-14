@@ -18,24 +18,26 @@ const VisaFaq = ({ faqs, title }) => {
         <div className={styles.dj_content_wrapper}>
           <div className={styles.dj_top_section}>
             <p className={styles.dj_tagline}>{title || "FAQs"}</p>
-            <p className={styles.dj_subtitle}>Find answers to common questions about the visa process.</p>
+            <p className={styles.dj_subtitle}>
+              Find answers to common questions about the visa process.
+            </p>
           </div>
         </div>
 
         <div className={styles.faqList}>
           {faqs.map((faq, idx) => (
-            <div 
-              key={idx} 
-              className={`${styles.faqItem} ${activeIndex === idx ? styles.active : ''}`}
+            <div
+              key={idx}
+              className={`${styles.faqItem} ${activeIndex === idx ? styles.active : ""}`}
             >
-              <button 
-                className={styles.faqQuestion} 
+              <button
+                className={styles.faqQuestion}
                 onClick={() => toggleFaq(idx)}
               >
                 <span>{faq.question}</span>
                 <span className={styles.icon}>
                   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                    <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
                   </svg>
                 </span>
               </button>
