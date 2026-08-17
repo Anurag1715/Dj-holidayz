@@ -58,7 +58,9 @@ const VisaOptions = ({ options }) => {
                 {hasEmbassyFee(option.embassyFee) && (
                   <div className={styles.priceBlock}>
                     <span className={styles.priceLabel}>Embassy Fee</span>
-                    <span className={styles.priceValue}>{option.embassyFee}</span>
+                    <span className={styles.priceValue}>
+                      {option.embassyFee}
+                    </span>
                   </div>
                 )}
               </div>

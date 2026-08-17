@@ -122,27 +122,32 @@ export const countries = [
         visaSteps: [
           {
             title: "Consultation & Eligibility",
-            description: "Determine the right visa category (VOA, e-VOA, B211A Tourist, or B211B Business)",
+            description:
+              "Determine the right visa category (VOA, e-VOA, B211A Tourist, or B211B Business)",
             iconType: "start",
           },
           {
             title: "Document Collection",
-            description: "Gather passport, photos, UAE residence visa, Emirates ID, and bank statements",
+            description:
+              "Gather passport, photos, UAE residence visa, Emirates ID, and bank statements",
             iconType: "process",
           },
           {
             title: "Application Submission",
-            description: "DJ Holidayz files your visa application with the Indonesian Embassy / Immigration",
+            description:
+              "DJ Holidayz files your visa application with the Indonesian Embassy / Immigration",
             iconType: "process",
           },
           {
             title: "Payment & Review",
-            description: "Pay the required processing fees and await embassy document review",
+            description:
+              "Pay the required processing fees and await embassy document review",
             iconType: "process",
           },
           {
             title: "Visa Grant",
-            description: "Receive your pre-approved electronic visa or stamped passport ready for travel",
+            description:
+              "Receive your pre-approved electronic visa or stamped passport ready for travel",
             iconType: "finish",
           },
         ],
@@ -158,12 +163,14 @@ export const countries = [
               "Certain nationalities are granted a Visa on Arrival ($35 USD). Non-exempt passport holders residing in the UAE must obtain a visa prior to travel.",
           },
           {
-            question: "Do I need an appointment for submission entry application?",
+            question:
+              "Do I need an appointment for submission entry application?",
             answer:
               "No, DJ Holidayz handles submission directly with the embassy/consulate on your behalf.",
           },
           {
-            question: "Is there an Indonesia express visa option for urgent travel?",
+            question:
+              "Is there an Indonesia express visa option for urgent travel?",
             answer:
               "Yes, urgent travelers can request express or fast-track services subject to embassy processing rules.",
           },
@@ -271,7 +278,8 @@ export const countries = [
             tip: "Tips for Approval: Double-check every document, ensure passport validity of at least 6 months, maintain sufficient 3-month bank balance, and rely on DJ Holidayz expert pre-audit service.",
           },
           whyUs: {
-            title: "Why Choose DJ Holidayz for Your Indonesian Visa Application?",
+            title:
+              "Why Choose DJ Holidayz for Your Indonesian Visa Application?",
             points: [
               "Experienced visa specialists with years of successful processing",
               "Quick and transparent processing with zero hidden charges",
@@ -570,27 +578,32 @@ export const countries = [
         visaSteps: [
           {
             title: "Prepare Documents",
-            description: "Gather valid original passport, recent digital passport photo, and credit/debit card",
+            description:
+              "Gather valid original passport, recent digital passport photo, and credit/debit card",
             iconType: "start",
           },
           {
             title: "Fill Application Form",
-            description: "Complete the official Cambodia e-visa application form with accurate personal details",
+            description:
+              "Complete the official Cambodia e-visa application form with accurate personal details",
             iconType: "process",
           },
           {
             title: "Pay Visa Fee Online",
-            description: "Pay the required processing and consular fee securely online",
+            description:
+              "Pay the required processing and consular fee securely online",
             iconType: "process",
           },
           {
             title: "Processing & Approval",
-            description: "DJ Holidayz tracks embassy review; approval takes 3-4 working days",
+            description:
+              "DJ Holidayz tracks embassy review; approval takes 3-4 working days",
             iconType: "process",
           },
           {
             title: "Receive & Print eVisa",
-            description: "Receive your approved Cambodia e-visa via email, print it out, and carry it for travel",
+            description:
+              "Receive your approved Cambodia e-visa via email, print it out, and carry it for travel",
             iconType: "finish",
           },
         ],
@@ -601,12 +614,14 @@ export const countries = [
               "Yes. Cambodia offers an online eVisa that allows UAE residents and expatriates to apply and receive electronic approval prior to travel.",
           },
           {
-            question: "Is a return flight ticket required for a Cambodia visa application?",
+            question:
+              "Is a return flight ticket required for a Cambodia visa application?",
             answer:
               "Yes. Travelers are usually required to provide proof of onward or return flight reservation.",
           },
           {
-            question: "Can I apply for a Cambodia visa if my UAE residence visa is expiring soon?",
+            question:
+              "Can I apply for a Cambodia visa if my UAE residence visa is expiring soon?",
             answer:
               "Your UAE residence visa should generally have at least 90 days validity remaining when submitting your application.",
           },
@@ -616,7 +631,8 @@ export const countries = [
               "You should carefully verify your passport number, visa validity period, number of permitted entries, and allowed duration of stay.",
           },
           {
-            question: "Can I apply for a Cambodia visa from Abu Dhabi as a UAE resident?",
+            question:
+              "Can I apply for a Cambodia visa from Abu Dhabi as a UAE resident?",
             answer:
               "Yes. UAE residents living in Abu Dhabi, Dubai, or any other Emirate can easily apply online through DJ Holidayz.",
           },
@@ -826,38 +842,45 @@ export const countries = [
         visaSteps: [
           {
             title: "Choose Visa Type",
-            description: "Select the appropriate visa category (Tourist, Business, Work, or Student) with DJ Holidayz guidance",
+            description:
+              "Select the appropriate visa category (Tourist, Business, Work, or Student) with DJ Holidayz guidance",
             iconType: "start",
           },
           {
             title: "Complete Application Form",
-            description: "Fill out the official Thailand visa application form accurately",
+            description:
+              "Fill out the official Thailand visa application form accurately",
             iconType: "process",
           },
           {
             title: "Prepare Supporting Documents",
-            description: "Gather passport, photos, flight/hotel bookings, bank statements, and invitation letter if business",
+            description:
+              "Gather passport, photos, flight/hotel bookings, bank statements, and invitation letter if business",
             iconType: "process",
           },
           {
             title: "Submit & Pay Fees",
-            description: "Submit application to the Thai Embassy or authorized center and complete fee payment",
+            description:
+              "Submit application to the Thai Embassy or authorized center and complete fee payment",
             iconType: "process",
           },
           {
             title: "Receive Approved Visa",
-            description: "Receive your approved visa stamped in your passport or delivered electronically",
+            description:
+              "Receive your approved visa stamped in your passport or delivered electronically",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "What is the difference between a Thailand tourist visa and a business visa?",
+            question:
+              "What is the difference between a Thailand tourist visa and a business visa?",
             answer:
               "A tourist visa is granted for leisure, sightseeing, or visiting friends/family, whereas a business visa is issued for corporate meetings, conferences, trade negotiations, or commercial activities in Thailand.",
           },
           {
-            question: "Can I apply for a Thailand visiting visa if I hold dual citizenship?",
+            question:
+              "Can I apply for a Thailand visiting visa if I hold dual citizenship?",
             answer:
               "Yes. Dual citizens can apply using the passport they intend to travel with, ensuring consistency across flight bookings, hotel reservations, and immigration documents.",
           },
@@ -867,7 +890,8 @@ export const countries = [
               "Yes, in most cases during visa processing at authorized submission centers, applicants are required to provide fingerprints and a digital photograph.",
           },
           {
-            question: "Do I need to book a flight before applying for a Thailand visit visa?",
+            question:
+              "Do I need to book a flight before applying for a Thailand visit visa?",
             answer:
               "Yes, providing a confirmed return or onward flight itinerary is mandatory as part of your application paperwork.",
           },
@@ -1171,12 +1195,14 @@ export const countries = [
         visaSteps: [
           {
             title: "Consultation",
-            description: "Discuss travel plans and determine the right Jordan visa type",
+            description:
+              "Discuss travel plans and determine the right Jordan visa type",
             iconType: "start",
           },
           {
             title: "Document Preparation",
-            description: "Receive a personalized document checklist and gather required files",
+            description:
+              "Receive a personalized document checklist and gather required files",
             iconType: "process",
           },
           {
@@ -1186,38 +1212,45 @@ export const countries = [
           },
           {
             title: "Submission & Tracking",
-            description: "Your application is submitted and monitored by DJ Holidayz specialists",
+            description:
+              "Your application is submitted and monitored by DJ Holidayz specialists",
             iconType: "process",
           },
           {
             title: "Approval & Delivery",
-            description: "Receive your approved Jordan visa and prepare for travel",
+            description:
+              "Receive your approved Jordan visa and prepare for travel",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "Why should I use a visa consultant instead of applying directly?",
+            question:
+              "Why should I use a visa consultant instead of applying directly?",
             answer:
               "Visa consultants reduce errors, save time, and ensure your application is submitted in line with official government requirements, significantly increasing your chances of approval.",
           },
           {
-            question: "How much does a visa to Jordan cost, and how can I pay from UAE?",
+            question:
+              "How much does a visa to Jordan cost, and how can I pay from UAE?",
             answer:
               "Visa fees depend on the visa category selected. DJ Holidayz assists with currency exchange guidance, safe fee payments, and issuing formal receipts.",
           },
           {
-            question: "What should I do if my previous Jordan traveling visa was refused?",
+            question:
+              "What should I do if my previous Jordan traveling visa was refused?",
             answer:
               "Applicants may reapply. DJ Holidayz specialists review the refusal letter, identify the causes of rejection, and assist in preparing a stronger, error-free application with complete supporting documents.",
           },
           {
-            question: "How much bank balance is required for a Jordan visa from UAE?",
+            question:
+              "How much bank balance is required for a Jordan visa from UAE?",
             answer:
               "You should maintain at least AED 5,000–7,000 in your account for short trips, and AED 10,000 or more for longer stays when applying for a visa from the UAE.",
           },
           {
-            question: "What’s the difference between a tourist visa and a business visa?",
+            question:
+              "What’s the difference between a tourist visa and a business visa?",
             answer:
               "A tourist visa is intended for sightseeing, holidays, and visiting family or friends. A business visa allows travelers to attend corporate meetings, trade shows, or business-related events in Jordan.",
           },

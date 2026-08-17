@@ -288,33 +288,39 @@ export const countries = [
         visaSteps: [
           {
             title: "Consultation",
-            description: "Contact DJ Holidayz to identify the correct Malaysia visa type for your passport",
+            description:
+              "Contact DJ Holidayz to identify the correct Malaysia visa type for your passport",
             iconType: "start",
           },
           {
             title: "Document Submission",
-            description: "Share your original passport, UAE residence visa copy, photos, and flight/hotel bookings",
+            description:
+              "Share your original passport, UAE residence visa copy, photos, and flight/hotel bookings",
             iconType: "process",
           },
           {
             title: "Application Review",
-            description: "DJ Holidayz visa experts verify all details for 100% accuracy and compliance",
+            description:
+              "DJ Holidayz visa experts verify all details for 100% accuracy and compliance",
             iconType: "process",
           },
           {
             title: "Visa Submission",
-            description: "Application is submitted through official Malaysian visa systems or embassy channels",
+            description:
+              "Application is submitted through official Malaysian visa systems or embassy channels",
             iconType: "process",
           },
           {
             title: "Visa Approval",
-            description: "Receive your approved electronic visa via email or stamped in your passport",
+            description:
+              "Receive your approved electronic visa via email or stamped in your passport",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "When should I start applying for my Malaysia travel visa?",
+            question:
+              "When should I start applying for my Malaysia travel visa?",
             answer:
               "It's best to start your visa application process at least 3 to 4 weeks before your intended travel date. Some visas require additional processing time or document verification.",
           },
@@ -819,27 +825,32 @@ export const countries = [
         visaSteps: [
           {
             title: "Choose Visa Category",
-            description: "Select the right Mauritius visa type based on your travel purpose",
+            description:
+              "Select the right Mauritius visa type based on your travel purpose",
             iconType: "start",
           },
           {
             title: "Gather Supporting Documents",
-            description: "Prepare passport, 6-month bank statements, travel insurance, and flight/hotel bookings",
+            description:
+              "Prepare passport, 6-month bank statements, travel insurance, and flight/hotel bookings",
             iconType: "process",
           },
           {
             title: "Fill Application & Schedule Appointment",
-            description: "DJ Holidayz assists in completing the official application form and scheduling your visa center slot",
+            description:
+              "DJ Holidayz assists in completing the official application form and scheduling your visa center slot",
             iconType: "process",
           },
           {
             title: "Submit Biometrics",
-            description: "Attend your biometric meeting at the visa submission center in Dubai or Abu Dhabi",
+            description:
+              "Attend your biometric meeting at the visa submission center in Dubai or Abu Dhabi",
             iconType: "process",
           },
           {
             title: "Receive Approved Visa",
-            description: "Receive your approved Mauritius visit visa stamped in your passport within 10-15 working days",
+            description:
+              "Receive your approved Mauritius visit visa stamped in your passport within 10-15 working days",
             iconType: "finish",
           },
         ],
@@ -865,7 +876,8 @@ export const countries = [
               "Standard processing normally takes between 10 to 15 working days from the date of biometric submission.",
           },
           {
-            question: "Can Abu Dhabi residents apply for a Mauritius visa from UAE?",
+            question:
+              "Can Abu Dhabi residents apply for a Mauritius visa from UAE?",
             answer:
               "Yes. Abu Dhabi residents can easily apply for a Mauritius visa through DJ Holidayz with complete end-to-end guidance.",
           },

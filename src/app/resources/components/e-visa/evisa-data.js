@@ -115,38 +115,45 @@ export const countries = [
         visaSteps: [
           {
             title: "Contact DJ Holidayz",
-            description: "Reach out via website or WhatsApp to initiate your Sri Lanka ETA visa process",
+            description:
+              "Reach out via website or WhatsApp to initiate your Sri Lanka ETA visa process",
             iconType: "start",
           },
           {
             title: "Submit Supporting Documents",
-            description: "Send passport copy, photo, flight tickets, hotel confirmation, and UAE residence visa",
+            description:
+              "Send passport copy, photo, flight tickets, hotel confirmation, and UAE residence visa",
             iconType: "process",
           },
           {
             title: "Application Review",
-            description: "DJ Holidayz experts review all details to guarantee accuracy and consular compliance",
+            description:
+              "DJ Holidayz experts review all details to guarantee accuracy and consular compliance",
             iconType: "process",
           },
           {
             title: "Pay Visa Processing Fee",
-            description: "Complete payment through secure online channels, bank transfer, or at our Dubai office",
+            description:
+              "Complete payment through secure online channels, bank transfer, or at our Dubai office",
             iconType: "process",
           },
           {
             title: "Receive Approved eVisa",
-            description: "Receive your electronic visa approval (ETA) via email within 24 to 48 hours",
+            description:
+              "Receive your electronic visa approval (ETA) via email within 24 to 48 hours",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "Do UAE residents need a Sri Lanka visa from Ras Al Khaimah?",
+            question:
+              "Do UAE residents need a Sri Lanka visa from Ras Al Khaimah?",
             answer:
               "Yes. Most UAE residents (including those residing in Ras Al Khaimah, Dubai, Abu Dhabi, or other emirates) must obtain a Sri Lanka visa prior to traveling, usually via the online ETA system.",
           },
           {
-            question: "Is there an age limit for applicants for Sri Lanka tourist visa?",
+            question:
+              "Is there an age limit for applicants for Sri Lanka tourist visa?",
             answer:
               "No. People of all age groups, from infants and minors to older applicants, are eligible for a Sri Lanka tourist visa.",
           },
@@ -161,7 +168,8 @@ export const countries = [
               "You can make payments online through secure digital links, via bank transfer, or physically at the DJ Holidayz Dubai office.",
           },
           {
-            question: "Is a return flight ticket mandatory for a Sri Lanka visit visa?",
+            question:
+              "Is a return flight ticket mandatory for a Sri Lanka visit visa?",
             answer:
               "Yes. You must present a confirmed return or onward flight ticket demonstrating your intention to exit Sri Lanka.",
           },
@@ -362,27 +370,32 @@ export const countries = [
         visaSteps: [
           {
             title: "Gather Documents",
-            description: "Collect valid passport, digital photos, travel itinerary, and flight/hotel bookings",
+            description:
+              "Collect valid passport, digital photos, travel itinerary, and flight/hotel bookings",
             iconType: "start",
           },
           {
             title: "Fill Application Form",
-            description: "Complete the Vietnam e-visa application form accurately",
+            description:
+              "Complete the Vietnam e-visa application form accurately",
             iconType: "process",
           },
           {
             title: "Submit via DJ Holidayz",
-            description: "Send paperwork to DJ Holidayz specialists for verification and submission",
+            description:
+              "Send paperwork to DJ Holidayz specialists for verification and submission",
             iconType: "process",
           },
           {
             title: "Pay Visa Fees",
-            description: "Pay the applicable visa processing fee securely online",
+            description:
+              "Pay the applicable visa processing fee securely online",
             iconType: "process",
           },
           {
             title: "Receive eVisa Approval",
-            description: "Receive your electronic visa approval letter via email within 3-7 working days",
+            description:
+              "Receive your electronic visa approval letter via email within 3-7 working days",
             iconType: "finish",
           },
         ],
@@ -393,7 +406,8 @@ export const countries = [
               "No. Damaged, torn, or missing-page passports can result in entry denial at immigration.",
           },
           {
-            question: "Can I use my Vietnam visit visa to enter multiple Vietnamese cities?",
+            question:
+              "Can I use my Vietnam visit visa to enter multiple Vietnamese cities?",
             answer:
               "Yes. Once admitted, you are free to travel between different cities and provinces across Vietnam.",
           },
@@ -408,7 +422,8 @@ export const countries = [
               "Yes. UAE residents can apply for a Vietnam business visa (eVisa or VOA) with a local Vietnamese sponsor or invitation letter.",
           },
           {
-            question: "Is an invitation letter required for Vietnam business visas?",
+            question:
+              "Is an invitation letter required for Vietnam business visas?",
             answer:
               "Yes, a sponsor invitation letter is generally required when submitting a business visa application.",
           },
@@ -614,38 +629,45 @@ export const countries = [
         visaSteps: [
           {
             title: "Check Visa Requirement",
-            description: "Check if you need a visa based on your nationality and UAE residence permit",
+            description:
+              "Check if you need a visa based on your nationality and UAE residence permit",
             iconType: "start",
           },
           {
             title: "Gather Documents",
-            description: "Prepare valid passport, photos, Emirates ID, hotel & flight bookings, and bank statements",
+            description:
+              "Prepare valid passport, photos, Emirates ID, hotel & flight bookings, and bank statements",
             iconType: "process",
           },
           {
             title: "Complete Application Form",
-            description: "Fill in your visa application form with accurate details",
+            description:
+              "Fill in your visa application form with accurate details",
             iconType: "process",
           },
           {
             title: "Pay Visa Fee & Submit",
-            description: "Submit your application securely through DJ Holidayz for fast ICA processing",
+            description:
+              "Submit your application securely through DJ Holidayz for fast ICA processing",
             iconType: "process",
           },
           {
             title: "Get Your eVisa",
-            description: "Receive your approved Singapore Electronic Visa via email within 3-5 working days",
+            description:
+              "Receive your approved Singapore Electronic Visa via email within 3-5 working days",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "When should I start my visa application to Singapore if I live in the UAE?",
+            question:
+              "When should I start my visa application to Singapore if I live in the UAE?",
             answer:
               "It is recommended to start your visa application at least 3-4 weeks before your planned travel date. This gives sufficient time to collect documents and have them processed by the Singapore Consulate in Dubai.",
           },
           {
-            question: "Can I submit a visa application if I am currently in the UAE on a visit visa?",
+            question:
+              "Can I submit a visa application if I am currently in the UAE on a visit visa?",
             answer:
               "No. Only UAE residents with a valid residence visa are eligible to apply locally. Short-term visitors in the UAE must complete the process from their home country.",
           },
@@ -660,7 +682,8 @@ export const countries = [
               "No. You are not required to make confirmed flight or hotel bookings before applying. Provisional reservations or tentative itineraries are adequate.",
           },
           {
-            question: "What happens after I submit my visa application to Singapore?",
+            question:
+              "What happens after I submit my visa application to Singapore?",
             answer:
               "After document submission through DJ Holidayz, your documents are processed and forwarded to ICA / Singapore Embassy. Upon approval, you will receive your e-visa via email.",
           },
@@ -732,8 +755,7 @@ export const countries = [
           },
           rejections: {
             title: "Common Visa Rejection Reasons & Tips for Approval",
-            description:
-              "Key compliance items evaluated by ICA Singapore:",
+            description: "Key compliance items evaluated by ICA Singapore:",
             points: [
               "Incomplete or incorrect documentation and application details",
               "Insufficient financial proof or low 3-month bank balance",
@@ -861,33 +883,39 @@ export const countries = [
         visaSteps: [
           {
             title: "Consultation",
-            description: "Contact DJ Holidayz to identify the correct Malaysia visa type for your passport",
+            description:
+              "Contact DJ Holidayz to identify the correct Malaysia visa type for your passport",
             iconType: "start",
           },
           {
             title: "Document Submission",
-            description: "Share your original passport, UAE residence visa copy, photos, and flight/hotel bookings",
+            description:
+              "Share your original passport, UAE residence visa copy, photos, and flight/hotel bookings",
             iconType: "process",
           },
           {
             title: "Application Review",
-            description: "DJ Holidayz visa experts verify all details for 100% accuracy and compliance",
+            description:
+              "DJ Holidayz visa experts verify all details for 100% accuracy and compliance",
             iconType: "process",
           },
           {
             title: "Visa Submission",
-            description: "Application is submitted through official Malaysian visa systems or embassy channels",
+            description:
+              "Application is submitted through official Malaysian visa systems or embassy channels",
             iconType: "process",
           },
           {
             title: "Visa Approval",
-            description: "Receive your approved electronic visa via email or stamped in your passport",
+            description:
+              "Receive your approved electronic visa via email or stamped in your passport",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "When should I start applying for my Malaysia travel visa?",
+            question:
+              "When should I start applying for my Malaysia travel visa?",
             answer:
               "It's best to start your visa application process at least 3 to 4 weeks before your intended travel date. Some visas require additional processing time or document verification.",
           },
@@ -1106,17 +1134,20 @@ export const countries = [
         visaSteps: [
           {
             title: "Check Eligibility",
-            description: "Verify your Philippines visa eligibility from UAE based on travel purpose",
+            description:
+              "Verify your Philippines visa eligibility from UAE based on travel purpose",
             iconType: "start",
           },
           {
             title: "Gather Documents",
-            description: "Collect valid passport, UAE residence visa, NOC, bank statements, and flight/hotel bookings",
+            description:
+              "Collect valid passport, UAE residence visa, NOC, bank statements, and flight/hotel bookings",
             iconType: "process",
           },
           {
             title: "Submit Application",
-            description: "Submit your entry permit documents securely through DJ Holidayz for embassy processing",
+            description:
+              "Submit your entry permit documents securely through DJ Holidayz for embassy processing",
             iconType: "process",
           },
           {
@@ -1126,7 +1157,8 @@ export const countries = [
           },
           {
             title: "Collect Visa Passport",
-            description: "Receive your approved Philippines visa stamped in your passport",
+            description:
+              "Receive your approved Philippines visa stamped in your passport",
             iconType: "finish",
           },
         ],
@@ -1142,12 +1174,14 @@ export const countries = [
               "DJ Holidayz regularly provides application updates once your documents are received. You may also contact our support team anytime to check the status of your application.",
           },
           {
-            question: "Who is eligible to apply for a Philippines visa from UAE?",
+            question:
+              "Who is eligible to apply for a Philippines visa from UAE?",
             answer:
               "Any foreign national holding a valid UAE residence visa and passport in Dubai, Abu Dhabi, or other emirates (such as Indian, Pakistani, Bangladeshi, Nepali, and other expatriates) is eligible to apply.",
           },
           {
-            question: "Can I apply for a Philippines evisa online or must I visit the embassy?",
+            question:
+              "Can I apply for a Philippines evisa online or must I visit the embassy?",
             answer:
               "DJ Holidayz handles the entire process, including document verification and submission to the embassy, so you are not required to attend in person.",
           },
@@ -1242,7 +1276,8 @@ export const countries = [
             tip: "Tips for Approval: Submit complete & accurate documents, demonstrate strong financial proof, prove strong social/economic ties to the UAE, apply well in advance, and ensure details match across all paperwork. DJ Holidayz pre-audits every file to maximize approval rates.",
           },
           whyUs: {
-            title: "Why Choose DJ Holidayz for Your Philippines Visa Assistance",
+            title:
+              "Why Choose DJ Holidayz for Your Philippines Visa Assistance",
             points: [
               "Over a decade of dedicated UAE travel & visa processing expertise",
               "Personalized assistance tailored to your specific profile and nationality",
@@ -1362,27 +1397,32 @@ export const countries = [
         visaSteps: [
           {
             title: "Prepare Documents",
-            description: "Gather valid original passport, recent digital passport photo, and credit/debit card",
+            description:
+              "Gather valid original passport, recent digital passport photo, and credit/debit card",
             iconType: "start",
           },
           {
             title: "Fill Application Form",
-            description: "Complete the official Cambodia e-visa application form with accurate personal details",
+            description:
+              "Complete the official Cambodia e-visa application form with accurate personal details",
             iconType: "process",
           },
           {
             title: "Pay Visa Fee Online",
-            description: "Pay the required processing and consular fee securely online",
+            description:
+              "Pay the required processing and consular fee securely online",
             iconType: "process",
           },
           {
             title: "Processing & Approval",
-            description: "DJ Holidayz tracks embassy review; approval takes 3-4 working days",
+            description:
+              "DJ Holidayz tracks embassy review; approval takes 3-4 working days",
             iconType: "process",
           },
           {
             title: "Receive & Print eVisa",
-            description: "Receive your approved Cambodia e-visa via email, print it out, and carry it for travel",
+            description:
+              "Receive your approved Cambodia e-visa via email, print it out, and carry it for travel",
             iconType: "finish",
           },
         ],
@@ -1393,12 +1433,14 @@ export const countries = [
               "Yes. Cambodia offers an online eVisa that allows UAE residents and expatriates to apply and receive electronic approval prior to travel.",
           },
           {
-            question: "Is a return flight ticket required for a Cambodia visa application?",
+            question:
+              "Is a return flight ticket required for a Cambodia visa application?",
             answer:
               "Yes. Travelers are usually required to provide proof of onward or return flight reservation.",
           },
           {
-            question: "Can I apply for a Cambodia visa if my UAE residence visa is expiring soon?",
+            question:
+              "Can I apply for a Cambodia visa if my UAE residence visa is expiring soon?",
             answer:
               "Your UAE residence visa should generally have at least 90 days validity remaining when submitting your application.",
           },
@@ -1408,7 +1450,8 @@ export const countries = [
               "You should carefully verify your passport number, visa validity period, number of permitted entries, and allowed duration of stay.",
           },
           {
-            question: "Can I apply for a Cambodia visa from Abu Dhabi as a UAE resident?",
+            question:
+              "Can I apply for a Cambodia visa from Abu Dhabi as a UAE resident?",
             answer:
               "Yes. UAE residents living in Abu Dhabi, Dubai, or any other Emirate can easily apply online through DJ Holidayz.",
           },
@@ -1616,38 +1659,45 @@ export const countries = [
         visaSteps: [
           {
             title: "Choose Visa Type",
-            description: "Select the appropriate visa category (Tourist, Business, Work, or Student) with DJ Holidayz guidance",
+            description:
+              "Select the appropriate visa category (Tourist, Business, Work, or Student) with DJ Holidayz guidance",
             iconType: "start",
           },
           {
             title: "Complete Application Form",
-            description: "Fill out the official Thailand visa application form accurately",
+            description:
+              "Fill out the official Thailand visa application form accurately",
             iconType: "process",
           },
           {
             title: "Prepare Supporting Documents",
-            description: "Gather passport, photos, flight/hotel bookings, bank statements, and invitation letter if business",
+            description:
+              "Gather passport, photos, flight/hotel bookings, bank statements, and invitation letter if business",
             iconType: "process",
           },
           {
             title: "Submit & Pay Fees",
-            description: "Submit application to the Thai Embassy or authorized center and complete fee payment",
+            description:
+              "Submit application to the Thai Embassy or authorized center and complete fee payment",
             iconType: "process",
           },
           {
             title: "Receive Approved Visa",
-            description: "Receive your approved visa stamped in your passport or delivered electronically",
+            description:
+              "Receive your approved visa stamped in your passport or delivered electronically",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "What is the difference between a Thailand tourist visa and a business visa?",
+            question:
+              "What is the difference between a Thailand tourist visa and a business visa?",
             answer:
               "A tourist visa is granted for leisure, sightseeing, or visiting friends/family, whereas a business visa is issued for corporate meetings, conferences, trade negotiations, or commercial activities in Thailand.",
           },
           {
-            question: "Can I apply for a Thailand visiting visa if I hold dual citizenship?",
+            question:
+              "Can I apply for a Thailand visiting visa if I hold dual citizenship?",
             answer:
               "Yes. Dual citizens can apply using the passport they intend to travel with, ensuring consistency across flight bookings, hotel reservations, and immigration documents.",
           },
@@ -1657,7 +1707,8 @@ export const countries = [
               "Yes, in most cases during visa processing at authorized submission centers, applicants are required to provide fingerprints and a digital photograph.",
           },
           {
-            question: "Do I need to book a flight before applying for a Thailand visit visa?",
+            question:
+              "Do I need to book a flight before applying for a Thailand visit visa?",
             answer:
               "Yes, providing a confirmed return or onward flight itinerary is mandatory as part of your application paperwork.",
           },
@@ -1957,12 +2008,14 @@ export const countries = [
         visaSteps: [
           {
             title: "Gather Documents",
-            description: "Prepare valid passport, photos, hotel & flight bookings, and bank statements",
+            description:
+              "Prepare valid passport, photos, hotel & flight bookings, and bank statements",
             iconType: "start",
           },
           {
             title: "Fill Application Form",
-            description: "Complete the online Saudi visa application form accurately",
+            description:
+              "Complete the online Saudi visa application form accurately",
             iconType: "process",
           },
           {
@@ -1972,7 +2025,8 @@ export const countries = [
           },
           {
             title: "Submit Application",
-            description: "Submit your application for consular review and processing",
+            description:
+              "Submit your application for consular review and processing",
             iconType: "process",
           },
           {
@@ -1983,12 +2037,14 @@ export const countries = [
         ],
         faqs: [
           {
-            question: "Do I need an appointment to submit my Saudi visiting visa application?",
+            question:
+              "Do I need an appointment to submit my Saudi visiting visa application?",
             answer:
               "Appointments will be needed based on the visa center or embassy requirements.",
           },
           {
-            question: "Can I cancel my Saudi travel permit application after submission?",
+            question:
+              "Can I cancel my Saudi travel permit application after submission?",
             answer:
               "Yes, of course, but visa processing fees are non-refundable after submission.",
           },
@@ -1998,7 +2054,8 @@ export const countries = [
               "You must renew your passport if it has an expiration date of less than 6 months remaining.",
           },
           {
-            question: "Do I need a cover letter for my Saudi visit visa application?",
+            question:
+              "Do I need a cover letter for my Saudi visit visa application?",
             answer:
               "Yes, including a travel purpose cover letter enhances the overall strength of your application.",
           },
@@ -2056,7 +2113,8 @@ export const countries = [
               },
               {
                 title: "Visit Visa",
-                description: "For visiting relatives or friends residing in Saudi Arabia.",
+                description:
+                  "For visiting relatives or friends residing in Saudi Arabia.",
               },
               {
                 title: "Business Visa",
@@ -2220,7 +2278,8 @@ export const countries = [
         visaSteps: [
           {
             title: "Prepare Documents",
-            description: "Gather passport, photo, hotel & flight bookings, and travel insurance",
+            description:
+              "Gather passport, photo, hotel & flight bookings, and travel insurance",
             iconType: "start",
           },
           {
@@ -2230,7 +2289,8 @@ export const countries = [
           },
           {
             title: "Schedule Appointment",
-            description: "Book VFS appointment (for sticker visa) or submit e-visa",
+            description:
+              "Book VFS appointment (for sticker visa) or submit e-visa",
             iconType: "process",
           },
           {
@@ -2240,28 +2300,33 @@ export const countries = [
           },
           {
             title: "Receive Visa",
-            description: "Get your approved e-visa via email or collect your passport",
+            description:
+              "Get your approved e-visa via email or collect your passport",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "When should I start my Turkish visa application from UAE?",
+            question:
+              "When should I start my Turkish visa application from UAE?",
             answer:
               "Choose the right visa type based on your travel purpose (Tourist Visa for leisure, Business Visa for meetings). Start early to ensure all documents are properly prepared and submitted.",
           },
           {
-            question: "Is it mandatory to book flights and hotels before applying?",
+            question:
+              "Is it mandatory to book flights and hotels before applying?",
             answer:
               "Yes, both e-visas and stamped visas require valid travel insurance, hotel reservations, and flight itineraries. We provide authorized travel insurance as part of your UAE-Turkey visa package.",
           },
           {
-            question: "How much bank balance is required for a Turkey visa from Abu Dhabi?",
+            question:
+              "How much bank balance is required for a Turkey visa from Abu Dhabi?",
             answer:
               "Bank balance requirements depend on the visa type (e-visa vs stamp visa). DJ Holidayz provides clear rates with no hidden fees.",
           },
           {
-            question: "Can I apply for a Turkey visitor visa if I’m unemployed but sponsored?",
+            question:
+              "Can I apply for a Turkey visitor visa if I’m unemployed but sponsored?",
             answer:
               "Yes, provided you meet eligibility criteria or e-visa program requirements. DJ Holidayz handles online forms, document processing, and electronic delivery within 1-2 working days.",
           },
@@ -3005,12 +3070,14 @@ export const countries = [
               "Yes. Any UAE resident with a valid UAE residence visa can apply for an Australia visitor visa in Dubai, Abu Dhabi, or any other emirate.",
           },
           {
-            question: "What should I do if my previous Australia visa was refused?",
+            question:
+              "What should I do if my previous Australia visa was refused?",
             answer:
               "You can reapply in case your visa was earlier rejected. DJ Holidayz consultants review your letter of refusal, identify the issues, and assist you in drafting a better and mistake-free re-application.",
           },
           {
-            question: "Is travel insurance mandatory for an Australia visiting visa?",
+            question:
+              "Is travel insurance mandatory for an Australia visiting visa?",
             answer:
               "Yes, All applicants who applying for Australian entry permit in UAE need valid travel insurance. It should include medical emergencies, hospitalization, and repatriation during the whole stay in Australia.",
           },
@@ -3223,7 +3290,8 @@ export const countries = [
         visaSteps: [
           {
             title: "Confirm Eligibility",
-            description: "Check visa eligibility and prepare all required documents",
+            description:
+              "Check visa eligibility and prepare all required documents",
             iconType: "start",
           },
           {
@@ -3249,12 +3317,14 @@ export const countries = [
         ],
         faqs: [
           {
-            question: "Do I need a New Zealand Visa from Dubai as a UAE resident?",
+            question:
+              "Do I need a New Zealand Visa from Dubai as a UAE resident?",
             answer:
               "Yes, most residents in the UAE are required to apply for a New Zealand visitor visa before departure, depending on their nationality.",
           },
           {
-            question: "What documents are required for a New Zealand tourist visa?",
+            question:
+              "What documents are required for a New Zealand tourist visa?",
             answer:
               "Generally, applicants need a valid passport, UAE residency visa, recent bank statements, detailed travel itinerary, hotel booking, and NOC.",
           },
@@ -3264,12 +3334,14 @@ export const countries = [
               "Yes, UAE residents living in Abu Dhabi or any other emirate can file their application online seamlessly.",
           },
           {
-            question: "Is it possible to obtain a multiple-entry visa to New Zealand?",
+            question:
+              "Is it possible to obtain a multiple-entry visa to New Zealand?",
             answer:
               "Multiple-entry visas may be issued depending on the applicant's travel history, profile, and travel purpose.",
           },
           {
-            question: "Do I need confirmed flight tickets to apply for a New Zealand visa from UAE?",
+            question:
+              "Do I need confirmed flight tickets to apply for a New Zealand visa from UAE?",
             answer:
               "No, confirmed tickets are not mandatory prior to approval; a tentative travel itinerary is sufficient.",
           },
@@ -3347,7 +3419,8 @@ export const countries = [
             tip: "Pro Tip: Always verify documents carefully. Applying through DJ Holidayz ensures all paperwork is pre-audited to maximize approval chances.",
           },
           whyUs: {
-            title: "Why Choose DJ Holidayz for Your New Zealand Visa Assistance",
+            title:
+              "Why Choose DJ Holidayz for Your New Zealand Visa Assistance",
             points: [
               "Over 15+ years of trusted travel expertise across the UAE",
               "Dedicated travel experts ensuring accurate document preparation",
@@ -3463,33 +3536,39 @@ export const countries = [
         visaSteps: [
           {
             title: "Select Visa Type",
-            description: "Choose B-1 (Business) or B-2 (Tourist) based on your purpose of travel",
+            description:
+              "Choose B-1 (Business) or B-2 (Tourist) based on your purpose of travel",
             iconType: "start",
           },
           {
             title: "Fill Form DS-160",
-            description: "Complete your online DS-160 application form with expert guidance",
+            description:
+              "Complete your online DS-160 application form with expert guidance",
             iconType: "process",
           },
           {
             title: "Pay Visa Fee & Book Slot",
-            description: "Pay the visa fee and schedule your appointment at US Embassy/Consulate",
+            description:
+              "Pay the visa fee and schedule your appointment at US Embassy/Consulate",
             iconType: "process",
           },
           {
             title: "Attend Visa Interview",
-            description: "Attend mock interview prep and present your documents confidently",
+            description:
+              "Attend mock interview prep and present your documents confidently",
             iconType: "process",
           },
           {
             title: "Get Your US Visa",
-            description: "Receive your passport with approved 10-year US visa stamped inside",
+            description:
+              "Receive your passport with approved 10-year US visa stamped inside",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "When should I start my USA visa application if I live in the UAE?",
+            question:
+              "When should I start my USA visa application if I live in the UAE?",
             answer:
               "It’s best to start your visa process at least 6 to 8 weeks before your planned travel date. This enables ample time to fill in the DS-160 form, secure an interview date, and prepare documents.",
           },
@@ -3727,7 +3806,8 @@ export const countries = [
         visaSteps: [
           {
             title: "Fill Online Form",
-            description: "Fill in the online UK travel document application form",
+            description:
+              "Fill in the online UK travel document application form",
             iconType: "start",
           },
           {
@@ -3742,23 +3822,27 @@ export const countries = [
           },
           {
             title: "Submit Biometrics",
-            description: "Attend appointment and provide documents & biometrics",
+            description:
+              "Attend appointment and provide documents & biometrics",
             iconType: "process",
           },
           {
             title: "Decision & Visa",
-            description: "Receive your UKVI decision email and collect passport",
+            description:
+              "Receive your UKVI decision email and collect passport",
             iconType: "finish",
           },
         ],
         faqs: [
           {
-            question: "Is it mandatory to book flights before applying for UK visit visa?",
+            question:
+              "Is it mandatory to book flights before applying for UK visit visa?",
             answer:
               "No, but it’s recommended to have a tentative booking or itinerary. You can use refundable flight options or book through travel agents who provide dummy tickets.",
           },
           {
-            question: "Do I need confirmed hotel bookings for my UK entry permit?",
+            question:
+              "Do I need confirmed hotel bookings for my UK entry permit?",
             answer:
               "You must show where you plan to stay (hotel bookings, Airbnb, or a UK host’s address). Confirmed reservations improve the application’s strength.",
           },
@@ -3773,7 +3857,8 @@ export const countries = [
               "You must visit a VFS Global centre to submit fingerprints and a photograph. This is mandatory for all applicants (including children) and is done after completing the online application.",
           },
           {
-            question: "What happens after a decision on my UK travel document is made?",
+            question:
+              "What happens after a decision on my UK travel document is made?",
             answer:
               "You’ll be notified by email. If approved: You’ll be instructed to collect your passport with the visa vignette. If refused: The email will explain the reason and provide reapplication or appeal options.",
           },

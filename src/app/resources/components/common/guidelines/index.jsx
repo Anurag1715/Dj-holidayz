@@ -18,7 +18,9 @@ const Guidelines = ({ country }) => {
       <div className={styles.dj_content_wrapper}>
         <div className={styles.dj_top_section}>
           <p className={styles.dj_tagline}>Guidelines</p>
-          <p className={styles.dj_subtitle}>Crucial Travel Information & Requirements</p>
+          <p className={styles.dj_subtitle}>
+            Crucial Travel Information & Requirements
+          </p>
         </div>
       </div>
 
@@ -138,15 +140,21 @@ const Guidelines = ({ country }) => {
             <h2>Visa Guidelines & Stay Duration</h2>
             <p>
               You are permitted to stay for up to{" "}
-              <strong>{country.stayDuration || "the specified visa validity"}</strong>.
-              Ensure your passport has at least 6 months of validity from your arrival date. Primary requirement:{" "}
+              <strong>
+                {country.stayDuration || "the specified visa validity"}
+              </strong>
+              . Ensure your passport has at least 6 months of validity from your
+              arrival date. Primary requirement:{" "}
               <strong>{country.requirement || "Valid Passport"}</strong>.
             </p>
           </div>
 
           <div className={styles.guideBlock}>
             <h2>Pre-departure Required Checklist</h2>
-            <p>To ensure smooth travel and entry, please prepare the following mandatory documents:</p>
+            <p>
+              To ensure smooth travel and entry, please prepare the following
+              mandatory documents:
+            </p>
             <ul className={styles.bulletList}>
               {listToRender.map((item, idx) => (
                 <li key={idx}>

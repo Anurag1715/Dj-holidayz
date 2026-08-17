@@ -23,15 +23,38 @@ const getStepIconInfo = (step, idx, total) => {
   // 2. Icon resolution
   let Icon = IconDocument;
 
-  if (type === "finish" || idx === total - 1 || title.includes("grant") || title.includes("receive") || title.includes("approval") || title.includes("get your")) {
+  if (
+    type === "finish" ||
+    idx === total - 1 ||
+    title.includes("grant") ||
+    title.includes("receive") ||
+    title.includes("approval") ||
+    title.includes("get your")
+  ) {
     Icon = IconCheck;
   } else if (type === "pay" || title.includes("pay") || title.includes("fee")) {
     Icon = IconPayment;
-  } else if (type === "review" || title.includes("review") || title.includes("consular") || title.includes("processing") || title.includes("verify")) {
+  } else if (
+    type === "review" ||
+    title.includes("review") ||
+    title.includes("consular") ||
+    title.includes("processing") ||
+    title.includes("verify")
+  ) {
     Icon = IconReview;
-  } else if (type === "appointment" || title.includes("appointment") || title.includes("biometric")) {
+  } else if (
+    type === "appointment" ||
+    title.includes("appointment") ||
+    title.includes("biometric")
+  ) {
     Icon = IconAppointment;
-  } else if (type === "start" || idx === 0 || title.includes("check") || title.includes("eligibility") || title.includes("confirm")) {
+  } else if (
+    type === "start" ||
+    idx === 0 ||
+    title.includes("check") ||
+    title.includes("eligibility") ||
+    title.includes("confirm")
+  ) {
     Icon = IconSearch;
   } else {
     Icon = IconDocument;
@@ -50,14 +73,19 @@ const VisaSteps = ({ steps, title }) => {
           <div className={styles.dj_top_section}>
             <p className={styles.dj_tagline}>{title || "Steps"}</p>
             <p className={styles.dj_subtitle}>
-              Our Visa Experts review and process your visa with the embassy on your behalf
+              Our Visa Experts review and process your visa with the embassy on
+              your behalf
             </p>
           </div>
         </div>
 
         <div className={styles.timeline}>
           {steps.map((step, idx) => {
-            const { Icon, styleClass } = getStepIconInfo(step, idx, steps.length);
+            const { Icon, styleClass } = getStepIconInfo(
+              step,
+              idx,
+              steps.length,
+            );
 
             return (
               <div

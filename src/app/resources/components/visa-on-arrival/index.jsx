@@ -8,8 +8,10 @@ const toSlug = (name) => name.toLowerCase().replace(/\s+/g, "-");
 const getVisaStartingPrice = (country) => {
   if (country.visaOptions && country.visaOptions.length > 0) {
     const opt = country.visaOptions[0];
-    const formFee = parseInt((opt.visaFormFee || "").replace(/[^0-9]/g, ""), 10) || 0;
-    const embassyFee = parseInt((opt.embassyFee || "").replace(/[^0-9]/g, ""), 10) || 0;
+    const formFee =
+      parseInt((opt.visaFormFee || "").replace(/[^0-9]/g, ""), 10) || 0;
+    const embassyFee =
+      parseInt((opt.embassyFee || "").replace(/[^0-9]/g, ""), 10) || 0;
     const total = formFee + embassyFee;
     if (total > 0) {
       return `AED ${total.toLocaleString()}`;
@@ -153,8 +155,12 @@ const VisaOnArrival = () => {
                         </div>
                         {getVisaStartingPrice(destination) && (
                           <div className={styles.metaBlock}>
-                            <span className={styles.metaLabel}>Starting From</span>
-                            <strong className={styles.priceTag}>{getVisaStartingPrice(destination)}</strong>
+                            <span className={styles.metaLabel}>
+                              Starting From
+                            </span>
+                            <strong className={styles.priceTag}>
+                              {getVisaStartingPrice(destination)}
+                            </strong>
                           </div>
                         )}
                       </div>
