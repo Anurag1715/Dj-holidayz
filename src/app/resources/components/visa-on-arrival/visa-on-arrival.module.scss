@@ -415,6 +415,31 @@
   font-weight: 700;
 }
 
+.cardMetaRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.7rem 0.75rem;
+  border-radius: 1rem;
+  background: #f6f7f8;
+}
+
+.metaBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+
+  strong {
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+}
+
+.priceTag {
+  color: #8a1516;
+  font-weight: 800;
+}
+
 .cardMeta {
   display: flex;
   flex-direction: column;

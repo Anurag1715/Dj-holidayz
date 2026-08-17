@@ -565,20 +565,32 @@
   font-weight: 700;
 }
 
-.cardMeta {
+.cardMetaRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.85rem;
+  background: #f6f7f8;
+  width: 100%;
+}
+
+.metaBlock {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
-  padding: 0.7rem 0.75rem;
-  border-radius: 1rem;
-  align-self: flex-start;
-  background: #f6f7f8;
+  gap: 0.15rem;
 
   strong {
     display: block;
-    padding-top: 0.1rem;
-    font-size: 1rem;
+    font-size: 0.92rem;
     font-weight: 700;
+    color: colormap(text_primary_black);
+  }
+
+  .priceTag {
+    color: colormap(primary_red);
+    font-weight: 800;
   }
 }
 

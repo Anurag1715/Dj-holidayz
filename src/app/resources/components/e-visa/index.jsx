@@ -10,6 +10,19 @@ import { countries } from "./evisa-data";
 
 const toSlug = (name) => name.toLowerCase().replace(/\s+/g, "-");
 
+const getVisaStartingPrice = (country) => {
+  if (country.visaOptions && country.visaOptions.length > 0) {
+    const opt = country.visaOptions[0];
+    const formFee = parseInt((opt.visaFormFee || "").replace(/[^0-9]/g, ""), 10) || 0;
+    const embassyFee = parseInt((opt.embassyFee || "").replace(/[^0-9]/g, ""), 10) || 0;
+    const total = formFee + embassyFee;
+    if (total > 0) {
+      return `AED ${total.toLocaleString()}`;
+    }
+  }
+  return country.price || null;
+};
+
 const EVisaETA = () => {
   const allCountries = countries.flatMap((region) => region.list);
 
@@ -125,9 +138,17 @@ const EVisaETA = () => {
                         <span className={styles.typeBadge}>{country.type}</span>
                       </div>
 
-                      <div className={styles.cardMeta}>
-                        <span className={styles.metaLabel}>Stay Duration</span>
-                        <strong>{country.stayDuration}</strong>
+                      <div className={styles.cardMetaRow}>
+                        <div className={styles.metaBlock}>
+                          <span className={styles.metaLabel}>Stay Duration</span>
+                          <strong>{country.stayDuration}</strong>
+                        </div>
+                        {getVisaStartingPrice(country) && (
+                          <div className={styles.metaBlock}>
+                            <span className={styles.metaLabel}>Starting From</span>
+                            <strong className={styles.priceTag}>{getVisaStartingPrice(country)}</strong>
+                          </div>
+                        )}
                       </div>
 
                       <p className={styles.notes}>{country.notes}</p>

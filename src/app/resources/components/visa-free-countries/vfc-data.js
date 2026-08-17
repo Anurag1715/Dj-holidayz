@@ -275,6 +275,154 @@ export const countries = [
             image: "/images/vfc/ta-malaysia-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "MALAYSIA Tourism Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 30 Days",
+            visaFormFee: "AED 225",
+            embassyFee: "AED 105",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Consultation",
+            description: "Contact DJ Holidayz to identify the correct Malaysia visa type for your passport",
+            iconType: "start",
+          },
+          {
+            title: "Document Submission",
+            description: "Share your original passport, UAE residence visa copy, photos, and flight/hotel bookings",
+            iconType: "process",
+          },
+          {
+            title: "Application Review",
+            description: "DJ Holidayz visa experts verify all details for 100% accuracy and compliance",
+            iconType: "process",
+          },
+          {
+            title: "Visa Submission",
+            description: "Application is submitted through official Malaysian visa systems or embassy channels",
+            iconType: "process",
+          },
+          {
+            title: "Visa Approval",
+            description: "Receive your approved electronic visa via email or stamped in your passport",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "When should I start applying for my Malaysia travel visa?",
+            answer:
+              "It's best to start your visa application process at least 3 to 4 weeks before your intended travel date. Some visas require additional processing time or document verification.",
+          },
+          {
+            question: "What should I do if my passport is about to expire?",
+            answer:
+              "Most countries, including Malaysia, require your passport to be valid for at least six months beyond your travel date. Renew your passport before applying for a visa.",
+          },
+          {
+            question: "Can I travel before my visa is approved?",
+            answer:
+              "No. You must wait for official visa approval before traveling.",
+          },
+          {
+            question: "Do children need separate visas?",
+            answer:
+              "Yes. Each traveler, including infants and minors, must hold a valid visa.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning a trip to Malaysia from the UAE? Whether traveling for tourism, business meetings, or visiting family, DJ Holidayz offers professional Malaysia visa assistance for UAE residents, ensuring a smooth, accurate, and stress-free application process across Dubai, Abu Dhabi, and the entire UAE.",
+          whatIsSection: {
+            title: "Malaysia Visa from UAE - What It Is & Who Needs It",
+            content: [
+              "A Malaysia visa is an official travel authorization issued by the Malaysian government allowing foreign nationals to enter and stay in Malaysia for a specific duration.",
+              "UAE residents and expatriates holding non-visa-free passports are required to obtain a Malaysia visa (eVisa, eNTRI, or Sticker Visa) prior to departure to ensure smooth immigration clearance.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply?",
+            description:
+              "UAE residents of eligible nationalities can apply for a Malaysia visa if they meet the following mandatory criteria:",
+            points: [
+              "Hold a valid UAE residence visa with at least 60 days validity remaining",
+              "Possess a passport valid for a minimum of 6 months beyond travel date",
+              "Have confirmed return flight tickets and hotel or accommodation bookings",
+              "Be financially capable of supporting your stay in Malaysia",
+            ],
+            footer:
+              "DJ Holidayz guides you through every step to ensure complete eligibility and fast approvals.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Gather the following mandatory supporting documents when applying for a Malaysia visa from the UAE:",
+            points: [
+              "Original passport & copy with minimum 6 months validity",
+              "Valid UAE residence visa copy (minimum 60 days validity remaining)",
+              "Recent passport-size photograph (white background)",
+              "Confirmed return flight ticket reservation",
+              "Confirmed hotel booking or accommodation proof",
+              "Malaysia Digital Arrival Card (MDAC) registered within 3 days of arrival",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Malaysia Visas for UAE Residents",
+            description:
+              "Select the visa type that matches your purpose of stay:",
+            items: [
+              {
+                title: "Tourist Visa (Single Entry)",
+                description:
+                  "For short-term leisure travel, holidays, or visiting family (valid for 15–30 days; processed in 48-72 hours).",
+              },
+              {
+                title: "Business Visa (Multiple Entry)",
+                description:
+                  "Suitable for corporate meetings, conferences, and frequent business travel (valid up to 12 months; processed in 3-5 days).",
+              },
+              {
+                title: "Transit Visa",
+                description:
+                  "For passengers transiting through Malaysia to a third country destination.",
+              },
+              {
+                title: "Malaysia eVisa / eNTRI",
+                description:
+                  "Digital visa options processed online and delivered via email for Indian, Pakistani, Bangladeshi, Chinese, Sri Lankan, and Myanmar passport holders.",
+              },
+            ],
+            note: "eVisas and eNTRI notes can be processed digitally via email for Indian, Pakistani, Bangladeshi, Chinese, Sri Lankan, and Myanmar passport holders. Express processing options within 2 hours are available for select nationalities.",
+          },
+          rejections: {
+            title: "Common Rejection Reasons & Tips to Avoid Rejection",
+            description:
+              "Be mindful of common errors during application submission:",
+            points: [
+              "Incomplete or incorrect documentation details",
+              "Insufficient bank balance or unverified financial proof",
+              "Submitting blurred or invalid passport copies",
+              "Applying with less than 60 days remaining on your UAE residence visa",
+            ],
+            tip: "Tips to Avoid Rejection: 1. Double-check all documents before submitting to ensure details match. 2. Apply through registered travel specialists at DJ Holidayz. 3. Maintain honest, consistent travel plans. 4. Provide updated bank statements and proof of income. 5. Maintain a clean travel record without overstays.",
+          },
+          whyUs: {
+            title: "Why Choose DJ Holidayz for Your Malaysian Visa?",
+            points: [
+              "15+ years of dedicated expertise in UAE travel & visa processing across Dubai and Abu Dhabi",
+              "100% accuracy in document pre-verification & embassy submission",
+              "Transparent fee structure with zero hidden charges",
+              "Dedicated visa consultant for every applicant with fast-track processing options (within 2 hours for select nationalities)",
+              "24/7 WhatsApp support for real-time application updates",
+            ],
+            footer:
+              "Start your journey to Malaysia with confidence! Contact DJ Holidayz today for seamless visa approvals.",
+          },
+        },
       },
       {
         flag: "🇲🇴",
@@ -658,6 +806,160 @@ export const countries = [
             image: "/images/vfc/ta-mauritius-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "MAURITIUS Tourism Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 90 Days",
+            visaFormFee: "AED 450",
+            embassyFee: "AED 0",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Choose Visa Category",
+            description: "Select the right Mauritius visa type based on your travel purpose",
+            iconType: "start",
+          },
+          {
+            title: "Gather Supporting Documents",
+            description: "Prepare passport, 6-month bank statements, travel insurance, and flight/hotel bookings",
+            iconType: "process",
+          },
+          {
+            title: "Fill Application & Schedule Appointment",
+            description: "DJ Holidayz assists in completing the official application form and scheduling your visa center slot",
+            iconType: "process",
+          },
+          {
+            title: "Submit Biometrics",
+            description: "Attend your biometric meeting at the visa submission center in Dubai or Abu Dhabi",
+            iconType: "process",
+          },
+          {
+            title: "Receive Approved Visa",
+            description: "Receive your approved Mauritius visit visa stamped in your passport within 10-15 working days",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "Who needs a visa to travel to Mauritius?",
+            answer:
+              "The majority of non-exempt passport holders residing in the UAE or GCC require a visa to enter Mauritius prior to travel.",
+          },
+          {
+            question: "How do I apply for a Mauritius visa from Dubai?",
+            answer:
+              "You can apply through DJ Holidayz. Our experts complete your paperwork, organize supporting documents, and schedule your biometric submission appointment in Dubai.",
+          },
+          {
+            question: "What is the validity of a Mauritius tourist visa?",
+            answer:
+              "A Mauritius tourist visa typically permits a maximum stay of up to 90 days within a 180-day period.",
+          },
+          {
+            question: "How long does Mauritius tourist visa processing take?",
+            answer:
+              "Standard processing normally takes between 10 to 15 working days from the date of biometric submission.",
+          },
+          {
+            question: "Can Abu Dhabi residents apply for a Mauritius visa from UAE?",
+            answer:
+              "Yes. Abu Dhabi residents can easily apply for a Mauritius visa through DJ Holidayz with complete end-to-end guidance.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Applying for a Mauritius visa is easier than ever with DJ Holidayz, your trusted UAE visa experts. Whether traveling for leisure holidays, business meetings, or visiting family, we process your visa application smoothly with expert document review and dedicated support across Dubai, Abu Dhabi, and the UAE.",
+          whatIsSection: {
+            title: "What is a Mauritius Visa & Why You Need One?",
+            content: [
+              "A visa to Mauritius is an official entry permit issued by Mauritius immigration authorities allowing foreign nationals from non-visa-exempt countries to enter and stay for tourism, business, transit, medical care, family visits, or study.",
+              "Most non-EU nationals residing in the UAE must obtain a visa prior to travel. Approval depends on fulfilling entry requirements and presenting verified supporting documentation.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "UAE residents of any non-exempt nationality can apply for a Mauritius visa if they satisfy the following conditions:",
+            points: [
+              "Hold a valid passport with at least 6 months validity from intended entry",
+              "Hold a valid UAE residence visa and Emirates ID",
+              "Provide proof of sufficient financial capability (last 6 months bank statements)",
+              "Show confirmed travel itinerary including return flights and hotel bookings",
+              "Meet health standards, clear security checks, and present complete paperwork",
+            ],
+            footer:
+              "DJ Holidayz provides end-to-end guidance for foreign nationals requiring professional support.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Gather the following mandatory supporting documents for your Mauritius visa application:",
+            points: [
+              "Original passport (valid for at least 6 months with 2 blank pages)",
+              "Completed & signed Mauritius visa application form",
+              "Copy of valid UAE residence visa & Emirates ID",
+              "Last 6 months' bank statements stamped by the bank showing sufficient funds",
+              "Travel medical insurance policy (minimum €30,000 medical coverage)",
+              "Confirmed return flight ticket and hotel accommodation booking",
+              "Employment NOC letter from employer or trade license copy (for business owners)",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Mauritius Visas for UAE Residents",
+            description:
+              "Select the visa classification that aligns with your travel plans:",
+            items: [
+              {
+                title: "Tourist Visa (Type C)",
+                description:
+                  "For leisure travel, sightseeing, and vacation holidays (stay up to 90 days in 180 days).",
+              },
+              {
+                title: "Business Visa (Type C)",
+                description:
+                  "For commercial meetings, trade discussions, and professional events.",
+              },
+              {
+                title: "Transit & Visitor Visas",
+                description:
+                  "For airport transit passengers or visitors staying with family/friends.",
+              },
+              {
+                title: "Student, Work & Medical Visas (Type D)",
+                description:
+                  "Long-term permits for full-time study, employment, or specialized medical treatments.",
+              },
+            ],
+            note: "Standard processing takes 10 to 15 working days from biometric submission. Priority/express services may be available depending on consular schedules.",
+          },
+          rejections: {
+            title: "Common Rejection Reasons & Tips for Approval",
+            description:
+              "Be aware of primary factors that lead to visa rejections:",
+            points: [
+              "Missing or incorrectly formatted supporting documents",
+              "Insufficient bank balance or unverified financial statements",
+              "Unclear or unverified travel purpose and hotel bookings",
+              "Invalid travel medical insurance coverage",
+            ],
+            tip: "Tips for Approval: Provide accurate financial proof (stamped 6-month bank statements), include confirmed flight & hotel itineraries, maintain valid travel insurance (€30k coverage), and rely on DJ Holidayz professional document pre-verification.",
+          },
+          whyUs: {
+            title: "Why Apply for Your Mauritius Visa with DJ Holidayz?",
+            points: [
+              "Fast & professional visa processing with 100% document pre-verification accuracy",
+              "From Dubai & Abu Dhabi: We schedule your appointment, handle documentation and form filing, track application status, and collect/deliver your approved passport — you only attend the biometric step",
+              "Priority and fast-track submission support available for urgent travel dates",
+              "High approval success rate backed by dedicated 24/7 customer support",
+            ],
+            footer:
+              "Get your Mauritius visa from Dubai or Abu Dhabi approved quickly with expert guidance. Contact DJ Holidayz today!",
+          },
+        },
       },
       {
         flag: "🇸🇨",

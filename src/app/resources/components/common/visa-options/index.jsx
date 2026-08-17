@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "./visa-options.module.scss";
 
+const hasEmbassyFee = (feeStr) => {
+  if (!feeStr) return false;
+  const num = parseInt(feeStr.replace(/[^0-9]/g, ""), 10);
+  return !isNaN(num) && num > 0;
+};
+
 const VisaOptions = ({ options }) => {
   if (!options || options.length === 0) return null;
 
@@ -49,10 +55,12 @@ const VisaOptions = ({ options }) => {
                     {option.visaFormFee}
                   </span>
                 </div>
-                <div className={styles.priceBlock}>
-                  <span className={styles.priceLabel}>Embassy Fee</span>
-                  <span className={styles.priceValue}>{option.embassyFee}</span>
-                </div>
+                {hasEmbassyFee(option.embassyFee) && (
+                  <div className={styles.priceBlock}>
+                    <span className={styles.priceLabel}>Embassy Fee</span>
+                    <span className={styles.priceValue}>{option.embassyFee}</span>
+                  </div>
+                )}
               </div>
 
               <div className={styles.cardFooter}>

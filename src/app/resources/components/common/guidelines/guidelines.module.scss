@@ -1,0 +1,220 @@
+@use "../../../styles/mixin" as *;
+
+.section {
+  width: 100%;
+  padding-block: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > div {
+    width: 100%;
+  }
+}
+
+.dj_top_section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+
+  .dj_tagline {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: colormap(dj_f_white);
+    background: colormap(dj_red_gradient);
+    border-radius: 0.93rem;
+    padding: 0.31rem 1.25rem;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+    @include laptop {
+      font-size: 1.25rem;
+    }
+
+    @include mini {
+      font-size: 1.125rem;
+      padding: 0.3rem 0.9rem;
+    }
+  }
+
+  .dj_subtitle {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    max-width: 577px;
+    margin: auto;
+    color: rgba($color: colormap(text_primary_black), $alpha: 0.8);
+
+    @include sm {
+      font-size: 0.85rem;
+      line-height: 1rem;
+    }
+  }
+}
+
+.dj_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+
+
+
+/* Detailed Guide Styles */
+.guideContainer {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 1.75rem;
+  border: 1px solid rgba(25, 32, 36, 0.06);
+  box-shadow: 0 15px 40px rgba(25, 32, 36, 0.03);
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+
+  @include mobile {
+    padding: 1.75rem 1.5rem;
+  }
+}
+
+.introLead {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(25, 32, 36, 0.8);
+  margin: 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid colormap(dj_filter_stroke);
+}
+
+.guideBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+
+  h2 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: colormap(text_primary_black);
+    margin: 0;
+
+    @include mobile {
+      font-size: 1.25rem;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(25, 32, 36, 0.75);
+    margin: 0;
+  }
+}
+
+.bulletList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: rgba(25, 32, 36, 0.8);
+  }
+}
+
+.redDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: colormap(primary_red);
+  margin-top: 0.55rem;
+  flex-shrink: 0;
+}
+
+.blockFooter {
+  font-weight: 500;
+  color: colormap(text_primary_black) !important;
+  margin-top: 0.25rem;
+}
+
+.blockNote {
+  font-style: italic;
+  color: #666 !important;
+  margin-top: 0.5rem;
+}
+
+.visaTypesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.visaTypeCard {
+  background: colormap(dj_bg_two);
+  border: 1px solid colormap(dj_filter_stroke);
+  border-radius: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 0, 0, 0.2);
+  }
+
+  h4 {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: colormap(text_primary_black);
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #666;
+  }
+}
+
+.tipCallout {
+  background: rgba(255, 0, 0, 0.05);
+  border-left: 4px solid colormap(primary_red);
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-top: 0.5rem;
+
+  p {
+    color: colormap(text_primary_black) !important;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+.contactFooter {
+  font-weight: 600;
+  color: colormap(primary_red) !important;
+  font-size: 1.05rem !important;
+  margin-top: 0.5rem;
+}

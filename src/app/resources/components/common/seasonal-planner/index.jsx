@@ -5,11 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import ChevronLeftIcon from "@/Icons/chevron-left.svg";
 import ChevronRightIcon from "@/Icons/chevron-right.svg";
-import styles from "../visa-free-countries.module.scss";
+import styles from "@/app/resources/components/visa-free-countries/visa-free-countries.module.scss";
 
-import { countries as vfcCountries } from "../vfc-data";
-import { countries as voaCountries } from "../../visa-on-arrival/voa-data";
-import { countries as evisaCountries } from "../../e-visa/evisa-data";
+import { countries as vfcCountries } from "@/app/resources/components/visa-free-countries/vfc-data";
+import { countries as voaCountries } from "@/app/resources/components/visa-on-arrival/voa-data";
+import { countries as evisaCountries } from "@/app/resources/components/e-visa/evisa-data";
 
 const months = [
   "JAN",

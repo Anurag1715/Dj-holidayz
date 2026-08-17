@@ -102,6 +102,161 @@ export const countries = [
             image: "/images/evisa/ta-srilanka-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "SRI LANKA Tourism Visa",
+            category: "E Visa (ETA)",
+            processingTime: "48 Hours",
+            visaValidity: "Up to 30 Days",
+            visaFormFee: "AED 358",
+            embassyFee: "AED 192",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Contact DJ Holidayz",
+            description: "Reach out via website or WhatsApp to initiate your Sri Lanka ETA visa process",
+            iconType: "start",
+          },
+          {
+            title: "Submit Supporting Documents",
+            description: "Send passport copy, photo, flight tickets, hotel confirmation, and UAE residence visa",
+            iconType: "process",
+          },
+          {
+            title: "Application Review",
+            description: "DJ Holidayz experts review all details to guarantee accuracy and consular compliance",
+            iconType: "process",
+          },
+          {
+            title: "Pay Visa Processing Fee",
+            description: "Complete payment through secure online channels, bank transfer, or at our Dubai office",
+            iconType: "process",
+          },
+          {
+            title: "Receive Approved eVisa",
+            description: "Receive your electronic visa approval (ETA) via email within 24 to 48 hours",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "Do UAE residents need a Sri Lanka visa from Ras Al Khaimah?",
+            answer:
+              "Yes. Most UAE residents (including those residing in Ras Al Khaimah, Dubai, Abu Dhabi, or other emirates) must obtain a Sri Lanka visa prior to traveling, usually via the online ETA system.",
+          },
+          {
+            question: "Is there an age limit for applicants for Sri Lanka tourist visa?",
+            answer:
+              "No. People of all age groups, from infants and minors to older applicants, are eligible for a Sri Lanka tourist visa.",
+          },
+          {
+            question: "Do Sri Lanka GCC residents have different visa rules?",
+            answer:
+              "All residents of the GCC must apply in advance, although processing is frequently faster due to streamlined electronic channels and strong diplomatic ties.",
+          },
+          {
+            question: "How can I make the visa payment for Sri Lanka?",
+            answer:
+              "You can make payments online through secure digital links, via bank transfer, or physically at the DJ Holidayz Dubai office.",
+          },
+          {
+            question: "Is a return flight ticket mandatory for a Sri Lanka visit visa?",
+            answer:
+              "Yes. You must present a confirmed return or onward flight ticket demonstrating your intention to exit Sri Lanka.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Applying for a Sri Lanka visa from Dubai, Abu Dhabi, or anywhere in the UAE requires accurate documentation and a clear understanding of the electronic application process. At DJ Holidayz, we provide professional assistance with the Sri Lanka ETA visa application process for UAE residents, ensuring high accuracy, rapid processing, and a smooth, stress-free experience.",
+          whatIsSection: {
+            title: "What is a Sri Lanka Visa & Why You Need One?",
+            content: [
+              "A visa to Sri Lanka is an official Electronic Travel Authorization (ETA) that permits foreign nationals to enter Sri Lanka for tourism, business, or transit purposes.",
+              "UAE residents must acquire an ETA before departure unless holding a visa-exempt passport. Obtaining your Sri Lanka eVisa online through DJ Holidayz ensures your journey starts without delays or airport complications.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "Any legal resident of the UAE holding a passport valid for at least 6 months can apply for a Sri Lanka visa:",
+            points: [
+              "Hold a valid passport with a minimum of 6 months validity remaining",
+              "Hold a valid UAE residence visa and Emirates ID",
+              "Provide proof of sufficient financial funds for the duration of stay",
+              "Show confirmed return flight tickets and hotel accommodation details",
+              "Have no active travel bans or immigration restrictions",
+            ],
+            footer:
+              "DJ Holidayz manages applications for applicants across Dubai, Abu Dhabi, Ras Al Khaimah, and all UAE Emirates.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Gather the following mandatory supporting documents for your Sri Lanka tourist visa application:",
+            points: [
+              "Original passport & copy (minimum 6 months validity from travel date)",
+              "Recent passport-sized photograph (white background)",
+              "Completed visa application form (assisted by DJ Holidayz)",
+              "Confirmed return flight ticket reservation",
+              "Hotel booking confirmation or accommodation proof",
+              "Valid UAE residence visa copy",
+              "Travel medical insurance (recommended)",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Sri Lanka Visas for UAE Residents",
+            description:
+              "Select the visa classification that best aligns with your travel plans:",
+            items: [
+              {
+                title: "Tourist Visa (ETA)",
+                description:
+                  "For vacations, leisure travel, sightseeing, and visiting family or friends (valid for 30 days entry).",
+              },
+              {
+                title: "Business Visa (ETA)",
+                description:
+                  "For attending corporate meetings, trade events, business discussions, or conferences.",
+              },
+              {
+                title: "Transit Visa",
+                description:
+                  "For short layovers at Sri Lankan international airports (valid up to 48 hours).",
+              },
+              {
+                title: "Residence & Religious Visas",
+                description:
+                  "Long-term permits for employment, extended stay, or participating in religious events.",
+              },
+            ],
+            note: "Standard processing takes 24 to 48 hours. Applicants of all age groups (including infants) require individual visa approvals.",
+          },
+          rejections: {
+            title: "Common Reasons for Visa Rejection & Approval Tips",
+            description:
+              "Avoid simple errors that lead to visa delays or rejection:",
+            points: [
+              "Applying with a passport valid for less than 6 months",
+              "Inaccurate form entry or spelling discrepancies with passport data",
+              "Document mismatches between flight dates and visa request",
+              "Failure to demonstrate genuine travel purpose or financial sufficiency",
+            ],
+            tip: "Tips to Avoid Rejection: 1. Ensure passport validity is at least 6 months. 2. Fill forms carefully with exact passport spelling. 3. Avoid document mismatches. 4. Provide genuine financial and flight information. 5. Apply early through DJ Holidayz visa experts.",
+          },
+          whyUs: {
+            title: "Top Reasons to Choose DJ Holidayz for Your Sri Lanka Visa",
+            points: [
+              "Fast & Reliable Processing: Quick ETA approvals within 24–48 hours",
+              "Expert Guidance: Experienced consultants managing document filing and embassy compliance",
+              "Transparent Pricing: Clear fee breakdown with zero hidden charges",
+              "Flexible Payment Options: Pay online, via bank transfer, or at our Dubai office",
+              "24/7 Support: Round-the-clock assistance for applicants across Dubai, Abu Dhabi, and Ras Al Khaimah",
+            ],
+            footer:
+              "We take care of your paperwork while you plan your perfect Sri Lanka holiday. Contact DJ Holidayz today!",
+          },
+        },
       },
       {
         flag: "🇻🇳",
@@ -194,6 +349,157 @@ export const countries = [
           { title: "Phong Nha Caves", image: "/images/evisa/ta-vietnam-3.jpg" },
           { title: "Hue Citadel", image: "/images/evisa/ta-vietnam-4.jpg" },
         ],
+        visaOptions: [
+          {
+            title: "VIETNAM Tourism Visa",
+            category: "E VISA",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 30 Days",
+            visaFormFee: "AED 250",
+            embassyFee: "AED 200",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Gather Documents",
+            description: "Collect valid passport, digital photos, travel itinerary, and flight/hotel bookings",
+            iconType: "start",
+          },
+          {
+            title: "Fill Application Form",
+            description: "Complete the Vietnam e-visa application form accurately",
+            iconType: "process",
+          },
+          {
+            title: "Submit via DJ Holidayz",
+            description: "Send paperwork to DJ Holidayz specialists for verification and submission",
+            iconType: "process",
+          },
+          {
+            title: "Pay Visa Fees",
+            description: "Pay the applicable visa processing fee securely online",
+            iconType: "process",
+          },
+          {
+            title: "Receive eVisa Approval",
+            description: "Receive your electronic visa approval letter via email within 3-7 working days",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "Can I travel to Vietnam with a damaged passport?",
+            answer:
+              "No. Damaged, torn, or missing-page passports can result in entry denial at immigration.",
+          },
+          {
+            question: "Can I use my Vietnam visit visa to enter multiple Vietnamese cities?",
+            answer:
+              "Yes. Once admitted, you are free to travel between different cities and provinces across Vietnam.",
+          },
+          {
+            question: "Is a visa required for airport transit in Vietnam?",
+            answer:
+              "If you remain inside the international transit area and do not pass immigration, you may not need a visa. Check your airline's specific transit rules.",
+          },
+          {
+            question: "Can I apply for a Vietnam business visa from Dubai?",
+            answer:
+              "Yes. UAE residents can apply for a Vietnam business visa (eVisa or VOA) with a local Vietnamese sponsor or invitation letter.",
+          },
+          {
+            question: "Is an invitation letter required for Vietnam business visas?",
+            answer:
+              "Yes, a sponsor invitation letter is generally required when submitting a business visa application.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Applying for a Vietnam visa is mandatory for most nationalities, whether traveling for tourism, business, conferences, or family visits. At DJ Holidayz, we provide professional support throughout the Vietnam visa application process, making it quick, convenient, and hassle-free for applicants from Dubai, Abu Dhabi, and across the UAE.",
+          whatIsSection: {
+            title: "What is a Vietnam Visa & Why You Need One?",
+            content: [
+              "A Vietnam visa is a formal travel authorization that grants entry to foreign nationals to conduct tourism, business, family visits, or short stays in Vietnam.",
+              "Most travelers require a visa unless holding a passport on Vietnam's visa-exemption list. Obtaining a valid visa in advance guarantees smooth immigration entry and adherence to local regulations.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "Applicants eligible to apply for a Vietnam visa from the UAE include:",
+            points: [
+              "Leisure or holiday tourists seeking short-term or multi-city travel",
+              "Business travelers attending corporate meetings, trade events, or conferences",
+              "Expatriate residents in the UAE of any non-visa-exempt nationality",
+              "Travelers with a valid passport (minimum 6 months validity)",
+            ],
+            footer:
+              "DJ Holidayz offers expert consulting, document preparation, and professional visa filing.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Gather the following mandatory supporting documents for your Vietnam visa application:",
+            points: [
+              "Valid original passport (minimum 6 months validity remaining)",
+              "Two recent passport-size photographs (white background)",
+              "Completed Vietnam visa application form",
+              "Travel itinerary with confirmed hotel bookings & return flight tickets",
+              "Sponsor invitation letter (mandatory for business visa applicants)",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Vietnam Visas for UAE Residents",
+            description:
+              "Choose the right visa category depending on your travel purpose:",
+            items: [
+              {
+                title: "Vietnam eVisa",
+                description:
+                  "Appropriate for tourists and business travelers; typically valid for up to 30 days (single or multiple entry).",
+              },
+              {
+                title: "Tourist Visa",
+                description:
+                  "Generally valid for stays ranging from 30 to 90 days. Ideal for leisure holidays and family visits.",
+              },
+              {
+                title: "Business Visa",
+                description:
+                  "Issued as single or multiple entry with longer validity to accommodate frequent corporate travel.",
+              },
+              {
+                title: "Visa on Arrival (VOA)",
+                description:
+                  "Requires pre-approved entry approval letter before departure.",
+              },
+            ],
+            note: "Standard processing takes 3 to 7 working days. Express / urgent processing services are available at an additional cost.",
+          },
+          rejections: {
+            title: "Common Reasons for Visa Rejection & Approval Tips",
+            description:
+              "Be aware of common factors that lead to visa refusal:",
+            points: [
+              "Wrong or incomplete application information",
+              "Passport validity under 6 months or damaged pages",
+              "Mismatched travel or identity details",
+              "Unsupported purpose of travel or poor quality scanned documents",
+            ],
+            tip: "Tips for Approval: Ensure all information is accurate and complete, maintain passport validity of at least 6 months, provide high-quality document scans, and apply early using DJ Holidayz professional visa services.",
+          },
+          whyUs: {
+            title: "Why Choose DJ Holidayz for Your Vietnam Visa?",
+            points: [
+              "Rapid, reliable visa processing with 100% document accuracy pre-audit",
+              "Updated 2026 visa guidelines & multi-nationality assistance",
+              "Dedicated UAE visa specialists ensuring hassle-free processing",
+              "Transparent pricing with clear fee breakdowns and real-time status updates",
+            ],
+            footer:
+              "Get ready for your Vietnam trip today! Contact DJ Holidayz for fast and hassle-free visa approval.",
+          },
+        },
       },
       {
         flag: "🇸🇬",
@@ -295,6 +601,159 @@ export const countries = [
             image: "/images/evisa/ta-singapore-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "SINGAPORE Tourism Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 30 Days",
+            visaFormFee: "AED 305",
+            embassyFee: "AED 145",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Check Visa Requirement",
+            description: "Check if you need a visa based on your nationality and UAE residence permit",
+            iconType: "start",
+          },
+          {
+            title: "Gather Documents",
+            description: "Prepare valid passport, photos, Emirates ID, hotel & flight bookings, and bank statements",
+            iconType: "process",
+          },
+          {
+            title: "Complete Application Form",
+            description: "Fill in your visa application form with accurate details",
+            iconType: "process",
+          },
+          {
+            title: "Pay Visa Fee & Submit",
+            description: "Submit your application securely through DJ Holidayz for fast ICA processing",
+            iconType: "process",
+          },
+          {
+            title: "Get Your eVisa",
+            description: "Receive your approved Singapore Electronic Visa via email within 3-5 working days",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "When should I start my visa application to Singapore if I live in the UAE?",
+            answer:
+              "It is recommended to start your visa application at least 3-4 weeks before your planned travel date. This gives sufficient time to collect documents and have them processed by the Singapore Consulate in Dubai.",
+          },
+          {
+            question: "Can I submit a visa application if I am currently in the UAE on a visit visa?",
+            answer:
+              "No. Only UAE residents with a valid residence visa are eligible to apply locally. Short-term visitors in the UAE must complete the process from their home country.",
+          },
+          {
+            question: "How long does the Singapore visiting visa process take?",
+            answer:
+              "Normal processing time for a Singapore visit visa is 3-5 working days when all documents are complete. Fast-track options are available.",
+          },
+          {
+            question: "Do I need to book flights and hotels before applying?",
+            answer:
+              "No. You are not required to make confirmed flight or hotel bookings before applying. Provisional reservations or tentative itineraries are adequate.",
+          },
+          {
+            question: "What happens after I submit my visa application to Singapore?",
+            answer:
+              "After document submission through DJ Holidayz, your documents are processed and forwarded to ICA / Singapore Embassy. Upon approval, you will receive your e-visa via email.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning to travel to Singapore? The process of applying for a Singapore Visa has become expeditious and effortless. Whether you reside in Dubai, Abu Dhabi, or anywhere in the UAE, DJ Holidayz provides expert Singapore Tourist Visa services for all UAE residents regardless of nationality, adhering to the latest ICA regulations for smooth, fast approvals.",
+          whatIsSection: {
+            title: "What is a Singapore Visa & Why You Need One?",
+            content: [
+              "A visa to Singapore is an official entry authorization issued by the Government of Singapore (ICA) allowing foreign nationals to enter Singapore for tourism, commerce, family visits, or transit.",
+              "For UAE residents, holding a valid visa enables smooth immigration clearance, verifies financial status and travel purpose, and prevents travel delays or complications upon arrival.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "Legal residents of the UAE of any nationality are eligible to apply for a Singapore visa:",
+            points: [
+              "UAE residents of any nationality (including Indian, Filipino, Pakistani, and other foreign nationals) with a valid UAE residence visa (minimum 3 months validity)",
+              "GCC nationals residing in the UAE holding valid stay permits",
+              "Tourists, business professionals, and family visitors traveling for short-term stays",
+            ],
+            footer:
+              "DJ Holidayz ensures your application complies with ICA rules for seamless entry authorization.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Prepare the following mandatory documents for your Singapore visa application from Dubai & the UAE:",
+            points: [
+              "Valid Passport: Minimum 6 months validity with at least 3 blank pages",
+              "UAE Residency Proof: Emirates ID and residence visa copy (minimum 3 months validity)",
+              "Completed Visa Application Form: Signed and filled in English",
+              "Digital Photographs: Two recent passport-size color photos (35x45mm, white background)",
+              "Travel Health Insurance: Minimum medical coverage of $30,000 USD",
+              "NOC Letter: From employer confirming job position, salary, and travel approval (or Trade License copy for business owners)",
+              "Travel Plans: Flight reservation, hotel booking, and detailed itinerary",
+              "Financial Evidence: Bank statements for the past 3 months showing adequate balance",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Singapore Visas for UAE Residents",
+            description:
+              "Explore the primary visa categories available for UAE residents:",
+            items: [
+              {
+                title: "Tourist Visa",
+                description:
+                  "Ideal for sightseeing, holidays, and visiting friends or family in Singapore.",
+              },
+              {
+                title: "Business Visa",
+                description:
+                  "Designed for professionals attending corporate meetings, trade events, or conferences.",
+              },
+              {
+                title: "Transit Visa",
+                description:
+                  "For travelers passing through Singapore Changi Airport to a third destination.",
+              },
+              {
+                title: "Family Visa",
+                description:
+                  "For visiting family members legally residing in Singapore.",
+              },
+            ],
+            note: "Standard tourist e-visas permit single entry stays up to 30 days. Multiple entry visas may be granted based on profile and travel history.",
+          },
+          rejections: {
+            title: "Common Visa Rejection Reasons & Tips for Approval",
+            description:
+              "Key compliance items evaluated by ICA Singapore:",
+            points: [
+              "Incomplete or incorrect documentation and application details",
+              "Insufficient financial proof or low 3-month bank balance",
+              "Mismatched travel details or unverified hotel/flight plans",
+              "Invalid or short-validity UAE residency permit",
+            ],
+            tip: "Tips for Approval: Submit complete and accurate documents, ensure passport validity of at least 6 months, provide genuine travel purpose with supporting paperwork, and show sufficient financial proof. DJ Holidayz pre-audits every file to maximize approval success.",
+          },
+          whyUs: {
+            title: "Why Choose DJ Holidayz for Your Singapore Visa Support?",
+            points: [
+              "High application success rate backed by expert document review and ICA compliance",
+              "15+ years of travel & visa processing experience across the UAE",
+              "Dedicated UAE visa specialists ensuring fast-track document handling",
+              "Transparent pricing with zero hidden charges and real-time status updates",
+            ],
+            footer:
+              "Start your Singapore travel plans today! Contact DJ Holidayz for professional visa support from Dubai, Abu Dhabi, and across the UAE.",
+          },
+        },
       },
       {
         flag: "🇲🇾",
@@ -389,6 +848,154 @@ export const countries = [
             image: "/images/vfc/ta-malaysia-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "MALAYSIA Tourism Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 30 Days",
+            visaFormFee: "AED 225",
+            embassyFee: "AED 105",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Consultation",
+            description: "Contact DJ Holidayz to identify the correct Malaysia visa type for your passport",
+            iconType: "start",
+          },
+          {
+            title: "Document Submission",
+            description: "Share your original passport, UAE residence visa copy, photos, and flight/hotel bookings",
+            iconType: "process",
+          },
+          {
+            title: "Application Review",
+            description: "DJ Holidayz visa experts verify all details for 100% accuracy and compliance",
+            iconType: "process",
+          },
+          {
+            title: "Visa Submission",
+            description: "Application is submitted through official Malaysian visa systems or embassy channels",
+            iconType: "process",
+          },
+          {
+            title: "Visa Approval",
+            description: "Receive your approved electronic visa via email or stamped in your passport",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "When should I start applying for my Malaysia travel visa?",
+            answer:
+              "It's best to start your visa application process at least 3 to 4 weeks before your intended travel date. Some visas require additional processing time or document verification.",
+          },
+          {
+            question: "What should I do if my passport is about to expire?",
+            answer:
+              "Most countries, including Malaysia, require your passport to be valid for at least six months beyond your travel date. Renew your passport before applying for a visa.",
+          },
+          {
+            question: "Can I travel before my visa is approved?",
+            answer:
+              "No. You must wait for official visa approval before traveling.",
+          },
+          {
+            question: "Do children need separate visas?",
+            answer:
+              "Yes. Each traveler, including infants and minors, must hold a valid visa.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning a trip to Malaysia from the UAE? Whether traveling for tourism, business meetings, or visiting family, DJ Holidayz offers professional Malaysia visa assistance for UAE residents, ensuring a smooth, accurate, and stress-free application process across Dubai, Abu Dhabi, and the entire UAE.",
+          whatIsSection: {
+            title: "Malaysia Visa from UAE - What It Is & Who Needs It",
+            content: [
+              "A Malaysia visa is an official travel authorization issued by the Malaysian government allowing foreign nationals to enter and stay in Malaysia for a specific duration.",
+              "UAE residents and expatriates holding non-visa-free passports are required to obtain a Malaysia visa (eVisa, eNTRI, or Sticker Visa) prior to departure to ensure smooth immigration clearance.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply?",
+            description:
+              "UAE residents of eligible nationalities can apply for a Malaysia visa if they meet the following mandatory criteria:",
+            points: [
+              "Hold a valid UAE residence visa with at least 60 days validity remaining",
+              "Possess a passport valid for a minimum of 6 months beyond travel date",
+              "Have confirmed return flight tickets and hotel or accommodation bookings",
+              "Be financially capable of supporting your stay in Malaysia",
+            ],
+            footer:
+              "DJ Holidayz guides you through every step to ensure complete eligibility and fast approvals.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Gather the following mandatory supporting documents when applying for a Malaysia visa from the UAE:",
+            points: [
+              "Original passport & copy with minimum 6 months validity",
+              "Valid UAE residence visa copy (minimum 60 days validity remaining)",
+              "Recent passport-size photograph (white background)",
+              "Confirmed return flight ticket reservation",
+              "Confirmed hotel booking or accommodation proof",
+              "Malaysia Digital Arrival Card (MDAC) registered within 3 days of arrival",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Malaysia Visas for UAE Residents",
+            description:
+              "Select the visa type that matches your purpose of stay:",
+            items: [
+              {
+                title: "Tourist Visa (Single Entry)",
+                description:
+                  "For short-term leisure travel, holidays, or visiting family (valid for 15–30 days; processed in 48-72 hours).",
+              },
+              {
+                title: "Business Visa (Multiple Entry)",
+                description:
+                  "Suitable for corporate meetings, conferences, and frequent business travel (valid up to 12 months; processed in 3-5 days).",
+              },
+              {
+                title: "Transit Visa",
+                description:
+                  "For passengers transiting through Malaysia to a third country destination.",
+              },
+              {
+                title: "Malaysia eVisa / eNTRI",
+                description:
+                  "Digital visa options processed online and delivered via email for Indian, Pakistani, Bangladeshi, Chinese, Sri Lankan, and Myanmar passport holders.",
+              },
+            ],
+            note: "eVisas and eNTRI notes can be processed digitally via email for Indian, Pakistani, Bangladeshi, Chinese, Sri Lankan, and Myanmar passport holders. Express processing options within 2 hours are available for select nationalities.",
+          },
+          rejections: {
+            title: "Common Rejection Reasons & Tips to Avoid Rejection",
+            description:
+              "Be mindful of common errors during application submission:",
+            points: [
+              "Incomplete or incorrect documentation details",
+              "Insufficient bank balance or unverified financial proof",
+              "Submitting blurred or invalid passport copies",
+              "Applying with less than 60 days remaining on your UAE residence visa",
+            ],
+            tip: "Tips to Avoid Rejection: 1. Double-check all documents before submitting to ensure details match. 2. Apply through registered travel specialists at DJ Holidayz. 3. Maintain honest, consistent travel plans. 4. Provide updated bank statements and proof of income. 5. Maintain a clean travel record without overstays.",
+          },
+          whyUs: {
+            title: "Why Choose DJ Holidayz for Your Malaysian Visa?",
+            points: [
+              "15+ years of dedicated expertise in UAE travel & visa processing across Dubai and Abu Dhabi",
+              "100% accuracy in document pre-verification & embassy submission",
+              "Transparent fee structure with zero hidden charges",
+              "Dedicated visa consultant for every applicant with fast-track processing options (within 2 hours for select nationalities)",
+              "24/7 WhatsApp support for real-time application updates",
+            ],
+            footer:
+              "Start your journey to Malaysia with confidence! Contact DJ Holidayz today for seamless visa approvals.",
+          },
+        },
       },
       {
         flag: "🇵🇭",
@@ -486,6 +1093,166 @@ export const countries = [
             image: "/images/vfc/ta-philippines-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "PHILIPPINES Tourism Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 59 Days",
+            visaFormFee: "AED 550",
+            embassyFee: "AED 0",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Check Eligibility",
+            description: "Verify your Philippines visa eligibility from UAE based on travel purpose",
+            iconType: "start",
+          },
+          {
+            title: "Gather Documents",
+            description: "Collect valid passport, UAE residence visa, NOC, bank statements, and flight/hotel bookings",
+            iconType: "process",
+          },
+          {
+            title: "Submit Application",
+            description: "Submit your entry permit documents securely through DJ Holidayz for embassy processing",
+            iconType: "process",
+          },
+          {
+            title: "Pay Visa Fees",
+            description: "Pay the official non-refundable visa processing fee",
+            iconType: "process",
+          },
+          {
+            title: "Collect Visa Passport",
+            description: "Receive your approved Philippines visa stamped in your passport",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "Can I work in the Philippines using a tourist visa?",
+            answer:
+              "No. The tourist visa (9A) is strictly for tourism, visiting family, or recreation. If you intend to work or reside long-term, you must apply for a Pre-Arranged Employment Visa (9G) or another appropriate visa category.",
+          },
+          {
+            question: "How can I track my Philippines visa application status?",
+            answer:
+              "DJ Holidayz regularly provides application updates once your documents are received. You may also contact our support team anytime to check the status of your application.",
+          },
+          {
+            question: "Who is eligible to apply for a Philippines visa from UAE?",
+            answer:
+              "Any foreign national holding a valid UAE residence visa and passport in Dubai, Abu Dhabi, or other emirates (such as Indian, Pakistani, Bangladeshi, Nepali, and other expatriates) is eligible to apply.",
+          },
+          {
+            question: "Can I apply for a Philippines evisa online or must I visit the embassy?",
+            answer:
+              "DJ Holidayz handles the entire process, including document verification and submission to the embassy, so you are not required to attend in person.",
+          },
+          {
+            question: "How will I receive my approved Philippines visit visa?",
+            answer:
+              "The entry permit for the Philippines is stamped on your passport. After approval, DJ Holidayz will notify you when your passport is ready for collection.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning to visit the Philippines from the UAE? With our expert guidance at DJ Holidayz, applying for a Philippines visa is fast, smooth, and stress-free. Whether traveling for leisure, family visits, or business, we ensure an effortless application process with accurate documentation and quick approvals across Dubai, Abu Dhabi, and the entire UAE.",
+          whatIsSection: {
+            title: "What is a Philippines Visa & Why You Need One?",
+            content: [
+              "A Philippines visa is an official entry permit granted by the Government of the Philippines to foreign nationals for tourism, business, family visits, medical treatment, or transit.",
+              "For UAE residents, holding a valid visa in advance ensures smooth immigration clearance upon arrival, verifies your financial standing, and avoids entry delays or travel complications.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "Legal residents of the UAE holding valid residency permits of any nationality can apply for a Philippines visa:",
+            points: [
+              "Hold a passport valid for at least 6 months beyond intended stay",
+              "Hold a valid UAE residence visa (minimum 90 days validity after return)",
+              "Provide proof of sufficient financial stability (stamped bank statements)",
+              "Show confirmed return flight tickets and hotel bookings",
+              "Clean criminal and legal record",
+            ],
+            footer:
+              "DJ Holidayz evaluates your documents to ensure you meet all eligibility criteria.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Gather the following mandatory supporting documents when applying for a Philippines visa from the UAE:",
+            points: [
+              "Valid UAE residence visa (minimum 90 days validity after return date)",
+              "Original passport (valid for at least 6 months with 2 blank pages)",
+              "No Objection Certificate (NOC) from employer or sponsor confirming employment and leave",
+              "Company trade license copy (for self-employed / business owners)",
+              "Self-introduction cover letter detailing income, personal information, and travel purpose",
+              "Three recent passport-size photographs (white background)",
+              "Latest 3-month bank statement stamped by the bank showing sufficient funds",
+              "Proof of accommodation (hotel booking) and confirmed return flight reservation",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Philippines Visas for UAE Residents",
+            description:
+              "Select the visa category that best fits your travel plans:",
+            items: [
+              {
+                title: "Tourist Visa (9A)",
+                description:
+                  "For leisure travel, sightseeing holidays, and visiting family or friends.",
+              },
+              {
+                title: "Business Visa (9A)",
+                description:
+                  "For attending corporate meetings, trade conferences, or business negotiations.",
+              },
+              {
+                title: "Student Visa (9F)",
+                description:
+                  "For enrolled students pursuing educational programs in the Philippines.",
+              },
+              {
+                title: "Pre-Arranged Employment Visa (9G)",
+                description:
+                  "For foreign nationals employed by Philippines-based companies.",
+              },
+              {
+                title: "SRRV Retiree & Transit Visas (9B)",
+                description:
+                  "Special resident visas for long-term retirees or airport transit passengers.",
+              },
+            ],
+            note: "Standard tourist visas are valid for up to 59 days. Processing typically takes 5 to 7 working days.",
+          },
+          rejections: {
+            title: "Common Visa Rejection Reasons & Tips for Approval",
+            description:
+              "Be aware of common reasons for visa refusal to ensure a successful application:",
+            points: [
+              "Incomplete or unverified documentation",
+              "Insufficient bank balance or financial proof",
+              "Mismatched travel itinerary or hotel details",
+              "Invalid or short-validity UAE residency permit",
+            ],
+            tip: "Tips for Approval: Submit complete & accurate documents, demonstrate strong financial proof, prove strong social/economic ties to the UAE, apply well in advance, and ensure details match across all paperwork. DJ Holidayz pre-audits every file to maximize approval rates.",
+          },
+          whyUs: {
+            title: "Why Choose DJ Holidayz for Your Philippines Visa Assistance",
+            points: [
+              "Over a decade of dedicated UAE travel & visa processing expertise",
+              "Personalized assistance tailored to your specific profile and nationality",
+              "Quick turnaround with fast approval tracking and document pre-verification",
+              "Transparent pricing with zero hidden charges and dedicated UAE support",
+            ],
+            footer:
+              "Embark on your Philippines adventure the easy way! Contact DJ Holidayz for fast, reliable visa processing across Dubai, Abu Dhabi, and the UAE.",
+          },
+        },
       },
       {
         flag: "🇰🇭",
@@ -574,9 +1341,169 @@ export const countries = [
           { title: "Tonlé Sap", image: "/images/voa/ta-cambodia-3.jpg" },
           { title: "Ta Prohm Temple", image: "/images/voa/ta-cambodia-4.jpg" },
         ],
+        visaOptions: [
+          {
+            title: "Cambodia Tourism Visa",
+            category: "Tourism (T-Type E-Visa)",
+            processingTime: "3 to 7 Business Days",
+            visaValidity: "Up to 30 Days",
+            visaFormFee: "AED 350",
+            embassyFee: "AED 110",
+          },
+          {
+            title: "Cambodia Business Visa",
+            category: "Business (E-Type E-Visa)",
+            processingTime: "3 to 7 Business Days",
+            visaValidity: "Up to 30 Days",
+            visaFormFee: "AED 350",
+            embassyFee: "AED 128",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Prepare Documents",
+            description: "Gather valid original passport, recent digital passport photo, and credit/debit card",
+            iconType: "start",
+          },
+          {
+            title: "Fill Application Form",
+            description: "Complete the official Cambodia e-visa application form with accurate personal details",
+            iconType: "process",
+          },
+          {
+            title: "Pay Visa Fee Online",
+            description: "Pay the required processing and consular fee securely online",
+            iconType: "process",
+          },
+          {
+            title: "Processing & Approval",
+            description: "DJ Holidayz tracks embassy review; approval takes 3-4 working days",
+            iconType: "process",
+          },
+          {
+            title: "Receive & Print eVisa",
+            description: "Receive your approved Cambodia e-visa via email, print it out, and carry it for travel",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "Can UAE residents apply for a Cambodia eVisa?",
+            answer:
+              "Yes. Cambodia offers an online eVisa that allows UAE residents and expatriates to apply and receive electronic approval prior to travel.",
+          },
+          {
+            question: "Is a return flight ticket required for a Cambodia visa application?",
+            answer:
+              "Yes. Travelers are usually required to provide proof of onward or return flight reservation.",
+          },
+          {
+            question: "Can I apply for a Cambodia visa if my UAE residence visa is expiring soon?",
+            answer:
+              "Your UAE residence visa should generally have at least 90 days validity remaining when submitting your application.",
+          },
+          {
+            question: "What should I check after receiving my Cambodia visa?",
+            answer:
+              "You should carefully verify your passport number, visa validity period, number of permitted entries, and allowed duration of stay.",
+          },
+          {
+            question: "Can I apply for a Cambodia visa from Abu Dhabi as a UAE resident?",
+            answer:
+              "Yes. UAE residents living in Abu Dhabi, Dubai, or any other Emirate can easily apply online through DJ Holidayz.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning a trip to Cambodia from the UAE? DJ Holidayz makes your Cambodia visa application simple, fast, and hassle-free. Whether traveling for leisure, business, or visiting family, our visa experts handle every step to ensure a smooth process and high approval rates across Dubai, Abu Dhabi, and the entire UAE.",
+          whatIsSection: {
+            title: "What is a Cambodia Visa & Why You Need One?",
+            content: [
+              "A Cambodia visa is an official travel document required for most foreign nationals entering Cambodia for tourism, business, or short-term visits.",
+              "Most UAE residents require an E-Visa or Visa on Arrival to enter Cambodia. Only citizens of certain ASEAN countries (Brunei, Indonesia, Laos, Malaysia, Philippines, Singapore, Thailand, and Vietnam) are exempt.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "Any foreign national holding a valid UAE residence visa and passport with at least six months validity can apply for a Cambodia visa:",
+            points: [
+              "Hold a valid original passport with at least 6 months validity remaining",
+              "Hold a valid UAE residence visa (minimum 90 days validity recommended)",
+              "Provide a recent digital passport-sized photograph (white background)",
+              "Have a valid email address to receive electronic visa approvals and updates",
+              "Provide confirmed return flight tickets and hotel bookings",
+            ],
+            footer:
+              "Whether living in Dubai, Abu Dhabi, or the Northern Emirates, DJ Holidayz provides complete end-to-end visa assistance.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Gather the following mandatory supporting documents when applying for your Cambodia visa:",
+            points: [
+              "Original passport (valid for at least 6 months with 2 blank pages)",
+              "Recent digital passport-sized photograph (white background)",
+              "Valid email address for electronic visa delivery & updates",
+              "Debit or credit card for online visa processing payment",
+              "Correctly completed visa application form",
+              "Confirmed onward/return flight reservation and hotel accommodation proof",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Cambodia Visas for UAE Residents",
+            description:
+              "Select the appropriate visa category based on your travel plans:",
+            items: [
+              {
+                title: "Tourist Visa (T-Type)",
+                description:
+                  "For leisure holidays, sightseeing, and short-term visits (valid for 30 days entry).",
+              },
+              {
+                title: "Business Visa (E-Type)",
+                description:
+                  "For professional meetings, corporate activities, and commercial visits.",
+              },
+              {
+                title: "Student Visa",
+                description:
+                  "For enrolled international students pursuing educational programs in Cambodia.",
+              },
+              {
+                title: "Transit Visa",
+                description:
+                  "For travelers passing through Cambodian international airport transit zones.",
+              },
+            ],
+            note: "Processing time is typically 3 to 7 business days. Most e-visas are valid for 30 days stay from date of entry.",
+          },
+          rejections: {
+            title: "Common Rejection Reasons & Tips for Approval",
+            description:
+              "Be aware of key factors that cause visa delays or rejections:",
+            points: [
+              "Incomplete or incorrect application form information",
+              "Low-quality photo upload or passport validity under 6 months",
+              "Inconsistent travel details or unverified flight bookings",
+              "Health or security concerns",
+            ],
+            tip: "Tips for Approval: Double-check all personal details, ensure passport has 6+ months validity, and use DJ Holidayz expert review to guarantee high approval rates.",
+          },
+          whyUs: {
+            title: "Why Apply for Your Cambodia Visa with DJ Holidayz",
+            points: [
+              "From Dubai: Submit application documents via our online portal or visit our office",
+              "From Abu Dhabi: Our representatives guide you through verification and electronic filing",
+              "From Other Emirates: Quick, dependable, and low-cost online electronic processing",
+              "Transparent fee structure with zero hidden charges and high approval success",
+            ],
+            footer:
+              "Get your Cambodia visa hassle-free! Contact DJ Holidayz today for complete travel support.",
+          },
+        },
       },
       {
-        flag: "🇹🇭",
         name: "Thailand",
         image: "/images/voa/thailand-home.webp",
         discoverImage1: "/images/voa/discover-thailand-1.jpg",
@@ -668,6 +1595,166 @@ export const countries = [
             image: "/images/voa/ta-thailand-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "THAILAND Tourism Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 60 Days",
+            visaFormFee: "AED 450",
+            embassyFee: "AED 400",
+          },
+          {
+            title: "THAILAND Business Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 90 Days",
+            visaFormFee: "AED 450",
+            embassyFee: "AED 400",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Choose Visa Type",
+            description: "Select the appropriate visa category (Tourist, Business, Work, or Student) with DJ Holidayz guidance",
+            iconType: "start",
+          },
+          {
+            title: "Complete Application Form",
+            description: "Fill out the official Thailand visa application form accurately",
+            iconType: "process",
+          },
+          {
+            title: "Prepare Supporting Documents",
+            description: "Gather passport, photos, flight/hotel bookings, bank statements, and invitation letter if business",
+            iconType: "process",
+          },
+          {
+            title: "Submit & Pay Fees",
+            description: "Submit application to the Thai Embassy or authorized center and complete fee payment",
+            iconType: "process",
+          },
+          {
+            title: "Receive Approved Visa",
+            description: "Receive your approved visa stamped in your passport or delivered electronically",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "What is the difference between a Thailand tourist visa and a business visa?",
+            answer:
+              "A tourist visa is granted for leisure, sightseeing, or visiting friends/family, whereas a business visa is issued for corporate meetings, conferences, trade negotiations, or commercial activities in Thailand.",
+          },
+          {
+            question: "Can I apply for a Thailand visiting visa if I hold dual citizenship?",
+            answer:
+              "Yes. Dual citizens can apply using the passport they intend to travel with, ensuring consistency across flight bookings, hotel reservations, and immigration documents.",
+          },
+          {
+            question: "Is biometric data required for a Thailand tourist visa?",
+            answer:
+              "Yes, in most cases during visa processing at authorized submission centers, applicants are required to provide fingerprints and a digital photograph.",
+          },
+          {
+            question: "Do I need to book a flight before applying for a Thailand visit visa?",
+            answer:
+              "Yes, providing a confirmed return or onward flight itinerary is mandatory as part of your application paperwork.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning a trip to Thailand starts with understanding the visa requirements and application process. At DJ Holidayz, we offer seamless, professional Thailand visa assistance for UAE residents across Dubai, Abu Dhabi, and the Northern Emirates, ensuring a smooth and hassle-free application experience.",
+          whatIsSection: {
+            title: "What is a Thailand Visa & Why You Need One?",
+            content: [
+              "A visa to Thailand is an official authorization issued by the Government of Thailand allowing foreign nationals to enter, stay in, or transit through the country for a specific purpose.",
+              "Whether visiting relatives, exploring Thailand's tropical islands, participating in corporate meetings, engaging in NGO/humanitarian/official projects, or pursuing study, obtaining the correct visa in advance guarantees smooth immigration entry.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "UAE residents and expatriates of any nationality can apply for a Thailand visa if they satisfy general eligibility criteria:",
+            points: [
+              "Hold a valid passport with at least 6 months validity remaining and 2 blank pages",
+              "Hold a valid UAE residence visa and Emirates ID",
+              "Provide proof of clear travel purpose (tourism, business, study, NGO/official, or transit)",
+              "Demonstrate sufficient financial means to support the stay (bank statements)",
+              "Maintain a clean travel and immigration history",
+            ],
+            footer:
+              "DJ Holidayz ensures your file meets all consular requirements for fast approval.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Submit the following mandatory supporting documents for your Thailand visa application:",
+            points: [
+              "Completed & signed Thailand visa application form",
+              "Original passport (minimum 6 months validity with 2 blank pages)",
+              "Two recent passport-sized photographs (white background, 4x6 cm)",
+              "Confirmed travel itinerary (return flight bookings)",
+              "Proof of accommodation (hotel booking confirmation or host invitation letter)",
+              "Business invitation letter (mandatory for business visa applicants)",
+              "Financial bank statements showing sufficient funds (min 10,000 THB / AED equivalent)",
+              "Yellow fever vaccination certificate (if traveling from endemic regions)",
+              "Employment or educational NOC documents (if applicable)",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Thailand Visas for UAE Residents",
+            description:
+              "Choose the right visa category based on your travel purpose:",
+            items: [
+              {
+                title: "Tourist Visa (Single / Multiple Entry)",
+                description:
+                  "For leisure holidays, sightseeing, and visiting family or friends (valid for stays up to 60 days).",
+              },
+              {
+                title: "Business Visa (Non-Immigrant B)",
+                description:
+                  "For attending corporate meetings, trade events, commercial discussions, or contract negotiations.",
+              },
+              {
+                title: "Work & Student Visas",
+                description:
+                  "For long-term employment assignments or enrolled students at Thai educational institutions.",
+              },
+              {
+                title: "Transit & Official/NGO Visas",
+                description:
+                  "For short layovers or official government/humanitarian projects.",
+              },
+            ],
+            note: "Short-term visas are valid up to 6 months; multiple-entry visas are valid for 2 to 5 years (each stay limited to 6 months). Standard processing takes ~15 working days, Priority takes 5 working days, and Super Priority (24 hours) is available for select nationalities.",
+          },
+          rejections: {
+            title: "Common Rejection Reasons & Tips for Approval",
+            description:
+              "Be aware of key factors that cause visa delays or refusals:",
+            points: [
+              "Incomplete or inaccurate application forms",
+              "Missing or invalid supporting documents",
+              "Insufficient proof of funds or low bank balance",
+              "Failing to provide clear travel reasons or flight itineraries",
+              "Passport expiring within 6 months of intended travel",
+            ],
+            tip: "Tips to Avoid Rejection: 1. Always double-check all information before submission. 2. Submit clear, high-quality scanned copies of all documents. 3. Apply early to allow time for embassy verification. 4. Rely on DJ Holidayz for expert file preparation and pre-audit.",
+          },
+          whyUs: {
+            title: "Why Apply for Your Thai Visa with DJ Holidayz?",
+            points: [
+              "100% application accuracy check backed by experienced visa consultants",
+              "Full coverage across Dubai, Abu Dhabi, Sharjah, and all UAE emirates with personalized checking, form completion, and embassy submission & tracking",
+              "Fast-track, priority (5 working days), and super priority (24-hour decision) processing options",
+              "Real-time status updates and dedicated support for all UAE nationalities",
+            ],
+            footer:
+              "Plan your Thailand trip with confidence! Contact DJ Holidayz today for fast and reliable visa processing.",
+          },
+        },
       },
     ],
   },
@@ -857,6 +1944,163 @@ export const countries = [
           },
           { title: "Al Balad Jeddah", image: "/images/evisa/ta-saudi-4.jpg" },
         ],
+        visaOptions: [
+          {
+            title: "SAUDI ARABIA Tourism Visa",
+            category: "E VISA",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 90 Days",
+            visaFormFee: "AED 140",
+            embassyFee: "AED 410",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Gather Documents",
+            description: "Prepare valid passport, photos, hotel & flight bookings, and bank statements",
+            iconType: "start",
+          },
+          {
+            title: "Fill Application Form",
+            description: "Complete the online Saudi visa application form accurately",
+            iconType: "process",
+          },
+          {
+            title: "Pay Fee",
+            description: "Pay the required processing fee securely online",
+            iconType: "process",
+          },
+          {
+            title: "Submit Application",
+            description: "Submit your application for consular review and processing",
+            iconType: "process",
+          },
+          {
+            title: "Receive Approval",
+            description: "Receive your approved Saudi visa via email",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "Do I need an appointment to submit my Saudi visiting visa application?",
+            answer:
+              "Appointments will be needed based on the visa center or embassy requirements.",
+          },
+          {
+            question: "Can I cancel my Saudi travel permit application after submission?",
+            answer:
+              "Yes, of course, but visa processing fees are non-refundable after submission.",
+          },
+          {
+            question: "What happens if my passport expires soon?",
+            answer:
+              "You must renew your passport if it has an expiration date of less than 6 months remaining.",
+          },
+          {
+            question: "Do I need a cover letter for my Saudi visit visa application?",
+            answer:
+              "Yes, including a travel purpose cover letter enhances the overall strength of your application.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning to explore the hidden beauty of Saudi Arabia? Our expert Saudi visa services make your travel application simple, fast, and stress-free. DJ Holidayz provides a smooth and successful application process with professional guidance from start to finish — no matter where you are applying from in Dubai, Abu Dhabi, or across the UAE.",
+          whatIsSection: {
+            title: "What is a Saudi Visa & Why You Need One",
+            content: [
+              "A visa to Saudi Arabia is an official entry authorization granted to foreign nationals who wish to visit Saudi Arabia for tourism, business, study, employment, medical purposes, or family visits. The visa allows travelers to enter and stay in Saudi Arabia for short or long durations depending on the visa category.",
+              "You need a visa to: Travel for tourism and vacation, Visit family and friends, Attend business meetings or conferences, Apply for residency, work, or study programs, or Transit through Saudi Arabia.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "You are eligible to apply for a Saudi visa if you meet the following requirements:",
+            points: [
+              "You hold a valid passport with at least 6-month validity",
+              "You have confirmed accommodation and travel itinerary",
+              "You can provide proof of financial stability (bank statements)",
+              "You have a valid UAE residence permit (minimum 6-month validity)",
+              "You have no criminal or immigration violations",
+              "You provide authentic supporting documents based on your travel purpose",
+            ],
+            footer:
+              "DJ Holidayz assists applicants worldwide and across the UAE with a seamless Saudi visa application process.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Prepare the following mandatory documents before applying for your Saudi visa:",
+            points: [
+              "Valid passport (minimum 6-month validity)",
+              "Two recent passport-size photographs",
+              "Confirmed round-trip flight reservation",
+              "Hotel booking or proof of accommodation",
+              "Bank statement as proof of funds (family applications require a 12-month statement)",
+              "Travel medical insurance covering your stay in Saudi Arabia",
+              "Completed Saudi visa application form",
+              "UAE residence permit copy (minimum 6-month validity)",
+              "Travel purpose cover letter",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Saudi Visas for UAE Residents",
+            description:
+              "Choose the right visa category depending on your travel plans:",
+            items: [
+              {
+                title: "Tourist Visa",
+                description:
+                  "For leisure travel, sightseeing, and exploring historic sites in Saudi Arabia.",
+              },
+              {
+                title: "Visit Visa",
+                description: "For visiting relatives or friends residing in Saudi Arabia.",
+              },
+              {
+                title: "Business Visa",
+                description:
+                  "For attending corporate meetings, trade events, or conferences.",
+              },
+              {
+                title: "Student & Work Visas",
+                description:
+                  "For educational study programs or employment opportunities.",
+              },
+              {
+                title: "Transit & Medical Visas",
+                description:
+                  "For short stopovers or receiving medical treatment in Saudi Arabia.",
+              },
+            ],
+            note: "Standard processing generally takes 10 to 15 working days. Entry permits are typically valid for up to 90 days within a 180-day period.",
+          },
+          rejections: {
+            title: "Common Saudi Visa Rejection Reasons & Tips",
+            description:
+              "Be aware of common reasons for visa refusal to ensure a successful application:",
+            points: [
+              "Insufficient financial proof or low bank balance",
+              "Damaged or invalid passport (less than 6 months validity)",
+              "Incomplete application form or missing documents",
+              "Unverified or fake accommodation/ticket bookings",
+              "Inconsistent travel purpose or previous visa rejection history",
+            ],
+            tip: "Tips to Avoid Rejection: Submit genuine supporting documents, ensure accuracy in all forms, maintain a clear travel purpose, and apply early to allow sufficient processing time. DJ Holidayz pre-audits every file to ensure maximum approval success.",
+          },
+          whyUs: {
+            title: "Why Apply for Your Saudi Visa with DJ Holidayz?",
+            points: [
+              "Professional visa guidance and expert consulting",
+              "High approval success rate with complete documentation assistance",
+              "Transparent fees with no hidden charges",
+              "Faster processing options & dedicated UAE support team",
+            ],
+            footer:
+              "Start your Saudi visa application confidently today with DJ Holidayz. Contact our team for fast and successful visa approval.",
+          },
+        },
       },
       {
         flag: "🇹🇷",
@@ -955,6 +2199,170 @@ export const countries = [
           },
           { title: "Bosphorus Cruise", image: "/images/evisa/ta-turkey-4.jpg" },
         ],
+        visaOptions: [
+          {
+            title: "Turkey Visitor Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Single/Multiple",
+            visaFormFee: "AED 300",
+            embassyFee: "AED 270",
+          },
+          {
+            title: "Turkey Visitor Visa",
+            category: "E Visa",
+            processingTime: "5 Working Days",
+            visaValidity: "Up to 90 Days",
+            visaFormFee: "AED 250",
+            embassyFee: "AED 200",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Prepare Documents",
+            description: "Gather passport, photo, hotel & flight bookings, and travel insurance",
+            iconType: "start",
+          },
+          {
+            title: "Fill Application Form",
+            description: "Complete the online application form accurately",
+            iconType: "process",
+          },
+          {
+            title: "Schedule Appointment",
+            description: "Book VFS appointment (for sticker visa) or submit e-visa",
+            iconType: "process",
+          },
+          {
+            title: "Submit & Verify",
+            description: "Submit documents for processing & verification",
+            iconType: "process",
+          },
+          {
+            title: "Receive Visa",
+            description: "Get your approved e-visa via email or collect your passport",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "When should I start my Turkish visa application from UAE?",
+            answer:
+              "Choose the right visa type based on your travel purpose (Tourist Visa for leisure, Business Visa for meetings). Start early to ensure all documents are properly prepared and submitted.",
+          },
+          {
+            question: "Is it mandatory to book flights and hotels before applying?",
+            answer:
+              "Yes, both e-visas and stamped visas require valid travel insurance, hotel reservations, and flight itineraries. We provide authorized travel insurance as part of your UAE-Turkey visa package.",
+          },
+          {
+            question: "How much bank balance is required for a Turkey visa from Abu Dhabi?",
+            answer:
+              "Bank balance requirements depend on the visa type (e-visa vs stamp visa). DJ Holidayz provides clear rates with no hidden fees.",
+          },
+          {
+            question: "Can I apply for a Turkey visitor visa if I’m unemployed but sponsored?",
+            answer:
+              "Yes, provided you meet eligibility criteria or e-visa program requirements. DJ Holidayz handles online forms, document processing, and electronic delivery within 1-2 working days.",
+          },
+          {
+            question: "What is a biometric appointment and is it required?",
+            answer:
+              "Multiple-entry and single-entry visas are granted depending on nationality and travel purpose. Biometric submission at VFS Global is required for stamped visas.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "A Turkey visa is required for most residents of the United Arab Emirates who plan to visit Turkey for tourism, business, or short-term purposes. Travelers must obtain a valid Turkish visa before departure by submitting essential documents, including a valid passport, UAE residence visa, travel itinerary, and proof of financial means. Processing takes 3 to 10 working days depending on the visa type. DJ Holidayz provides complete Turkey visa services from the UAE, assisting with document preparation, form completion, appointment booking, and submission.",
+          whatIsSection: {
+            title: "What is a Turkey Visa & Why You Need One?",
+            content: [
+              "A Turkey visa is an official travel authorization that allows individuals to enter Turkey for tourism, business, study, or transit purposes. UAE residents holding non-GCC passports must obtain a visa before traveling. Having a valid visa ensures legal entry and a smooth immigration process upon arrival.",
+              "With your Turkish visa approved, you can explore iconic destinations such as Istanbul, Cappadocia, and Antalya without last-minute travel concerns.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "The following applicants are eligible to apply for a Turkey visa from Dubai, Abu Dhabi, or any other emirate:",
+            points: [
+              "UAE residents with valid residence permits (non-GCC nationals)",
+              "Tourists residing in Dubai or Abu Dhabi planning to visit Turkey",
+              "Business professionals attending meetings, trade fairs, or conferences",
+              "Students enrolling in educational programs in Turkey",
+              "Expatriates planning short-term or extended stays",
+            ],
+            footer:
+              "DJ Holidayz ensures your eligibility is verified before application filing to guarantee a smooth process.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Before applying for your Turkey visa from the UAE, prepare the following essential documents:",
+            points: [
+              "Valid passport (minimum 6 months validity)",
+              "UAE residence visa (original and copy)",
+              "Completed visa application form & two recent biometric photographs",
+              "Confirmed round-trip flight ticket & hotel reservation/accommodation proof",
+              "Bank statements for the past 3 months showing adequate financial balance",
+              "NOC or employment letter (or Trade license copy for business owners)",
+              "Travel health insurance covering your stay in Turkey",
+              "Cover letter explaining the purpose of travel and detailed itinerary",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Turkey Visas for UAE Residents",
+            description:
+              "Understand the primary visa categories available for UAE residents:",
+            items: [
+              {
+                title: "Tourist Visa",
+                description:
+                  "For leisure travel, sightseeing, or visiting family and friends in Turkey.",
+              },
+              {
+                title: "Business Visa",
+                description:
+                  "For attending corporate meetings, trade events, and professional business activities.",
+              },
+              {
+                title: "Student Visa",
+                description:
+                  "For academic studies and educational exchange programs in Turkey.",
+              },
+              {
+                title: "Transit Visa",
+                description:
+                  "For travelers passing through Turkish airports to a third destination.",
+              },
+            ],
+            note: "Typically valid for up to 90 days within a 180-day period for tourist or business visits.",
+          },
+          rejections: {
+            title: "Common Reasons for Visa Rejection & Tips",
+            description:
+              "Avoid common pitfalls that lead to application delays or refusals:",
+            points: [
+              "Incomplete or incorrect documentation and application forms",
+              "Insufficient financial proof or low bank balance",
+              "Invalid or short-validity passport (less than 6 months)",
+              "Missing mandatory travel health insurance",
+              "Unclear or unverified travel purpose",
+            ],
+            tip: "Tips to Avoid Rejection: Submit complete documents, ensure 6+ months passport validity, provide clear financial proof, and state your travel purpose explicitly. Applying through DJ Holidayz significantly reduces rejection risks as every file is pre-checked.",
+          },
+          whyUs: {
+            title: "Why Choose DJ Holidayz for Your Turkey Visa Assistance",
+            points: [
+              "Trusted Experts with years of experience assisting UAE residents",
+              "Complete Assistance from document preparation to visa delivery",
+              "High Approval Rate aligned with Turkish embassy & VFS requirements",
+              "Fast & Reliable Service with real-time updates from our UAE team",
+            ],
+            footer:
+              "Have questions? Contact DJ Holidayz today for complete Turkey visa assistance from Dubai, Abu Dhabi, and across the UAE.",
+          },
+        },
       },
       {
         flag: "🇧🇭",
@@ -1557,14 +2965,6 @@ export const countries = [
             visaFormFee: "AED 950",
             embassyFee: "AED 510",
           },
-          {
-            title: "Australia Visitor Visa",
-            category: "E VISA",
-            processingTime: "1 Month",
-            visaValidity: "3 Months",
-            visaFormFee: "AED 950",
-            embassyFee: "AED 510",
-          },
         ],
         visaSteps: [
           {
@@ -1590,21 +2990,125 @@ export const countries = [
         ],
         faqs: [
           {
-            question: "What is the processing time for an Australia visa?",
+            question: "Can I extend my stay in Australia after arrival?",
             answer:
-              "The processing time varies depending on the type of visa. An E-Visa usually takes about 5 working days, whereas a sticker visa might take up to 15 working days.",
+              "Yes. Visitors may seek an extension of their visa prior to its expiry, provided they have the consent of Australian immigration and a valid reason to stay longer.",
           },
           {
-            question: "Do I need to submit my original passport?",
+            question: "Will my passport be safe during the visa process?",
             answer:
-              "For a sticker visa, you will need to submit your original passport. For an E-Visa, a clear scanned copy of your passport is usually sufficient.",
+              "Absolutely. Your passport is handled at the official Australian Visa Application Centre (AVAC) and is safely returned after visa stamping.",
           },
           {
-            question: "Is the visa fee refundable?",
+            question: "Can UAE residents who aren’t UAE nationals apply?",
             answer:
-              "No, the visa processing fee and embassy fee are strictly non-refundable regardless of the application outcome.",
+              "Yes. Any UAE resident with a valid UAE residence visa can apply for an Australia visitor visa in Dubai, Abu Dhabi, or any other emirate.",
+          },
+          {
+            question: "What should I do if my previous Australia visa was refused?",
+            answer:
+              "You can reapply in case your visa was earlier rejected. DJ Holidayz consultants review your letter of refusal, identify the issues, and assist you in drafting a better and mistake-free re-application.",
+          },
+          {
+            question: "Is travel insurance mandatory for an Australia visiting visa?",
+            answer:
+              "Yes, All applicants who applying for Australian entry permit in UAE need valid travel insurance. It should include medical emergencies, hospitalization, and repatriation during the whole stay in Australia.",
           },
         ],
+        detailedGuide: {
+          introText:
+            "Planning to travel to Australia requires the right entry permission based on your purpose of visit. From tourism and business to study and short-term stays, understanding the process in advance helps avoid delays and errors. This guide is designed to help you apply for an Australia visa with confidence by clearly explaining eligibility, required documents, visa options, and the step-by-step application process.",
+          whatIsSection: {
+            title: "What is an Australia Visa and Why You Need One?",
+            content: [
+              "An Australian visa is a formal permission to travel that enables foreign citizens to enter and remain in Australia to conduct a particular activity—such as tourism, business, or visiting family members.",
+              "If you are a UAE resident planning to travel, you must obtain an Australia visit visa before travelling. This visa allows you to explore Australia's vibrant cities, natural wonders, and famous attractions while complying with Australian immigration regulations.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "If you are legally residing in the UAE, you are eligible to apply for an Australian visa. Basic eligibility requirements include:",
+            points: [
+              "Valid UAE residence visa (minimum validity of 3 months)",
+              "Genuine purpose of visit (tourism, business, or family visit)",
+              "Financial capability to support your stay in Australia",
+              "Clean travel and legal record",
+            ],
+            footer:
+              "Whether you are a UAE resident, business owner, or student, DJ Holidayz can help you apply seamlessly for an Australia visa from Abu Dhabi or any other emirate.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "To apply for an Australia visa from UAE, you'll need the following documents:",
+            points: [
+              "Valid passport (minimum 6 months validity)",
+              "Completed visa application form",
+              "Recent passport-size photographs",
+              "Flight itinerary with return tickets",
+              "Accommodation proof (hotel booking or invitation letter)",
+              "Financial documents (bank statements, salary slips, sponsor proof)",
+              "Travel insurance for the entire stay",
+              "NOC or employment letter",
+              "Trade license copy (for business owners)",
+              "Invitation letter (if visiting family or business contacts)",
+            ],
+          },
+          visaTypes: {
+            title: "Types of Australia Visas for UAE Residents",
+            description:
+              "Understand the key visa categories depending on your travel plans:",
+            items: [
+              {
+                title: "Tourist Visa",
+                description: "For holidays and visiting friends or family",
+              },
+              {
+                title: "Business Visa",
+                description: "For meetings or conferences",
+              },
+              {
+                title: "Transit Visa",
+                description: "For travelers passing through Australia",
+              },
+              {
+                title: "Student Visa",
+                description: "For studying in Australia",
+              },
+              {
+                title: "Family Visit Visa",
+                description: "For visiting relatives living in Australia",
+              },
+            ],
+            note: "If you are unsure which visa category suits your travel plans, our experts can help identify the most suitable option.",
+          },
+          rejections: {
+            title: "Common Visa Rejection Reasons & Tips",
+            description:
+              "Visa rejections can occur due to incomplete or incorrect documentation. Common reasons include:",
+            points: [
+              "Incomplete application forms",
+              "Insufficient financial proof",
+              "Missing travel details",
+              "Invalid passport or residence permit",
+              "Inconsistent travel history",
+            ],
+            tip: "Pro Tip: Applying through DJ Holidayz ensures documents are carefully reviewed to reduce rejection risks.",
+          },
+          whyUs: {
+            title: "Why Apply for Your Australia Visa with DJ Holidayz?",
+            points: [
+              "Expert visa consultation & document review",
+              "Complete document review and application support",
+              "Transparent pricing with no hidden charges",
+              "Support for individual and group applications",
+              "Regular updates until visa delivery",
+            ],
+            footer:
+              "Have any doubts? Contact DJ Holidayz today—your reliable visa partner in Dubai, Abu Dhabi, and across the UAE.",
+          },
+        },
       },
       {
         flag: "🇳🇿",
@@ -1698,6 +3202,162 @@ export const countries = [
             image: "/images/evisa/ta-nz-4.jpg",
           },
         ],
+        visaOptions: [
+          {
+            title: "NEW ZEALAND Tourism Visa",
+            category: "E VISA",
+            processingTime: "5 Working Days",
+            visaValidity: "Up to 3 Months",
+            visaFormFee: "AED 479",
+            embassyFee: "AED 981",
+          },
+          {
+            title: "NEW ZEALAND Business Visa",
+            category: "E VISA",
+            processingTime: "5 Working Days",
+            visaValidity: "Up to 3 Months",
+            visaFormFee: "AED 479",
+            embassyFee: "AED 981",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Confirm Eligibility",
+            description: "Check visa eligibility and prepare all required documents",
+            iconType: "start",
+          },
+          {
+            title: "Complete Online Form",
+            description: "Fill in the official online visa application form",
+            iconType: "process",
+          },
+          {
+            title: "Pay Visa Fees",
+            description: "Submit payment securely through the online portal",
+            iconType: "process",
+          },
+          {
+            title: "Consular Review",
+            description: "Immigration New Zealand reviews your application",
+            iconType: "process",
+          },
+          {
+            title: "Visa Grant",
+            description: "Receive your approved New Zealand Electronic Visa",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "Do I need a New Zealand Visa from Dubai as a UAE resident?",
+            answer:
+              "Yes, most residents in the UAE are required to apply for a New Zealand visitor visa before departure, depending on their nationality.",
+          },
+          {
+            question: "What documents are required for a New Zealand tourist visa?",
+            answer:
+              "Generally, applicants need a valid passport, UAE residency visa, recent bank statements, detailed travel itinerary, hotel booking, and NOC.",
+          },
+          {
+            question: "Can I apply for a New Zealand visa from Abu Dhabi?",
+            answer:
+              "Yes, UAE residents living in Abu Dhabi or any other emirate can file their application online seamlessly.",
+          },
+          {
+            question: "Is it possible to obtain a multiple-entry visa to New Zealand?",
+            answer:
+              "Multiple-entry visas may be issued depending on the applicant's travel history, profile, and travel purpose.",
+          },
+          {
+            question: "Do I need confirmed flight tickets to apply for a New Zealand visa from UAE?",
+            answer:
+              "No, confirmed tickets are not mandatory prior to approval; a tentative travel itinerary is sufficient.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Dreaming of New Zealand's stunning scenery, from energetic cities to grand fjords? Obtaining a New Zealand Visa is the essential first requirement. Whether traveling for business, family, or vacation, DJ Holidayz simplifies the immigration process for UAE residents to ensure a smooth, hassle-free application.",
+          whatIsSection: {
+            title: "What is a New Zealand Visa & Why You Need One?",
+            content: [
+              "A visa to New Zealand is an official entry authorization issued by the Government of New Zealand allowing foreign nationals to enter for tourism, commerce, family visits, or transit.",
+              "For UAE residents, obtaining a valid visa in advance ensures smooth immigration clearance, verifies financial standing, and prevents travel delays or entry complications.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "The following criteria outline eligibility for New Zealand visa applicants from the UAE:",
+            points: [
+              "UAE residents holding valid residency permits (minimum 6 months validity)",
+              "Passport holders with at least 6 months validity beyond intended departure",
+              "Travelers with proof of financial standing and confirmed accommodation",
+              "Applicants demonstrating genuine travel intent and good character",
+            ],
+            footer:
+              "DJ Holidayz guides you through New Zealand immigration requirements for seamless submission.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "Prepare the following mandatory documents for your New Zealand visa application:",
+            points: [
+              "Valid Passport & UAE Residence Visa (minimum 6 months validity)",
+              "Emirates ID copy & digital passport photo (45mm x 35mm)",
+              "Bank statements & pay slips for the last 6 months",
+              "Hotel booking confirmation & return flight itinerary",
+              "NOC from employer detailing position and approved leave (or Trade License copy for business owners)",
+              "Tenancy contract copy & proof of financial standing",
+              "Category-specific proof: Student ID (for students), Pension statement (for retired), Birth Certificate & Parents NOC (for minors), Invitation letter (if visiting host/business)",
+            ],
+          },
+          visaTypes: {
+            title: "Types of New Zealand Visa & NZeTA Info",
+            description:
+              "Understand the main entry permits available for UAE residents and visa-waiver nationals:",
+            items: [
+              {
+                title: "New Zealand Tourist Visa",
+                description:
+                  "For sightseeing, leisure holidays, and short-term visits up to 3 months.",
+              },
+              {
+                title: "New Zealand Business Visa",
+                description:
+                  "For attending trade events, business meetings, and corporate negotiations.",
+              },
+              {
+                title: "NZeTA for UAE Nationals & Visa-Waiver Countries",
+                description:
+                  "UAE passport holders and citizens of 60+ visa-waiver countries (e.g. GCC nationals, EU, USA, UK, Singapore) can enter visa-free using the NZeTA (valid for 2 years, multiple entries). Australian citizens enter without a visa or NZeTA.",
+              },
+            ],
+            note: "Standard visitor visas permit stays up to 3 months. Visa application fees are non-refundable.",
+          },
+          rejections: {
+            title: "Common Reasons for Visa Rejection & Important Notes",
+            description:
+              "Key items evaluated by New Zealand Immigration authorities:",
+            points: [
+              "Insufficient proof of financial funds or irregular bank activity",
+              "Incomplete documentation or unverified accommodation details",
+              "Lack of ties to the UAE or unverified employment status",
+              "Passport validity under 6 months or damaged travel documents",
+            ],
+            tip: "Pro Tip: Always verify documents carefully. Applying through DJ Holidayz ensures all paperwork is pre-audited to maximize approval chances.",
+          },
+          whyUs: {
+            title: "Why Choose DJ Holidayz for Your New Zealand Visa Assistance",
+            points: [
+              "Over 15+ years of trusted travel expertise across the UAE",
+              "Dedicated travel experts ensuring accurate document preparation",
+              "High approval rates aligned with New Zealand consulate standards",
+              "Transparent, end-to-end guidance with zero hidden charges",
+            ],
+            footer:
+              "Start your plan to visit New Zealand today! Contact DJ Holidayz for professional visa support across Dubai, Abu Dhabi, and the UAE.",
+          },
+        },
       },
       {
         flag: "🇺🇸",
@@ -1790,6 +3450,157 @@ export const countries = [
           { title: "Walt Disney World", image: "/images/evisa/ta-usa-3.jpg" },
           { title: "Grand Canyon", image: "/images/evisa/ta-usa-4.jpg" },
         ],
+        visaOptions: [
+          {
+            title: "US Tourism Visa",
+            category: "Sticker Visa",
+            processingTime: "15 Working Days",
+            visaValidity: "Up to 10 Years",
+            visaFormFee: "AED 413",
+            embassyFee: "AED 137",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Select Visa Type",
+            description: "Choose B-1 (Business) or B-2 (Tourist) based on your purpose of travel",
+            iconType: "start",
+          },
+          {
+            title: "Fill Form DS-160",
+            description: "Complete your online DS-160 application form with expert guidance",
+            iconType: "process",
+          },
+          {
+            title: "Pay Visa Fee & Book Slot",
+            description: "Pay the visa fee and schedule your appointment at US Embassy/Consulate",
+            iconType: "process",
+          },
+          {
+            title: "Attend Visa Interview",
+            description: "Attend mock interview prep and present your documents confidently",
+            iconType: "process",
+          },
+          {
+            title: "Get Your US Visa",
+            description: "Receive your passport with approved 10-year US visa stamped inside",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "When should I start my USA visa application if I live in the UAE?",
+            answer:
+              "It’s best to start your visa process at least 6 to 8 weeks before your planned travel date. This enables ample time to fill in the DS-160 form, secure an interview date, and prepare documents.",
+          },
+          {
+            question: "What kind of US visa should I apply for?",
+            answer:
+              "Apply for a B-2 visa for tourism, family visits, or medical treatment. Apply for a B-1 visa for business meetings, conferences, or short-term professional events.",
+          },
+          {
+            question: "What is the duration of the USA visa interview?",
+            answer:
+              "The interview itself usually lasts 3 to 5 minutes. The visa officer will majorly check your travel purpose, financial stability, and strong ties to return to the UAE.",
+          },
+          {
+            question: "Do I need medical insurance for a US visiting visa?",
+            answer:
+              "While not strictly mandatory, travel medical insurance is strongly recommended due to high healthcare costs in the US.",
+          },
+          {
+            question: "How will I know if my United States visa is approved?",
+            answer:
+              "You will receive an email/SMS notification when your passport is ready for collection. You can also track status online using your DS-160 confirmation number.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning to travel to the United States from the UAE? Whether you reside in Dubai, Abu Dhabi, Sharjah, or any other Emirate, DJ Holidayz makes applying for your US Visa simple, fast, and stress-free. From DS-160 form filling to mock interview coaching and US Embassy/Consulate scheduling, our experts support you every step of the way.",
+          whatIsSection: {
+            title: "What is a US Visa & Who Needs One?",
+            content: [
+              "A United States Visa is an official travel authorization that allows foreign nationals, including UAE residents and expatriates, to enter the US for tourism, business, study, or medical treatment.",
+              "A valid visa is mandatory for non-US citizens residing in the UAE. Once stamped in your passport, it serves as official permission to approach a US port of entry.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply for a USA Visa",
+            description:
+              "All legal residents of the UAE can apply for a US Visit Visa (B-1/B-2). Requirements include:",
+            points: [
+              "Valid UAE residency permit (minimum 3 months validity)",
+              "Passport valid for at least 6 months beyond intended stay",
+              "Demonstrated financial stability for travel and accommodation expenses",
+              "Strong social or economic ties to the UAE (employment, family, business)",
+              "Clean legal and immigration history",
+              "Note: Citizens of Visa Waiver Program (VWP) countries living in the UAE may apply for ESTA electronic authorization instead of a stamped visa.",
+            ],
+            footer:
+              "DJ Holidayz evaluates your profile to ensure you apply under the correct visa classification.",
+          },
+          documents: {
+            title: "Required Documents for US Visa Application",
+            description:
+              "Prepare the following essential documents before attending your embassy interview:",
+            points: [
+              "Form DS-160 confirmation page & appointment confirmation letter",
+              "Original passport (issued within last 10 years, valid for 6+ months with 2 blank pages)",
+              "Recent passport photograph (50x50mm, white background, less than 6 months old)",
+              "Visa processing fee payment receipt & previous US visas (if any)",
+              "UAE Residency Proof: Emirates ID and valid UAE residence visa copy",
+              "Financial Proof: Original bank statements for the last 3-6 months showing sufficient funds",
+              "Employment NOC letter / salary certificate (or Trade License for business owners)",
+              "Travel Itinerary: Hotel reservations, flight itinerary, or host invitation letter",
+            ],
+          },
+          visaTypes: {
+            title: "Types of US Visas for UAE Residents",
+            description:
+              "Choose the right visa classification based on your travel purpose:",
+            items: [
+              {
+                title: "B-2 Tourist Visa",
+                description:
+                  "For leisure holidays, sightseeing, visiting family/friends, or medical treatment.",
+              },
+              {
+                title: "B-1 Business Visa",
+                description:
+                  "For attending corporate meetings, industry conferences, or contract negotiations.",
+              },
+              {
+                title: "ESTA (Visa Waiver Program)",
+                description:
+                  "For eligible passport holders of VWP member countries traveling for up to 90 days.",
+              },
+            ],
+            note: "B-1/B-2 visitor visas are typically issued for up to 10 years with multiple entries, allowing stays of up to 6 months per visit.",
+          },
+          rejections: {
+            title: "Common US Visa Rejection Reasons & Approval Tips",
+            description:
+              "Be prepared to avoid common visa refusal factors under Section 214(b):",
+            points: [
+              "Incorrectly filled DS-160 form or mismatched information",
+              "Insufficient financial evidence or weak ties to the UAE",
+              "Unclear or hesitant answers during the 3-5 minute consular interview",
+              "Previous immigration violations or visa refusal history",
+            ],
+            tip: "Tips for Approval: Be truthful, concise, and confident during your interview. Ensure all DS-160 details match your documents. DJ Holidayz provides one-on-one mock interview preparation to boost your confidence and approval chances.",
+          },
+          whyUs: {
+            title: "Why Choose DJ Holidayz for Your US Visa Assistance",
+            points: [
+              "15+ years of dedicated travel & visa expertise across the UAE",
+              "Expert DS-160 form review & interview preparation guidance",
+              "High approval success rate with end-to-end appointment scheduling",
+              "Transparent pricing with no hidden charges and dedicated UAE support",
+            ],
+            footer:
+              "Start your US visa application with confidence today! Contact DJ Holidayz for expert visa support across Dubai, Abu Dhabi, and the UAE.",
+          },
+        },
       },
       {
         flag: "🇬🇧",
@@ -1879,6 +3690,175 @@ export const countries = [
           { title: "Giant's Causeway", image: "/images/evisa/ta-uk-3-v2.jpg" },
           { title: "Edinburgh Castle", image: "/images/evisa/ta-uk-4.jpg" },
         ],
+        visaOptions: [
+          {
+            title: "United Kingdom Visitor Visa",
+            category: "VISITOR VISA",
+            processingTime: "15 working days",
+            visaValidity: "6 Months Multiple",
+            visaFormFee: "AED 850",
+            embassyFee: "AED 650",
+          },
+          {
+            title: "United Kingdom Business Visa",
+            category: "BUSINESS VISA",
+            processingTime: "15 working days",
+            visaValidity: "2 Years Multiple",
+            visaFormFee: "AED 891",
+            embassyFee: "AED 2459",
+          },
+          {
+            title: "United Kingdom Visitor Visa",
+            category: "VISITOR VISA",
+            processingTime: "15 working days",
+            visaValidity: "5 Years Multiple",
+            visaFormFee: "AED 1228",
+            embassyFee: "AED 4372",
+          },
+          {
+            title: "United Kingdom Visitor Visa",
+            category: "VISITOR VISA",
+            processingTime: "15 working days",
+            visaValidity: "10 Years Multiple",
+            visaFormFee: "AED 1369",
+            embassyFee: "AED 5451",
+          },
+        ],
+        visaSteps: [
+          {
+            title: "Fill Online Form",
+            description: "Fill in the online UK travel document application form",
+            iconType: "start",
+          },
+          {
+            title: "Pay Fee",
+            description: "Pay the required fee online securely",
+            iconType: "process",
+          },
+          {
+            title: "Book Appointment",
+            description: "Book your biometric appointment at VFS Global",
+            iconType: "process",
+          },
+          {
+            title: "Submit Biometrics",
+            description: "Attend appointment and provide documents & biometrics",
+            iconType: "process",
+          },
+          {
+            title: "Decision & Visa",
+            description: "Receive your UKVI decision email and collect passport",
+            iconType: "finish",
+          },
+        ],
+        faqs: [
+          {
+            question: "Is it mandatory to book flights before applying for UK visit visa?",
+            answer:
+              "No, but it’s recommended to have a tentative booking or itinerary. You can use refundable flight options or book through travel agents who provide dummy tickets.",
+          },
+          {
+            question: "Do I need confirmed hotel bookings for my UK entry permit?",
+            answer:
+              "You must show where you plan to stay (hotel bookings, Airbnb, or a UK host’s address). Confirmed reservations improve the application’s strength.",
+          },
+          {
+            question: "Is travel insurance mandatory for British immigration?",
+            answer:
+              "No, it’s not required. However, it’s strongly recommended to have travel insurance for medical emergencies, lost luggage, or unexpected delays.",
+          },
+          {
+            question: "What is a biometric appointment and why is it required?",
+            answer:
+              "You must visit a VFS Global centre to submit fingerprints and a photograph. This is mandatory for all applicants (including children) and is done after completing the online application.",
+          },
+          {
+            question: "What happens after a decision on my UK travel document is made?",
+            answer:
+              "You’ll be notified by email. If approved: You’ll be instructed to collect your passport with the visa vignette. If refused: The email will explain the reason and provide reapplication or appeal options.",
+          },
+        ],
+        detailedGuide: {
+          introText:
+            "Planning to apply for a UK visa from Dubai or anywhere in the UAE? DJ Holidayz provides professional, end-to-end UK visa assistance for UAE residents — from application filing to biometric appointments and final submission. Whether you’re applying for a UK Tourist Visa or UK Business Visa, our visa experts handle the entire process so you can apply with confidence and avoid common mistakes that cause delays or refusals.",
+          whatIsSection: {
+            title: "What is a UK Visa & Why You Need One",
+            content: [
+              "A UK Travel Visa is an official document allowing non-UK nationals to enter, remain or transit through the United Kingdom. Depending on your nationality and reason for visit (i.e. tourism, business, study or other), you may need to get a Standard Visitor Permit to come to the UK. This document is issued by United Kingdom Visas and Immigration (UKVI) after carefully evaluating your eligibility, supporting documents and the purpose of travel.",
+              "Common Reasons for applying a Visa to UK: Tourism and sightseeing, Business meetings or training, Visiting family and friends, Medical treatment, Short-term studies.",
+            ],
+          },
+          eligibility: {
+            title: "Who Can Apply",
+            description:
+              "You can apply for a UK visa from the UAE if you meet the following criteria:",
+            points: [
+              "Are a non-British citizen holding a valid UAE residency visa",
+              "Intend to visit the UK for a legitimate purpose (tourism, business, family visit, etc.)",
+              "Can show financial stability and strong ties to your home or residence country",
+              "Have all the necessary documentation meeting UK entry requirements",
+            ],
+            footer:
+              "DJ Holidayz helps you check your eligibility before you apply so that there will not be any delays or rejections.",
+          },
+          documents: {
+            title: "Required Documents",
+            description:
+              "To obtain a UK Visitor Visa, please prepare the following documents to avoid delays during processing:",
+            points: [
+              "Valid passport for the entire duration of your stay (with blank pages)",
+              "A recent passport-sized photograph",
+              "Proof of travel plans (flight itinerary, hotel booking or host invitation)",
+              "Bank statements and financial evidence showing sufficient funds",
+              "Employment letter or business license (if self-employed)",
+              "Evidence of strong ties to the UAE (residence permit, family, employment)",
+              "Invitation letter (if visiting family/friends or attending a business event)",
+              "Certified translations for any documents that are not in English",
+            ],
+          },
+          visaTypes: {
+            title: "Types of UK Visa for UAE Residents",
+            description:
+              "Explore the main entry permit categories available for UAE residents:",
+            items: [
+              {
+                title: "UK Tourist Visa",
+                description:
+                  "Validity: 6 months to 10 years (Single/Multiple Entry). Requires travel itinerary, accommodation proof, and bank statements.",
+              },
+              {
+                title: "UK Business Visa",
+                description:
+                  "Single or multiple entry for attending meetings, conferences, or negotiations. Requires invitation letter & employment proof.",
+              },
+            ],
+            note: "Our experts assist with selecting the exact validity tier (6 Months, 2 Years, 5 Years, or 10 Years) best suited to your profile.",
+          },
+          rejections: {
+            title: "Common Reasons for Visa Rejection & Tips",
+            description:
+              "UKVI strictly evaluates every application. Common rejection reasons include:",
+            points: [
+              "Insufficient financial proof or unclear source of funds",
+              "Unclear travel purpose or lack of detailed itinerary",
+              "Incomplete or inconsistent documentation",
+              "Weak ties to the UAE (employment, property, family)",
+              "Poorly filled out application forms or conflicting dates",
+            ],
+            tip: "Tips to Avoid Rejection: Be honest about your purpose of travel, provide strong supporting documents, demonstrate clear intent to return to the UAE, and avoid last-minute submissions. DJ Holidayz carefully audits all documents before submission.",
+          },
+          whyUs: {
+            title: "Top Reasons to Choose DJ Holidayz for Your UK Visa Support",
+            points: [
+              "Trusted global travel experts with high approval rates",
+              "End-to-end assistance from application to biometric scheduling",
+              "Quick, hassle-free document audit and review",
+              "Dedicated UAE support across Dubai, Abu Dhabi, and all emirates",
+            ],
+            footer:
+              "Have any doubts? Contact DJ Holidayz today—your reliable UK visa partner in Dubai, Abu Dhabi, and across the UAE.",
+          },
+        },
       },
     ],
   },
