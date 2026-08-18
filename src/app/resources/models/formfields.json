@@ -1,0 +1,214 @@
+{
+  "visa_enquiry": {
+    "first_name": {
+      "label": "First Name*",
+      "placeholder": "Enter first name",
+      "errors": {
+        "required": "First name is required",
+        "min": "First name must be at least 2 characters."
+      }
+    },
+    "last_name": {
+      "label": "Last Name*",
+      "placeholder": "Enter last name",
+      "errors": {
+        "required": "Last name is required",
+        "min": "Last name must be at least 2 characters."
+      }
+    },
+    "residence_country": {
+      "label": "Country of Residence*",
+      "button": "Select Country",
+      "placeholder": "Select Country",
+      "errors": {
+        "required": "Country of residence is required"
+      }
+    },
+    "nationality": {
+      "label": "Nationality*",
+      "button": "Select Nationality",
+      "placeholder": "Select Nationality",
+      "errors": {
+        "required": "Nationality is required"
+      }
+    },
+    "destination_country": {
+      "label": "Destination Country*",
+      "button": "Select Destination",
+      "placeholder": "Select Destination",
+      "errors": {
+        "required": "Destination country is required"
+      }
+    },
+    "customer_type": {
+      "label": "Customer Type*",
+      "button": "Select Type",
+      "placeholder": "Select Type",
+      "errors": {
+        "required": "Customer type is required"
+      }
+    },
+    "visa_type": {
+      "label": "Type of Visa*",
+      "button": "Select Visa",
+      "placeholder": "Select Visa",
+      "errors": {
+        "required": "Type of visa is required"
+      }
+    },
+    "travel_date": {
+      "label": "Tentative Travel Date*",
+      "button": "Pick a date",
+      "placeholder": "Pick a date",
+      "errors": {
+        "required": "Travel date is required"
+      }
+    },
+    "phone": {
+      "label": "Contact Number*",
+      "placeholder": "Enter phone number",
+      "errors": {
+        "required": "Contact number is required"
+      }
+    },
+    "email": {
+      "label": "Email Address*",
+      "placeholder": "Enter email",
+      "errors": {
+        "required": "Email address is required",
+        "invalid": "Please enter a valid email address"
+      }
+    },
+    "adults": {
+      "label": "Number of Adults*",
+      "errors": {
+        "required": "Adult count is required",
+        "min": "Minimum 1 adult is required"
+      }
+    },
+    "children": {
+      "label": "Number of Children"
+    },
+    "description": {
+      "label": "Description (Optional)",
+      "placeholder": "Additional details"
+    },
+    "attachment": {
+      "label": "File Attachment (Optional)",
+      "placeholder": "Choose file"
+    }
+  },
+  "holiday_enquiry": {
+    "first_name": {
+      "label": "First Name*",
+      "placeholder": "Enter first name",
+      "errors": {
+        "required": "First name is required",
+        "min": "First name must be at least 2 characters."
+      }
+    },
+    "last_name": {
+      "label": "Last Name*",
+      "placeholder": "Enter last name",
+      "errors": {
+        "required": "Last name is required",
+        "min": "Last name must be at least 2 characters."
+      }
+    },
+    "residence_country": {
+      "label": "Country of Residence*",
+      "button": "Select Country",
+      "placeholder": "Select Country",
+      "errors": {
+        "required": "Country of residence is required"
+      }
+    },
+    "nationality": {
+      "label": "Nationality*",
+      "button": "Select Nationality",
+      "placeholder": "Select Nationality",
+      "errors": {
+        "required": "Nationality is required"
+      }
+    },
+    "email": {
+      "label": "Email Address*",
+      "placeholder": "Enter email",
+      "errors": {
+        "required": "Email address is required",
+        "invalid": "Please enter a valid email address"
+      }
+    },
+    "phone": {
+      "label": "Phone Number*",
+      "placeholder": "Enter phone number",
+      "errors": {
+        "required": "Phone number is required"
+      }
+    },
+    "customer_type": {
+      "label": "Customer Type*",
+      "button": "Select Type",
+      "placeholder": "Select Type",
+      "errors": {
+        "required": "Customer type is required"
+      }
+    },
+    "company": {
+      "label": "Company",
+      "placeholder": "Company name"
+    },
+    "residence": {
+      "label": "Residence",
+      "placeholder": "City/Residence"
+    },
+    "from_date": {
+      "label": "From Date*",
+      "button": "Pick a date",
+      "placeholder": "Pick a date",
+      "errors": {
+        "required": "From date is required"
+      }
+    },
+    "to_date": {
+      "label": "To Date*",
+      "button": "Pick a date",
+      "placeholder": "Pick a date",
+      "errors": {
+        "required": "To date is required"
+      }
+    },
+    "destination": {
+      "label": "Destination",
+      "placeholder": "Destination city/country"
+    },
+    "package_name": {
+      "label": "Package Name*",
+      "placeholder": "Cruise package name",
+      "errors": {
+        "required": "Package name is required"
+      }
+    },
+    "budget": {
+      "label": "Total Budget",
+      "placeholder": "Amount"
+    },
+    "adults": {
+      "label": "Number of Adults*",
+      "errors": {
+        "required": "Adult count is required",
+        "min": "Minimum 1 adult is required"
+      }
+    },
+    "children": {
+      "label": "Number of Children"
+    },
+    "infants": {
+      "label": "Number of Infants"
+    },
+    "description": {
+      "label": "Description (Optional)",
+      "placeholder": "Additional details"
+    }
+  }
+}

@@ -53,7 +53,7 @@
   justify-content: space-between;
   gap: 3rem;
 
-  @include mini {
+  @include laptop {
     flex-direction: column;
     padding: 2rem;
     gap: 2rem;
@@ -212,7 +212,7 @@
   background: #eef1f4;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.03);
 
-  @include mini {
+  @include laptop {
     flex: none;
     width: 100%;
   }

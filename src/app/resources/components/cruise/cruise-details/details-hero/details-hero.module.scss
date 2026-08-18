@@ -48,7 +48,7 @@
   display: flex;
   gap: 2.5rem;
 
-  @include mini {
+  @include laptop {
     flex-direction: column;
     padding: 1.5rem;
     gap: 1.5rem;
@@ -189,7 +189,7 @@
   top: 6rem;
   box-shadow: 0 14px 35px rgba(201, 30, 32, 0.25);
 
-  @include mini {
+  @include laptop {
     flex: none;
     width: 100%;
     position: static;
@@ -252,22 +252,31 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 1.1rem 1.5rem;
+  height: 3.25rem;
+  padding: 0 1.5rem;
   background: #ffffff;
-  color: #8a1516;
+  color: colormap(primary_red);
   font-size: 1.05rem;
   font-weight: 800;
+  font-family: inherit;
+  border: none;
   border-radius: 999px;
-  text-decoration: none;
+  cursor: pointer;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  transition: all 0.25s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   margin-top: 0.5rem;
+  outline: none;
+  box-sizing: border-box;
 
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
     color: colormap(primary_red);
     background: #ffffff;
+  }
+
+  &:active {
+    transform: translateY(0);
   }
 }
 

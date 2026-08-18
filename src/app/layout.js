@@ -13,6 +13,8 @@ const SfPro = localFont({
   variable: "--font-SfPro",
 });
 
+import { Toaster } from "react-hot-toast";
+
 export const metadata = {
   title: "DJ Holidays",
   description: "Plan your perfect holiday with DJ Holidays",
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
       >
         {children}
+        <Toaster position="top-right" />
       </body>
     </html>
   );

@@ -7,8 +7,11 @@ import styles from "./details-hero.module.scss";
 
 import ArrowLeftIcon from "@/Icons/arrow-left.svg";
 
+import CruiseEnquiryForm from "../cruise-enquiry-form";
+
 const CruiseDetailsHero = ({ cruise }) => {
   const [selectedImgIndex, setSelectedImgIndex] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   if (!cruise) return null;
 
@@ -101,9 +104,13 @@ const CruiseDetailsHero = ({ cruise }) => {
             </div>
           </div>
 
-          <a href="#" className={styles.enquireBtn}>
+          <button
+            type="button"
+            className={styles.enquireBtn}
+            onClick={() => setIsModalOpen(true)}
+          >
             Enquire Now
-          </a>
+          </button>
         </div>
       </div>
 
@@ -129,6 +136,12 @@ const CruiseDetailsHero = ({ cruise }) => {
           </a>
         </div>
       </div>
+
+      <CruiseEnquiryForm
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        cruise={cruise}
+      />
     </>
   );
 };
