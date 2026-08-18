@@ -40,7 +40,10 @@ const EVisaDetailsPage = async (props) => {
           backLabel="Back to E-Visa / ETA"
         />
         {countryData.visaOptions && (
-          <VisaOptions options={countryData.visaOptions} countryName={countryData.name} />
+          <VisaOptions
+            options={countryData.visaOptions}
+            countryName={countryData.name}
+          />
         )}
         {countryData.visaSteps && (
           <VisaSteps

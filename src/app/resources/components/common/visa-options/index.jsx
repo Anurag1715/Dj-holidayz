@@ -1,11 +1,11 @@
-'use client';
-import React, { useState } from 'react';
-import VisaEnquiryForm from '../visa-enquiry-form';
-import styles from './visa-options.module.scss';
+"use client";
+import React, { useState } from "react";
+import VisaEnquiryForm from "../visa-enquiry-form";
+import styles from "./visa-options.module.scss";
 
 const hasEmbassyFee = (feeStr) => {
   if (!feeStr) return false;
-  const num = parseInt(feeStr.replace(/[^0-9]/g, ''), 10);
+  const num = parseInt(feeStr.replace(/[^0-9]/g, ""), 10);
   return !isNaN(num) && num > 0;
 };
 
@@ -18,7 +18,7 @@ const VisaOptions = ({ options, countryName }) => {
   const handleEnquireClick = (option) => {
     setSelectedOption({
       ...option,
-      countryName: countryName || option.countryName || '',
+      countryName: countryName || option.countryName || "",
     });
     setIsEnquiryOpen(true);
   };
@@ -52,19 +52,25 @@ const VisaOptions = ({ options, countryName }) => {
                   </div>
                   <div className={styles.infoRow}>
                     <span className={styles.label}>Processing Time</span>
-                    <span className={styles.value}>{option.processingTime}</span>
+                    <span className={styles.value}>
+                      {option.processingTime}
+                    </span>
                   </div>
                   {option.visaValidity && (
                     <div className={styles.infoRow}>
                       <span className={styles.label}>Visa Validity</span>
-                      <span className={styles.value}>{option.visaValidity}</span>
+                      <span className={styles.value}>
+                        {option.visaValidity}
+                      </span>
                     </div>
                   )}
                 </div>
 
                 <div className={styles.pricingSection}>
                   <div className={styles.priceBlock}>
-                    <span className={styles.priceLabel}>Visa Form Fee + Tax</span>
+                    <span className={styles.priceLabel}>
+                      Visa Form Fee + Tax
+                    </span>
                     <span className={styles.priceValue}>
                       {option.visaFormFee}
                     </span>

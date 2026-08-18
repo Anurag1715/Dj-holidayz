@@ -252,7 +252,9 @@
     font-size: 0.8125rem;
     color: #111827;
     background-color: #ffffff;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
 
     &::placeholder {
       color: #9ca3af;
